@@ -1,0 +1,87 @@
+.open-side {
+  width: 350px;
+}
+
+.open-content {
+  margin-left: 350px;
+}
+
+.closed-side {
+  width: 0px;
+}
+
+.closed-content {
+  margin-left: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#content {
+  padding: 15px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide a {
+  display: flex;
+  justify-content: flex-start;
+  color: #000;
+  font-size: 36px;
+}
+
+.nav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #282828;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.7s;
+}
+
+.nav a.item {
+  display: flex;
+  flex-direction: row;
+  padding: 18px 30px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #ccc;
+  background-color: #3d3d3d;
+  border-top: 1px solid #ccc;
+}
+
+.nav a.sub-item {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 90px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.last {
+  border-bottom: 1px solid #ccc;
+}
+
+.nav a.item:hover {
+  background-color: #cf0000;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.nav .icon {
+  padding-right: 10px;
+  font-size: 28px;
+  width: 10%;
+}
+
+.nav .plus {
+  position: absolute;
+  right: 10px;
+}
