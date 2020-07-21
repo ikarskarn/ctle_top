@@ -2,7 +2,6 @@
 import React from "react";
 import "./TopBar.css";
 import {
-  faBars,
   faHome,
   faCalendar,
   faBook,
@@ -11,47 +10,17 @@ import {
   faUnlock,
   faUsers,
   faQuestion,
-  faPlusCircle,
-  faMinusCircle,
-  faTimes
+  faTimes,
+  faPlusCircle
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Collapsible from "react-collapsible";
+import Context from "./Context";
 
-//declaring a class
-export default class TopBar extends React.Component {
-  //just holds the state of the menu.  Open or closed
-  state = {
-    open: false, //true is open, false is closed
-    topBar: "nav closed-top", //for CSS.  The class changes to 'nav open-top' when top menu is open and 'nav closed-top when top menu is closed
-    topContent: "closed-content", //for CSS.  The class changes to 'open-content' when top menu is open and 'closed-content when top menu is closed
-    plus: faPlusCircle,
-    barsVisible: "",
-  };
-
-  //called when the hamburger menu is clicked
-  updateOpenState = () => {
-    //checks the value of open in state above
-    let val = this.state.open;
-    //toggles the value between true/false
-    val = !val;
-    //sets value to a new string depending on the value of open
-    let top = val ? "nav open-top" : "nav closed-top";
-    let content = val ? "open-content" : "closed-content";
-    let bars = val ? "hidden" : "";
-    //let icon = val ? faPlusCircle : faMinusCircle;
-    //updates the state
-    this.setState({
-      open: val,
-      topBar: top,
-      topContent: content,
-      barsVisible: bars
-    });
-  };
-  //this is needed in React to Render Elements to the screen
+export default class TestBar extends React.Component {
+  static contextType = Context;
+  
   render() {
-    //an object that holds all the data for the Top Menus
-
     //top menu object.  Details inside
     const topMenus = {
       //each one is labeled the same as its name
@@ -69,35 +38,35 @@ export default class TopBar extends React.Component {
         <a href="#" className="item">
           <FontAwesomeIcon icon={faCalendar} className="icon" />
           Programs and Events
-          <FontAwesomeIcon icon={this.state.plus} className="plus" />
+          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       courseCatalog: (
         <a href="#" className="item">
           <FontAwesomeIcon icon={faBook} className="icon" />
           Course Catalog
-          <FontAwesomeIcon icon={this.state.plus} className="plus" />
+          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       getInvolved: (
         <a href="#" className="item">
           <FontAwesomeIcon icon={faHandshake} className="icon" />
           Get Involved
-          <FontAwesomeIcon icon={this.state.plus} className="plus" />
+          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       teachingEffectiveness: (
         <a href="#" className="item">
           <FontAwesomeIcon icon={faSortAlphaDown} className="icon" />
           Teaching Effectiveness
-          <FontAwesomeIcon icon={this.state.plus} className="plus" />
+          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       helpfulResources: (
         <a href="#" className="item">
           <FontAwesomeIcon icon={faUnlock} className="icon" />
           Helpful Resources
-          <FontAwesomeIcon icon={this.state.plus} className="plus" />
+          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       meetTheTeam: (
@@ -221,78 +190,49 @@ export default class TopBar extends React.Component {
 
     //tells the render function what to return to the DOM (HTML Page)
     return (
-      <div id="content" className={this.state.topContent}>
-        <span className={`slide ${this.state.barsVisible}`}>
-          <a href="#" onClick={e => this.updateOpenState()}>
-            <FontAwesomeIcon icon={faBars} />
-          </a>
-        </span>
-        {/*This is how you write comments in React*/}
+      <>
         {/*Collapsible is also a react plugin.  Allows you to collapse sections*/}
-        <div id="menu" className={this.state.topBar}>
-          {/*The Home menu has no sub menus.  So it is called directly from the object above using the curly braces like below*/}
-          <Collapsible trigger={topMenus.home} />
-          {/*This one DOES have sub menus.  So the top menu is just called inside of a Collapsible Tag like so*/}
-          {/*Trigger is the text you want to show or the element you want to click on the expand what is inside of it*/}
-          <Collapsible trigger={topMenus.programsAndEvents}>
-            {/*The rest of the menus are just called like normal*/}
-            {subMenus.calendar}
-            {subMenus.programsAndServices}
-            {subMenus.events}
-          </Collapsible>
-          <Collapsible trigger={topMenus.courseCatalog}>
-            {subMenus.requiredTraining}
-            {subMenus.learningTracks}
-            {subMenus.certifications}
-          </Collapsible>
-          <Collapsible trigger={topMenus.getInvolved}>
-            {subMenus.facultySOS}
-            {subMenus.learningCommons}
-            {subMenus.peerObservationProgram}
-            {subMenus.committees}
-            {subMenus.advisoryBoard}
-          </Collapsible>
-          <Collapsible trigger={topMenus.teachingEffectiveness}>
-            {subMenus.onlineTeachingBestPractices}
-            {subMenus.teachingWithTechnology}
-            {subMenus.technologyForYou}
-          </Collapsible>
-          <Collapsible trigger={topMenus.helpfulResources}>
-            {subMenus.facultyAdminstrativeDuties}
-            {subMenus.travelRequests}
-            {subMenus.facultyTitles}
-            {subMenus.qualityMatters}
-            {subMenus.onlineCourseDesignProcess}
-          </Collapsible>
-          <Collapsible trigger={topMenus.meetTheTeam} />
-          <Collapsible trigger={topMenus.faq} />
-          <span className="close">
-            <a href="#" onClick={e => this.updateOpenState()}>
-              <FontAwesomeIcon icon={faTimes} />
-            </a>
-          </span>
-        </div>
-        <div id="page-content">
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-          <p>Test Page Scroll</p>
-          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        </div>
-      </div>
+        <Collapsible trigger={topMenus.home} />
+        {/*This one DOES have sub menus.  So the top menu is just called inside of a Collapsible Tag like so*/}
+        {/*Trigger is the text you want to show or the element you want to click on the expand what is inside of it*/}
+        <Collapsible trigger={topMenus.programsAndEvents}>
+        {/*The rest of the menus are just called like normal*/}
+        {subMenus.calendar}
+        {subMenus.programsAndServices}
+        {subMenus.events}
+        </Collapsible>
+        <Collapsible trigger={topMenus.courseCatalog}>
+        {subMenus.requiredTraining}
+        {subMenus.learningTracks}
+        {subMenus.certifications}
+        </Collapsible>
+        <Collapsible trigger={topMenus.getInvolved}>
+        {subMenus.facultySOS}
+        {subMenus.learningCommons}
+        {subMenus.peerObservationProgram}
+        {subMenus.committees}
+        {subMenus.advisoryBoard}
+        </Collapsible>
+        <Collapsible trigger={topMenus.teachingEffectiveness}>
+        {subMenus.onlineTeachingBestPractices}
+        {subMenus.teachingWithTechnology}
+        {subMenus.technologyForYou}
+        </Collapsible>
+        <Collapsible trigger={topMenus.helpfulResources}>
+        {subMenus.facultyAdminstrativeDuties}
+        {subMenus.travelRequests}
+        {subMenus.facultyTitles}
+        {subMenus.qualityMatters}
+        {subMenus.onlineCourseDesignProcess}
+        </Collapsible>
+        <Collapsible trigger={topMenus.meetTheTeam} />
+        <Collapsible trigger={topMenus.faq} />
+        <span className="close">
+        <a href="#" onClick={e => this.context.updateOpenState()}>
+            <FontAwesomeIcon icon={faTimes} />
+        </a>
+        </span>
+      </>
     );
   }
 }
