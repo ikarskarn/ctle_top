@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import { BrowserRouter } from 'react-router-dom';
+import CTLE_App from './components/CTLE_App';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<CTLE_App />, document.getElementById("root"));

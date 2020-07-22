@@ -41,7 +41,7 @@ class CTLE_App extends React.Component {
             <Context.Provider value={this.state}>
                 <HashRouter basename='/'>
                     <div className='ctle-app'>
-                        <Route exact path='/' component={Home} />
+                        <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
                         <Route path='/programs-and-events' component={ProgramsAndEvents} />
                         <Route path='/course-catalog' component={CourseCatalog} />
                         <Route path='/teaching-effectiveness' component={TeachingEffectiveness} />
