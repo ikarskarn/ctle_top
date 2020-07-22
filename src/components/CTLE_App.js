@@ -73,7 +73,7 @@ class CTLE_App extends React.Component {
                         <Route path='/advisory-board' component={CTLEAdvisoryBoard} />
                         <Route path='/committees' component={CTLECommittees} />
                         <Route path='/events' component={Events} />
-                        <Route path='/faculty-sos' component={FacultySOS} />
+                        <Route path='/get-involved/faculty-sos' component={FacultySOS} />
                         <Route path='/learning-commons' component={LearningCommons} />
                         <Route path='/learning-tracks' component={LearningTracks} />
                         <Route path='/online-teaching-best-practices' component={OnlineTeachingBestPractices} />
