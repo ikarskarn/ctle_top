@@ -14,7 +14,7 @@ export default class CourseCatalog extends React.Component {
     return (  
     <div id="content" className={this.context.topContent}>
         <span className={`slide ${this.context.barsVisible}`}>
-        <a href="#" onClick={e => this.context.updateOpenState()}>
+        <a onClick={e => this.context.updateOpenState()}>
             <FontAwesomeIcon icon={faBars} />
         </a>
         </span>

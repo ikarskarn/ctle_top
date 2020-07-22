@@ -30,13 +30,13 @@ export default class TestBar extends React.Component {
       //Font Awesome is basically an imported plugin that has a bunch of icons
       //The top menu items that have sub-menus nesting underneath have the plus sign icon attached too
       home: (
-        <Link to="/" className="item">
+        <Link to="https://inside.cpcc.edu/departments/ctle" className="item">
           <FontAwesomeIcon icon={faHome} className="icon" />
           Home
         </Link>
       ),
       programsAndEvents: (
-        <Link to="/ProgramsAndEventsPage" className="item">
+        <Link to="https://inside.cpcc.edu/departments/programs-and-events" className="item">
           <FontAwesomeIcon icon={faCalendar} className="icon" />
           Programs and Events
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
@@ -228,7 +228,7 @@ export default class TestBar extends React.Component {
         </Collapsible>
         <Collapsible trigger={topMenus.meetTheTeam} />
         <span className="close">
-        <a href="#" onClick={e => this.context.updateOpenState()}>
+        <a onClick={e => this.context.updateOpenState()}>
             <FontAwesomeIcon icon={faTimes} />
         </a>
         </span>

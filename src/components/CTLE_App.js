@@ -38,8 +38,8 @@ class CTLE_App extends React.Component {
     };
     render() {
         return(
-            <Context.Provider value={this.state}>
-                <HashRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter basename={process.env.PUBLIC_URL}>
+                <Context.Provider value={this.state}>
                     <div className='ctle-app'>
                         <Route path="/home" component={Home} />
                         <Route path='/programs-and-events' component={ProgramsAndEvents} />
@@ -49,8 +49,8 @@ class CTLE_App extends React.Component {
                         <Route path='/meet-the-team' component={MeetTheTeam} />
                         <Route path='/helpful-resources' component={HelpfulResources} />
                     </div>
-                </HashRouter>
-            </Context.Provider>
+                </Context.Provider>
+            </HashRouter>   
         );
     }
 }
