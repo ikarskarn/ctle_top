@@ -30,17 +30,17 @@ export default class TestBar extends React.Component {
       //Font Awesome is basically an imported plugin that has a bunch of icons
       //The top menu items that have sub-menus nesting underneath have the plus sign icon attached too
       home: (
-        <Link to="https://inside.cpcc.edu/departments/ctle" className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle" className="item">
           <FontAwesomeIcon icon={faHome} className="icon" />
           Home
-        </Link>
+        </a>
       ),
       programsAndEvents: (
-        <Link to="https://inside.cpcc.edu/departments/programs-and-events" className="item">
+        <a href="https://inside.cpcc.edu/departments/programs-and-events" className="item">
           <FontAwesomeIcon icon={faCalendar} className="icon" />
           Programs and Events
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
-        </Link>
+        </a>
       ),
       courseCatalog: (
         <Link to="/CourseCatalogPage" className="item">
