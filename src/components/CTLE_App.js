@@ -28,7 +28,7 @@ import OnlineCourseDesign from './SubPageComponents/OnlineCourseDesign';
 import QualityMatters from './SubPageComponents/QualityMatters';
 import TravelRequests from './SubPageComponents/TravelRequests';
 
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 class CTLE_App extends React.Component {
     state = {
@@ -73,7 +73,7 @@ class CTLE_App extends React.Component {
                         <Route path='/advisory-board' component={CTLEAdvisoryBoard} />
                         <Route path='/committees' component={CTLECommittees} />
                         <Route path='/events' component={Events} />
-                        <Route path='/get-involved/faculty-sos' component={FacultySOS} />
+                        <Route path='/faculty-sos' component={FacultySOS} />
                         <Route path='/learning-commons' component={LearningCommons} />
                         <Route path='/learning-tracks' component={LearningTracks} />
                         <Route path='/online-teaching-best-practices' component={OnlineTeachingBestPractices} />
@@ -86,6 +86,7 @@ class CTLE_App extends React.Component {
                         <Route path='/ocd' component={OnlineCourseDesign} />
                         <Route path='/quality-matters' component={QualityMatters} />
                         <Route path='/travel-requests' component={TravelRequests} />
+                        <Route path='/technology-for-you' component={TechnologyForYou} />
                     </div>
                 </Context.Provider>
             </HashRouter>   
