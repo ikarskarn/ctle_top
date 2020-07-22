@@ -36,42 +36,42 @@ export default class TestBar extends React.Component {
         </a>
       ),
       programsAndEvents: (
-        <a href="https://inside.cpcc.edu/departments/programs-and-events" className="item">
+        <a href="https://inside.cpcc.edu/departments/programs-and-events" target="_PARENT" className="item">
           <FontAwesomeIcon icon={faCalendar} className="icon" />
           Programs and Events
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       courseCatalog: (
-        <a href="https://inside.cpcc.edu/departments/course-catalog" className="item">
+        <a href="https://inside.cpcc.edu/departments/course-catalog" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faBook} className="icon" />
           Course Catalog
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       getInvolved: (
-        <a href="https://inside.cpcc.edu/departments/get-involved" className="item">
+        <a href="https://inside.cpcc.edu/departments/get-involved" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faHandshake} className="icon" />
           Get Involved
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       teachingEffectiveness: (
-        <a href="https://inside.cpcc.edu/departments/teaching-effectiveness" className="item">
+        <a href="https://inside.cpcc.edu/departments/teaching-effectiveness" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faSortAlphaDown} className="icon" />
           Teaching Effectiveness
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       helpfulResources: (
-        <a href="https://inside.cpcc.edu/departments/helpful-resources" className="item">
+        <a href="https://inside.cpcc.edu/departments/helpful-resources" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faUnlock} className="icon" />
           Helpful Resources
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       meetTheTeam: (
-        <a href="https://inside.cpcc.edu/departments/meet-the-team" className="item last">
+        <a href="https://inside.cpcc.edu/departments/meet-the-team" target="_PARENT"  className="item last">
           <FontAwesomeIcon icon={faUsers} className="icon" />
           Meet the Team
         </a>
