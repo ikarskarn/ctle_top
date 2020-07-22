@@ -57,31 +57,32 @@ export default class TestBar extends React.Component {
         </a>
       ),
       teachingEffectiveness: (
-        <a href="https://inside.cpcc.edu/departments/teaching-effectiveness" target="_PARENT"  className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faSortAlphaDown} className="icon" />
           Teaching Effectiveness
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       helpfulResources: (
-        <a href="https://inside.cpcc.edu/departments/helpful-resources" target="_PARENT"  className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faUnlock} className="icon" />
           Helpful Resources
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
+      //NOTICE THIS ONE:  It has last added in the class name.  that is so the white bar can be added to it with CSS
       meetTheTeam: (
-        <a href="https://inside.cpcc.edu/departments/meet-the-team" target="_PARENT"  className="item last">
+        <a href="https://inside.cpcc.edu/departments/ctle/meet-the-team" target="_PARENT"  className="item last">
           <FontAwesomeIcon icon={faUsers} className="icon" />
           Meet the Team
         </a>
       ),
-      //NOTICE THIS ONE:  It has last added in the class name.  that is so the white bar can be added to it with CSS
+      //FAQ CURRENTLY HIDDEN FROM VIEW
       faq: (
-        <Link to="#" className="item last">
+        <a href="https://inside.cpcc.edu/departments/ctle/faq" target="_PARENT" className="item last">
           <FontAwesomeIcon icon={faQuestion} className="icon" />
           FAQ
-        </Link>
+        </a>
       )
     };
 
@@ -89,104 +90,104 @@ export default class TestBar extends React.Component {
     const subMenus = {
       //programs and events
       calendar: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/calendar" target="_PARENT" className="sub-item">
           Calendar
         </a>
       ),
       programsAndServices: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/programs-and-services" target="_PARENT" className="sub-item">
           Programs/Services
         </a>
       ),
       events: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/events" target="_PARENT" className="sub-item">
           Events
         </a>
       ),
       //Course Catalog
       requiredTraining: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/course-catalog/required-training" target="_PARENT" className="sub-item">
           Required Training
         </a>
       ),
       learningTracks: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/course-catalog/learning-tracks" target="_PARENT" className="sub-item">
           Learning Tracks
         </a>
       ),
       certifications: (
-        <a href="#" className="sub-item">
-          certifications
+        <a href="https://inside.cpcc.edu/departments/ctle/course-catalog/certifications" target="_PARENT" className="sub-item">
+          Certifications
         </a>
       ),
       //get involved
       facultySOS: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/faculty-sos" target="_PARENT" className="sub-item">
           Faculty SOS
         </a>
       ),
       learningCommons: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/learning-commons" target="_PARENT" className="sub-item">
           Learning Commons
         </a>
       ),
       peerObservationProgram: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations" target="_PARENT" className="sub-item">
           Peer Observation Program
         </a>
       ),
       committees: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/committees" target="_PARENT" className="sub-item">
           CTLE Committees
         </a>
       ),
       advisoryBoard: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/advisory-board" target="_PARENT" className="sub-item">
           CTLE Advisory Board
         </a>
       ),
       //teaching effectiveness
       onlineTeachingBestPractices: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/online-teaching-best-practices" target="_PARENT" className="sub-item">
           Online Teaching Best Practices
         </a>
       ),
+      onlineCourseDesignProcess: (
+        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/ocd" target="_PARENT" className="sub-item">
+          Online Course Design Process
+        </a>
+      ),
       teachingWithTechnology: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/teaching-with-technology" target="_PARENT" className="sub-item">
           Teaching With Technology
         </a>
       ),
       technologyForYou: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/technology-for-you" target="_PARENT" className="sub-item">
           Technology For You
         </a>
       ),
       //helpful resources
       facultyAdminstrativeDuties: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-admin-duties" target="_PARENT" className="sub-item">
           Faculty Adminstrative Duties
         </a>
       ),
       travelRequests: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources/travel-requests" target="_PARENT" className="sub-item">
           Travel Requests
         </a>
       ),
       facultyTitles: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-titles" target="_PARENT" className="sub-item">
           Faculty Titles
         </a>
       ),
       qualityMatters: (
-        <a href="#" className="sub-item">
+        <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources/quality-matters" target="_PARENT" className="sub-item">
           Quality Matters
         </a>
       ),
-      onlineCourseDesignProcess: (
-        <a href="#" className="sub-item">
-          Online Course Design Process
-        </a>
-      )
     };
 
     //tells the render function what to return to the DOM (HTML Page)

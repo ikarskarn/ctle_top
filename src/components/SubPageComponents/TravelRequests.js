@@ -6,7 +6,7 @@ import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
 
 //declaring a class
-export default class PeerObservations extends React.Component {
+export default class TravelRequests extends React.Component {
   static contextType = Context;
   //this is needed in React to Render Elements to the screen
   render() {
@@ -23,7 +23,7 @@ export default class PeerObservations extends React.Component {
         </div>
         <div id="page-content">
         {/*PAGE CONTENT GOES HERE*/}
-        <h2>Peer Observations Page Content Goes Here</h2>
+        <h2>Travel Requests Page Content Goes Here</h2>
         </div>
     </div>
     );
