@@ -16,7 +16,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Collapsible from "react-collapsible";
 import Context from "../../Context";
-import { Link } from 'gatsby';
 
 export default class TestBar extends React.Component {
   static contextType = Context;

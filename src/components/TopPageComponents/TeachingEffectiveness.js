@@ -4,7 +4,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
-import Layout from "../Layout";
 
 //declaring a class
 export default class TeachingEffectiveness extends React.Component {
@@ -13,7 +12,6 @@ export default class TeachingEffectiveness extends React.Component {
   render() {
     //tells the render function what to return to the DOM (HTML Page)
     return (
-      <Layout>
         <div id="content" className={this.context.topContent}>
           <span className={`slide ${this.context.barsVisible}`}>
             <a href="#" onClick={e => this.context.updateOpenState()}>
@@ -27,9 +25,7 @@ export default class TeachingEffectiveness extends React.Component {
             {/*PAGE CONTENT GOES HERE*/}
             <h2>Teaching Effectiveness Page Content Goes Here</h2>
           </div>
-      </div>
-      </Layout>
-      
+        </div>
     );
   }
 }
