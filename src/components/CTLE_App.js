@@ -8,7 +8,7 @@ import Home from './TopPageComponents/Home';
 import MeetTheTeam from './TopPageComponents/MeetTheTeam';
 import ProgramsAndEvents from './TopPageComponents/ProgramsAndEvents';
 import TeachingEffectiveness from './TopPageComponents/TeachingEffectiveness';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 
 class CTLE_App extends React.Component {
     state = {
@@ -39,19 +39,17 @@ class CTLE_App extends React.Component {
     render() {
         return(
             <Context.Provider value={this.state}>
-                <BrowserRouter>
+                <HashRouter basename='/'>
                     <div className='ctle-app'>
-                        <Switch>
-                            <Route exact path='/' component={Home} />
-                            <Route path='/programs-and-events' component={ProgramsAndEvents} />
-                            <Route path='/course-catalog' component={CourseCatalog} />
-                            <Route path='/teaching-effectiveness' component={TeachingEffectiveness} />
-                            <Route path='/get-involved' component={GetInvolved} />
-                            <Route path='/meet-the-team' component={MeetTheTeam} />
-                            <Route path='/helpful-resources' component={HelpfulResources} />
-                        </Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route path='/programs-and-events' component={ProgramsAndEvents} />
+                        <Route path='/course-catalog' component={CourseCatalog} />
+                        <Route path='/teaching-effectiveness' component={TeachingEffectiveness} />
+                        <Route path='/get-involved' component={GetInvolved} />
+                        <Route path='/meet-the-team' component={MeetTheTeam} />
+                        <Route path='/helpful-resources' component={HelpfulResources} />
                     </div>
-                </BrowserRouter>
+                </HashRouter>
             </Context.Provider>
         );
     }
