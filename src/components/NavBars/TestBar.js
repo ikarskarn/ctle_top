@@ -30,7 +30,7 @@ export default class TestBar extends React.Component {
       //Font Awesome is basically an imported plugin that has a bunch of icons
       //The top menu items that have sub-menus nesting underneath have the plus sign icon attached too
       home: (
-        <a href="https://inside.cpcc.edu/departments/ctle" className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle" target="_PARENT" className="item">
           <FontAwesomeIcon icon={faHome} className="icon" />
           Home
         </a>
@@ -43,38 +43,38 @@ export default class TestBar extends React.Component {
         </a>
       ),
       courseCatalog: (
-        <Link to="/CourseCatalogPage" className="item">
+        <a href="https://inside.cpcc.edu/departments/course-catalog" className="item">
           <FontAwesomeIcon icon={faBook} className="icon" />
           Course Catalog
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
-        </Link>
+        </a>
       ),
       getInvolved: (
-        <Link to="/GetInvolvedPage" className="item">
+        <a href="https://inside.cpcc.edu/departments/get-involved" className="item">
           <FontAwesomeIcon icon={faHandshake} className="icon" />
           Get Involved
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
-        </Link>
+        </a>
       ),
       teachingEffectiveness: (
-        <Link to="/TeachingEffectivenessPage" className="item">
+        <a href="https://inside.cpcc.edu/departments/teaching-effectiveness" className="item">
           <FontAwesomeIcon icon={faSortAlphaDown} className="icon" />
           Teaching Effectiveness
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
-        </Link>
+        </a>
       ),
       helpfulResources: (
-        <Link to="/HelpfulResourcesPage" className="item">
+        <a href="https://inside.cpcc.edu/departments/helpful-resources" className="item">
           <FontAwesomeIcon icon={faUnlock} className="icon" />
           Helpful Resources
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
-        </Link>
+        </a>
       ),
       meetTheTeam: (
-        <Link to="/MeetTheTeamPage" className="item last">
+        <a href="https://inside.cpcc.edu/departments/meet-the-team" className="item last">
           <FontAwesomeIcon icon={faUsers} className="icon" />
           Meet the Team
-        </Link>
+        </a>
       ),
       //NOTICE THIS ONE:  It has last added in the class name.  that is so the white bar can be added to it with CSS
       faq: (
