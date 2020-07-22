@@ -8,7 +8,7 @@ import Home from './TopPageComponents/Home';
 import MeetTheTeam from './TopPageComponents/MeetTheTeam';
 import ProgramsAndEvents from './TopPageComponents/ProgramsAndEvents';
 import TeachingEffectiveness from './TopPageComponents/TeachingEffectiveness';
-import { Switch } from 'react-router';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 class CTLE_App extends React.Component {
     state = {
@@ -39,7 +39,7 @@ class CTLE_App extends React.Component {
     render() {
         return(
             <Context.Provider value={this.state}>
-                <Router>
+                <BrowserRouter>
                     <div className='ctle-app'>
                         <Switch>
                             <Route exact path='/' component={Home} />
@@ -51,7 +51,7 @@ class CTLE_App extends React.Component {
                             <Route path='/helpful-resources' component={HelpfulResources} />
                         </Switch>
                     </div>
-                </Router>
+                </BrowserRouter>
             </Context.Provider>
         );
     }
