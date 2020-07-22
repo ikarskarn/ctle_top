@@ -36,21 +36,21 @@ export default class TestBar extends React.Component {
         </a>
       ),
       programsAndEvents: (
-        <a href="https://inside.cpcc.edu/departments/programs-and-events" target="_PARENT" className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events" target="_PARENT" className="item">
           <FontAwesomeIcon icon={faCalendar} className="icon" />
           Programs and Events
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       courseCatalog: (
-        <a href="https://inside.cpcc.edu/departments/course-catalog" target="_PARENT"  className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle/course-catalog" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faBook} className="icon" />
           Course Catalog
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       getInvolved: (
-        <a href="https://inside.cpcc.edu/departments/get-involved" target="_PARENT"  className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faHandshake} className="icon" />
           Get Involved
           <FontAwesomeIcon icon={faPlusCircle} className="plus" />
