@@ -100,7 +100,7 @@ export default class TestBar extends React.Component {
       ),
       events: (
         <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/events" target="_PARENT" className="sub-item">
-          Events
+          Events & Calendar
         </a>
       ),
       //Course Catalog
@@ -198,7 +198,7 @@ export default class TestBar extends React.Component {
         {/*Trigger is the text you want to show or the element you want to click on the expand what is inside of it*/}
         <Collapsible trigger={topMenus.programsAndEvents}>
         {/*The rest of the menus are just called like normal*/}
-        {subMenus.calendar}
+        {/*subMenus.calendar*/}
         {subMenus.programsAndServices}
         {subMenus.events}
         </Collapsible>

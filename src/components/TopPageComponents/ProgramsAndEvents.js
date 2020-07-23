@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
 import HamburgerToggle from "../HamburgerToggle";
+import Page_ProgramsAndEvents from "../ProgramsAndEvents_Content/Page_ProgramsAndEvents";
 
 //declaring a class
 export default class ProgramsAndEvents extends React.Component {
@@ -19,8 +20,7 @@ export default class ProgramsAndEvents extends React.Component {
             <TestBar />
           </div>
           <div id="page-content">
-            {/*PAGE CONTENT GOES HERE*/}
-            <h2>Programs and Events Page Content Goes Here</h2>
+            <Page_ProgramsAndEvents />
           </div>
         </div>
     );
