@@ -4,6 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
+import HamburgerToggle from "../HamburgerToggle";
 
 //declaring a class
 export default class ProgramsAndServices extends React.Component {
@@ -13,11 +14,7 @@ export default class ProgramsAndServices extends React.Component {
     //tells the render function what to return to the DOM (HTML Page)
     return (  
     <div id="content" className={this.context.topContent}>
-        <span className={`slide ${this.context.barsVisible}`}>
-        <a onClick={e => this.context.updateOpenState()}>
-            <FontAwesomeIcon icon={faBars} />
-        </a>
-        </span>
+        <HamburgerToggle />
         <div id="menu" className={this.context.topBar}>
         <TestBar />
         </div>

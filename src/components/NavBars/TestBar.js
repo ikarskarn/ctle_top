@@ -19,7 +19,6 @@ import Context from "../../Context";
 
 export default class TestBar extends React.Component {
   static contextType = Context;
-  
   render() {
     //top menu object.  Details inside
     const topMenus = {
@@ -29,7 +28,8 @@ export default class TestBar extends React.Component {
       //Font Awesome is basically an imported plugin that has a bunch of icons
       //The top menu items that have sub-menus nesting underneath have the plus sign icon attached too
       home: (
-        <a href="https://inside.cpcc.edu/departments/ctle" target="_PARENT" className="item">
+        <a href="https://inside.cpcc.edu/departments/ctle" target="_PARENT" className="item"
+        >
           <FontAwesomeIcon icon={faHome} className="icon" />
           Home
         </a>

@@ -21,6 +21,7 @@
   .hidden {
     display: none;
   }
+  
   #content {
     padding: 15px;
     transition: margin-top 0.7s;
@@ -33,6 +34,17 @@
     justify-content: center;
     color: #000;
     font-size: 36px;
+    vertical-align: middle;
+  }
+
+  .slide p {
+    margin: 0px;
+    padding-left: 5px;
+  }
+
+  .slide svg {
+    vertical-align: middle;
+    margin: auto 0;
   }
   
   .close a {
