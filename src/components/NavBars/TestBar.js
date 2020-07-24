@@ -88,11 +88,11 @@ export default class TestBar extends React.Component {
     //these are just like the Top Menu except separated into each sub menu category with comments
     const subMenus = {
       //programs and events
-      calendar: (
+      /*calendar: (
         <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/calendar" target="_PARENT" className="sub-item">
           Calendar
         </a>
-      ),
+      ),*/
       programsAndServices: (
         <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/programs-and-services" target="_PARENT" className="sub-item">
           Programs/Services
@@ -130,19 +130,19 @@ export default class TestBar extends React.Component {
           Learning Commons
         </a>
       ),
-      peerObservationProgram: (
+      peerObservations: (
         <a href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations" target="_PARENT" className="sub-item">
-          Peer Observation Program
+          Peer Observations
         </a>
       ),
       committees: (
         <a href="https://inside.cpcc.edu/departments/ctle/get-involved/committees" target="_PARENT" className="sub-item">
-          CTLE Committees
+          Committees
         </a>
       ),
       advisoryBoard: (
         <a href="https://inside.cpcc.edu/departments/ctle/get-involved/advisory-board" target="_PARENT" className="sub-item">
-          CTLE Advisory Board
+          Advisory Board
         </a>
       ),
       //teaching effectiveness
@@ -158,7 +158,7 @@ export default class TestBar extends React.Component {
       ),
       technologyAndTools: (
         <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/technology-and-tools" target="_PARENT" className="sub-item">
-          Techology and Tools
+          Technology and Tools
         </a>
       ),
       /*technologyForYou: (
@@ -210,19 +210,20 @@ export default class TestBar extends React.Component {
         <Collapsible trigger={topMenus.getInvolved}>
         {subMenus.facultySOS}
         {subMenus.learningCommons}
+        {subMenus.peerObservations}
         {subMenus.committees}
         {subMenus.advisoryBoard}
         </Collapsible>
         <Collapsible trigger={topMenus.teachingEffectiveness}>
         {subMenus.onlineTeachingBestPractices}
         {subMenus.technologyAndTools}
+        {subMenus.onlineCourseDesignProcess}
         </Collapsible>
         <Collapsible trigger={topMenus.helpfulResources}>
         {subMenus.facultyAdminstrativeDuties}
         {subMenus.travelRequests}
         {subMenus.facultyTitles}
         {subMenus.qualityMatters}
-        {subMenus.onlineCourseDesignProcess}
         </Collapsible>
         <Collapsible trigger={topMenus.meetTheTeam} />
         <span className="close">

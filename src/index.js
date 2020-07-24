@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CTLE_App from './components/CTLE_App';
+import CTLE_APP from './components/CTLE_APP';
 
-ReactDOM.render(<CTLE_App />, document.getElementById("root"));
+ReactDOM.render(<CTLE_APP />, document.getElementById("root"));

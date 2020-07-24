@@ -43,6 +43,7 @@ export default class Page_ProgramsAndEvents extends React.Component {
                         <a 
                             href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             CTLE Learning Programs, Descriptions, and Guidelines
                         </a>

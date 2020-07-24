@@ -1,34 +1,33 @@
 import React from 'react';
-import './CTLE_App.css';
+import './CTLE_APP.css';
+import { HashRouter, Route } from 'react-router-dom';
+//#region PAGE IMPORTS
+import AdvisoryBoard from './SubPageComponents/AdvisoryBoard';
+import Certifications from './SubPageComponents/Certifications';
+import Committees from './SubPageComponents/Committees';
 import Context from '../Context'; //kind of like a Game Manager (Creates Global Access to this script)
 import CourseCatalog from './TopPageComponents/CourseCatalog';
+import Events from './SubPageComponents/Events';
+import FacultyAdministrativeDuties from './SubPageComponents/FacultyAdministrativeDuties';
+import FacultySOS from './SubPageComponents/FacultySOS';
+import FacultyTitles from './SubPageComponents/FacultyTitles';
 import GetInvolved from './TopPageComponents/GetInvolved';
 import HelpfulResources from './TopPageComponents/HelpfulResources';
 import Home from './TopPageComponents/Home';
-import MeetTheTeam from './TopPageComponents/MeetTheTeam';
-import ProgramsAndEvents from './TopPageComponents/ProgramsAndEvents';
-import TeachingEffectiveness from './TopPageComponents/TeachingEffectiveness';
-import Calendar from './SubPageComponents/Calendar';
-import Certifications from './SubPageComponents/Certifications';
-import CTLEAdvisoryBoard from './SubPageComponents/CTLEAdvisoryBoard';
-import CTLECommittees from './SubPageComponents/CTLECommittees';
-import Events from './SubPageComponents/Events';
-import FacultySOS from './SubPageComponents/FacultySOS';
 import LearningCommons from './SubPageComponents/LearningCommons';
 import LearningTracks from './SubPageComponents/LearningTracks';
+import MeetTheTeam from './TopPageComponents/MeetTheTeam';
+import OnlineCourseDesign from './SubPageComponents/OnlineCourseDesign';
 import OnlineTeachingBestPractices from './SubPageComponents/OnlineTeachingBestPractices';
 import PeerObservations from './SubPageComponents/PeerObservations';
+import ProgramsAndEvents from './TopPageComponents/ProgramsAndEvents';
 import ProgramsAndServices from './SubPageComponents/ProgramsAndServices';
-import RequiredTraining from './SubPageComponents/RequiredTraining';
-import TechnologyAndTools from './SubPageComponents/TechnologyAndTools';
-import TechnologyForYou from './SubPageComponents/TechnologyForYou';
-import FacultyAdministrativeDuties from './SubPageComponents/FacultyAdministrativeDuties';
-import FacultyTitles from './SubPageComponents/FacultyTitles';
-import OnlineCourseDesign from './SubPageComponents/OnlineCourseDesign';
 import QualityMatters from './SubPageComponents/QualityMatters';
+import RequiredTraining from './SubPageComponents/RequiredTraining';
+import TeachingEffectiveness from './TopPageComponents/TeachingEffectiveness';
+import TechnologyAndTools from './SubPageComponents/TechnologyAndTools';
 import TravelRequests from './SubPageComponents/TravelRequests';
-
-import { HashRouter, Route } from 'react-router-dom';
+//#endregion
 
 class CTLE_App extends React.Component {
     state = {
@@ -46,7 +45,6 @@ class CTLE_App extends React.Component {
             let top = val ? "nav open-top" : "nav closed-top";
             let content = val ? "open-content" : "closed-content";
             let bars = val ? "hidden" : "";
-            //let icon = val ? faPlusCircle : faMinusCircle;
             //updates the state
             this.setState({
                 open: val,
@@ -68,10 +66,9 @@ class CTLE_App extends React.Component {
                         <Route exact path='/get-involved' component={GetInvolved} />
                         <Route exact path='/meet-the-team' component={MeetTheTeam} />
                         <Route exact path='/helpful-resources' component={HelpfulResources} />
-                        <Route path='/calendar' component={Calendar} />
                         <Route path='/certifications' component={Certifications} />
-                        <Route path='/advisory-board' component={CTLEAdvisoryBoard} />
-                        <Route path='/committees' component={CTLECommittees} />
+                        <Route path='/advisory-board' component={AdvisoryBoard} />
+                        <Route path='/committees' component={Committees} />
                         <Route path='/events' component={Events} />
                         <Route path='/faculty-sos' component={FacultySOS} />
                         <Route path='/learning-commons' component={LearningCommons} />
@@ -86,7 +83,6 @@ class CTLE_App extends React.Component {
                         <Route path='/ocd' component={OnlineCourseDesign} />
                         <Route path='/quality-matters' component={QualityMatters} />
                         <Route path='/travel-requests' component={TravelRequests} />
-                        <Route path='/technology-for-you' component={TechnologyForYou} />
                     </div>
                 </Context.Provider>
             </HashRouter>   

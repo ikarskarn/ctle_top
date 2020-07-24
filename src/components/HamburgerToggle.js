@@ -10,8 +10,7 @@ export default class HamburgerToggle extends React.Component {
             <span className={`slide ${this.context.barsVisible}`}>
                 <a onClick={e => this.context.updateOpenState()}>
                     <FontAwesomeIcon icon={faBars} />
-                    <p>Menu</p>
-                    
+                    <p>Menu</p>    
                 </a>
             </span>
         );

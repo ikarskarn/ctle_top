@@ -1,13 +1,11 @@
 //bunch of import statements
 import React from "react";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
 import HamburgerToggle from "../HamburgerToggle";
 
 //declaring a class
-export default class TeachingWithTechnology extends React.Component {
+export default class TechnologyAndTools extends React.Component {
   static contextType = Context;
   //this is needed in React to Render Elements to the screen
   render() {
@@ -20,7 +18,7 @@ export default class TeachingWithTechnology extends React.Component {
         </div>
         <div id="page-content">
         {/*PAGE CONTENT GOES HERE*/}
-        <h2>Teaching with Technology Page Content Goes Here</h2>
+        <h2>Technology And Tools Page Content Goes Here</h2>
         </div>
     </div>
     );
