@@ -100,3 +100,7 @@
   .plus {
     padding-left: 30px;
   }
+
+  button:hover {
+    cursor: pointer;
+  }

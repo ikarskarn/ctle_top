@@ -1,24 +1,26 @@
 import React from 'react';
-import './Page_ProgramsAndEvents.css';
+import './Page.css';
 import { faUserCircle, faBookmark  } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from 'react-router-dom';
 
 export default class ProgramsAndEvents extends React.Component {
+    
     render() {
       return (
         <div className="programsAndEventsPage">
           <header>
             <h2>
-              Programs <br /> & <br /> Events
+              Programs & Events &nbsp;&nbsp;&nbsp;
             </h2>
-            <p>
+          </header>
+          <div className="page-content">
+            <section className="section withIcons">
+            <p className="paragraph-emphasis">
               We are committed to fostering a rich and compelling community of
               learning excellence focused on the holistic needs of all those who
               teach.
             </p>
-          </header>
-          <div className="page-content">
-            <section className="section withIcons">
                 <FontAwesomeIcon icon={faUserCircle} className="page-icon" />
               <p>
                 The Center advances best practices of impactful teaching at the
@@ -46,9 +48,9 @@ export default class ProgramsAndEvents extends React.Component {
                   reflect
                 </li>
               </ul>
-              <button type="button">
+              <a href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing" target="_Parent">
                   CTLE Learning Programs, Descriptions, and Guidelines
-              </button>
+              </a>
             </section>
           </div>
         </div>

@@ -1,25 +1,35 @@
+  .programsAndEventsPage p {
+    font-family: "BaskervilleITC", sans-serif;
+  }
   .programsAndEventsPage header {
     display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to bottom, #00739680, #00739625);
+    justify-content: left;
+    justify-items: flex-end;
+    background-color: #636466;
     margin-top: 20px;
+    border-top: 5px solid #007396;
   }
   
   .programsAndEventsPage header h2 {
-    width: 25%;
-    text-align: center;
-    font-size: 36px;
-    vertical-align: middle;
-    margin: auto 0;
-    padding: 60px 30px;
-  }
-  
-  .programsAndEventsPage header p {
-    width: 60%;
+    font-family: 'FranklinGothic', sans-serif;
+    width: 70%;
     text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #B6A269;
+    font-size: 58px;
+    margin: auto 0;
+    padding: 140px 60px 60px 60px;
+    color: white;
+    
+  }
+
+  .programsAndEventsPage .paragraph-emphasis {
+    text-align: center;
     font-size: 24px;
     margin: auto 0;
     padding: 30px 0;
+    font-family: "FranklinGothic", sans-serif;
+    font-weight: 700;
   }
 
   .page-icon {
@@ -49,7 +59,7 @@
   
   .programsAndEventsPage .highlight-section {
     padding: 60px 30px;
-    background-color: #007396;
+    background-color: #B6A269;
     display: flex;
     flex-direction: column;
   }
@@ -57,29 +67,35 @@
   .programsAndEventsPage .highlight-section ul {
     display: flex;
     justify-content: space-evenly;
-    padding: 60px 0px;
+    padding: 20px 20px;
   }
   
   .programsAndEventsPage .highlight {
     width: 200px;
     height: 200px;
     padding: 10px;
+    margin: 10px;
     text-align: center;
-    border-radius: 10px;
     display: flex;
     align-items: center;
     background-color: white;
-    border: 1px black groove;
+    border-top: 6px #007396 solid;
+    font-family: "BaskervilleITC", sans-serif;
+    box-shadow: 4px 4px #00000050;
   }
 
   .programsAndEventsPage .highlight-section button {
       width: 50%;
       height: 75px;
       border-radius: 40px;
-      background-color:  #00a6d8;
+      background-color:  #007396;
       font-size: 18px;
       text-emphasis: bold;
       color: white;
       align-self: center;
+      margin: 20px;
   }
-  
+
+  button:hover {
+    cursor: pointer;
+}
