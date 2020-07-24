@@ -20,11 +20,9 @@ export default class Page_GetInvolved extends React.Component {
                         <FontAwesomeIcon icon={faInfoCircle} className="page-icon" />
                         <h3>Faculty SOS</h3>
                         <p> Faculty SOS now offers more ways for Central Piedmont faculty to share their skills, passions and expertise.</p>
-                        <base target="_parent"/>
                         <a 
                             href="https://inside.cpcc.edu/departments/ctle/get-involved/faculty-sos"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            target="_PARENT"
                         >
                             Learn More
                         </a>
@@ -34,11 +32,9 @@ export default class Page_GetInvolved extends React.Component {
                         <FontAwesomeIcon icon={faHandshake} className="page-icon" />
                         <h3>Learning Commons</h3>
                         <p> The Learning Commons at Central Piedmont are groups (typically 6-15 people) who regularly meet to connect, share, and learn about a given teaching and learning topic.</p>
-                        <base target="_parent"/>
                         <a 
                             href="https://inside.cpcc.edu/departments/ctle/get-involved/learning-commons"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            target="_PARENT"
                         >
                             Learn More
                         </a>
@@ -47,11 +43,9 @@ export default class Page_GetInvolved extends React.Component {
                         <FontAwesomeIcon icon={faThumbsUp} className="page-icon" />
                         <h3>Peer Observation Program</h3>
                         <p> [NEED CONTENT HERE]</p>
-                        <base target="_parent"/>
                         <a 
                             href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            target="_PARENT"
                         >
                             Learn More
                         </a>
@@ -60,11 +54,9 @@ export default class Page_GetInvolved extends React.Component {
                         <FontAwesomeIcon icon={faUsers} className="page-icon" />
                         <h3>Committees</h3>
                         <p> CTLE committees will work in collaboration with Faculty Fellows, Learning Commons leaders, and Center staff in providing feedback, content expertise, and recommendations for faculty development programming in a specific area or topic of focus. Membership of committees will include a range of volunteers to include faculty and staff.</p>
-                        <base target="_parent"/>
                         <a 
                             href="https://inside.cpcc.edu/departments/ctle/get-involved/committees"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            target="_PARENT"
                         >
                             Learn More
                         </a>
@@ -73,11 +65,9 @@ export default class Page_GetInvolved extends React.Component {
                         <FontAwesomeIcon icon={faAsterisk} className="page-icon" />
                         <h3>Advisory Board</h3>
                         <p> The Center for Teaching and Learning Excellence (CTLE) advisory board will work closely with the Center’s leadership, Faculty Fellows, and Center staff in providing strategic direction and making key recommendations for programming and resources for faculty success.</p>
-                        <base target="_parent"/>
                         <a 
                             href="https://inside.cpcc.edu/departments/ctle/get-involved/advisory-board"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            target="_PARENT"
                         >
                             Learn More
                         </a>
