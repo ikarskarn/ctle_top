@@ -3,13 +3,13 @@ import './Page.css';
 import { faUserCircle, faBookmark  } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default class Page_ProgramsAndEvents extends React.Component {
+export default class Page_CourseCatalog extends React.Component {
     render() {
         return (
             <div className="page">
                 <header>
                     <h2>
-                        Programs & Events
+                        Course Catalog
                     </h2>
                 </header>
                 <div className="page-content">

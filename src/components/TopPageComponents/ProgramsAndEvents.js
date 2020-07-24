@@ -19,9 +19,7 @@ export default class ProgramsAndEvents extends React.Component {
           <div id="menu" className={this.context.topBar}>
             <TestBar />
           </div>
-          <div id="page-content">
-            <Page_ProgramsAndEvents />
-          </div>
+          <Page_ProgramsAndEvents />
         </div>
     );
   }
