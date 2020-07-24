@@ -156,16 +156,16 @@ export default class TestBar extends React.Component {
           Online Course Design Process
         </a>
       ),
-      teachingWithTechnology: (
-        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/teaching-with-technology" target="_PARENT" className="sub-item">
-          Teaching With Technology
+      technologyAndTools: (
+        <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/technology-and-tools" target="_PARENT" className="sub-item">
+          Techology and Tools
         </a>
       ),
-      technologyForYou: (
+      /*technologyForYou: (
         <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/technology-for-you" target="_PARENT" className="sub-item">
           Technology For You
         </a>
-      ),
+      ),*/
       //helpful resources
       facultyAdminstrativeDuties: (
         <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-admin-duties" target="_PARENT" className="sub-item">
@@ -210,14 +210,12 @@ export default class TestBar extends React.Component {
         <Collapsible trigger={topMenus.getInvolved}>
         {subMenus.facultySOS}
         {subMenus.learningCommons}
-        {subMenus.peerObservationProgram}
         {subMenus.committees}
         {subMenus.advisoryBoard}
         </Collapsible>
         <Collapsible trigger={topMenus.teachingEffectiveness}>
         {subMenus.onlineTeachingBestPractices}
-        {subMenus.teachingWithTechnology}
-        {subMenus.technologyForYou}
+        {subMenus.technologyAndTools}
         </Collapsible>
         <Collapsible trigger={topMenus.helpfulResources}>
         {subMenus.facultyAdminstrativeDuties}

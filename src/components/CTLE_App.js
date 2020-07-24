@@ -20,7 +20,7 @@ import OnlineTeachingBestPractices from './SubPageComponents/OnlineTeachingBestP
 import PeerObservations from './SubPageComponents/PeerObservations';
 import ProgramsAndServices from './SubPageComponents/ProgramsAndServices';
 import RequiredTraining from './SubPageComponents/RequiredTraining';
-import TeachingWithTechnology from './SubPageComponents/TeachingWithTechnology';
+import TechnologyAndTools from './SubPageComponents/TechnologyAndTools';
 import TechnologyForYou from './SubPageComponents/TechnologyForYou';
 import FacultyAdministrativeDuties from './SubPageComponents/FacultyAdministrativeDuties';
 import FacultyTitles from './SubPageComponents/FacultyTitles';
@@ -80,7 +80,7 @@ class CTLE_App extends React.Component {
                         <Route path='/peer-observations' component={PeerObservations} />
                         <Route path='/programs-and-services' component={ProgramsAndServices} />
                         <Route path='/required-training' component={RequiredTraining} />
-                        <Route path='/teaching-with-technology' component={TeachingWithTechnology} />
+                        <Route path='/technology-and-tools' component={TechnologyAndTools} />
                         <Route path='/faculty-admin-duties' component={FacultyAdministrativeDuties} />
                         <Route path='/faculty-titles' component={FacultyTitles} />
                         <Route path='/ocd' component={OnlineCourseDesign} />
