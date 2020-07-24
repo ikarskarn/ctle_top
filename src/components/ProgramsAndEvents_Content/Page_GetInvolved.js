@@ -22,8 +22,9 @@ export default class Page_GetInvolved extends React.Component {
                         <p> Faculty SOS now offers more ways for Central Piedmont faculty to share their skills, passions and expertise.</p>
                         <base target="_parent"/>
                         <a 
-                            href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
+                            href="https://inside.cpcc.edu/departments/ctle/get-involved/faculty-sos"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Learn More
                         </a>
@@ -35,8 +36,9 @@ export default class Page_GetInvolved extends React.Component {
                         <p> The Learning Commons at Central Piedmont are groups (typically 6-15 people) who regularly meet to connect, share, and learn about a given teaching and learning topic.</p>
                         <base target="_parent"/>
                         <a 
-                            href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
+                            href="https://inside.cpcc.edu/departments/ctle/get-involved/learning-commons"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Learn More
                         </a>
@@ -47,8 +49,9 @@ export default class Page_GetInvolved extends React.Component {
                         <p> [NEED CONTENT HERE]</p>
                         <base target="_parent"/>
                         <a 
-                            href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
+                            href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Learn More
                         </a>
@@ -59,8 +62,9 @@ export default class Page_GetInvolved extends React.Component {
                         <p> CTLE committees will work in collaboration with Faculty Fellows, Learning Commons leaders, and Center staff in providing feedback, content expertise, and recommendations for faculty development programming in a specific area or topic of focus. Membership of committees will include a range of volunteers to include faculty and staff.</p>
                         <base target="_parent"/>
                         <a 
-                            href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
+                            href="https://inside.cpcc.edu/departments/ctle/get-involved/committees"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Learn More
                         </a>
@@ -71,8 +75,9 @@ export default class Page_GetInvolved extends React.Component {
                         <p> The Center for Teaching and Learning Excellence (CTLE) advisory board will work closely with the Center’s leadership, Faculty Fellows, and Center staff in providing strategic direction and making key recommendations for programming and resources for faculty success.</p>
                         <base target="_parent"/>
                         <a 
-                            href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
+                            href="https://inside.cpcc.edu/departments/ctle/get-involved/advisory-board"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Learn More
                         </a>
