@@ -48,7 +48,7 @@ export default class ProgramsAndEvents extends React.Component {
                   reflect
                 </li>
               </ul>
-              <base target="_parent"><a href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing" target="_blank">CTLE Learning Programs, Descriptions, and Guidelines
+              <base target="_parent"><a href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing" target="_blank">3 CTLE Learning Programs, Descriptions, and Guidelines
               </a></base>
             </section>
           </div>
