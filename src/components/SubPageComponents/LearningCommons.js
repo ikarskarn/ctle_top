@@ -3,7 +3,7 @@ import React from "react";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
 import HamburgerToggle from "../HamburgerToggle";
-
+import Page_LearningCommons from "../ProgramsAndEvents_Content/Page_LearningCommons";
 //declaring a class
 export default class LearningCommons extends React.Component {
   static contextType = Context;
@@ -17,8 +17,7 @@ export default class LearningCommons extends React.Component {
         <TestBar />
         </div>
         <div id="page-content">
-        {/*PAGE CONTENT GOES HERE*/}
-        <h2>Learning Commons Page Content Goes Here</h2>
+        <Page_LearningCommons />
         </div>
     </div>
     );

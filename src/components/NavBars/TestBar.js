@@ -98,6 +98,11 @@ export default class TestBar extends React.Component {
           Programs/Services
         </a>
       ),
+      peerObservations: (
+        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations" target="_PARENT" className="sub-item">
+          Peer Observations
+        </a>
+      ),
       events: (
         <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events/events" target="_PARENT" className="sub-item">
           Events & Calendar
@@ -128,11 +133,6 @@ export default class TestBar extends React.Component {
       learningCommons: (
         <a href="https://inside.cpcc.edu/departments/ctle/get-involved/learning-commons" target="_PARENT" className="sub-item">
           Learning Commons
-        </a>
-      ),
-      peerObservations: (
-        <a href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations" target="_PARENT" className="sub-item">
-          Peer Observations
         </a>
       ),
       committees: (

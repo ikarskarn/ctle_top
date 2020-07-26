@@ -3,6 +3,7 @@ import React from "react";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
 import HamburgerToggle from "../HamburgerToggle";
+import Page_Committees from "../ProgramsAndEvents_Content/Page_Committees";
 
 //declaring a class
 export default class Committees extends React.Component {
@@ -17,8 +18,7 @@ export default class Committees extends React.Component {
         <TestBar />
         </div>
         <div id="page-content">
-        {/*PAGE CONTENT GOES HERE*/}
-        <h2>Committees Page Content Goes Here</h2>
+        <Page_Committees />
         </div>
     </div>
     );
