@@ -1,30 +1,200 @@
-  .page p {
-    font-family: "BaskervilleITC", sans-serif;
-  }
+/*#region FONTS AND COLORS*/
+.page p {
+	font-family: "BaskervilleITC", sans-serif;
+}
 
-  .page header {
-    display: flex;
-    justify-content: left;
-    justify-items: flex-end;
-    background-color: #636466;
+.page header {
+	display: flex;
+	justify-content: left;
+	justify-items: flex-end;
     margin-top: 20px;
-    border-top: 5px solid #007396;
-  }
-  
-  .page h3 {
-    text-align: center;
-    font-family: "FranklinGothic", sans-serif;
-  }
+	border-top: 5px solid #007396;
+}
 
-  .with-link a {
+.page h1, h2, h3, h4 {
+	text-align: center;
+	font-family: "FranklinGothic", sans-serif;
+}
+
+.page header h2 {
+	width: 70%;
+	text-align: left;
+	text-decoration: underline;
+	text-decoration-color: #B6A269;
+	font-size: 58px;
+	margin: auto 0;
+	padding: 140px 60px 60px 60px;
+}
+
+.page ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.b-grey {
+	background-color: #636466;
+	color: white;
+}
+
+.b-gold {
+	background-color: #B6A269;
+	color: black;
+}
+
+.b-blue {
+	background-color:  #007396;
+	color: white;
+}
+
+.b-white {
+	background-color: white;
+	color: black;
+}
+
+.b-orange {
+	background-color: #D45D00;
+	color: white;
+}
+
+.b-red {
+	background-color: #862633;
+	color: white;
+}
+
+.b-shadow {
+	box-shadow: 4px 4px #00000050;
+}
+/*#endregion*/
+
+.page .section {
+	padding: 30px 60px;
+}
+
+.page .info-section,
+.page .highlight-section,
+.page .sub-page-highlight-section,
+.page .list-section {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+.page .highlight-section {
+	padding-bottom: 20px;
+}
+
+.page .list-section {
+	padding: 60px 100px;
+}
+
+.page .info-section ul,
+.page .highlight-section ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 20px 20px;
+}
+
+.page .info-section h3 {
+	font-size: 38px;
+	width: 100%;
+}
+
+.page .list-section h4 {
+	font-size: 24px;		
+}
+
+.page .list-section p {
+	font-size: 18px;
+}
+
+.page .bullet-highlight button {
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+	align-self: center;
+	vertical-align: center;
+	padding-top: 50;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: none;
+	border: none;
+	outline: none;
+	text-align: center;
+	align-items: center;
+}
+
+.page .highlight-section a {
+	width: 50%;
+	border-radius: 40px;
+	border: 1px solid black;
+	box-shadow: 2px 2px #00000050;
+	font-size: 20px;
+	text-emphasis: bold;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	padding: 30px;;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.page .highlight-section a:hover {
+	background-color: #D45D00;
+	color: white;
+}
+
+.page .large-info-block {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	height: 250px;
+	padding: 60px 100px;
+	text-align: center;
+	align-items: center;
+	font-size: 22px;
+  	border-top: 6px #007396 solid;
+}
+
+.page .small-info-block {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	padding: 15px 20px;
+	text-align: center;
+	align-items: center;
+	font-size: 22px;
+	border-top: 6px #007396 solid;
+	margin: 10px;
+}
+
+.page .bullet-highlight {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 4px 4px #00000050;
+}
+
+
+
+
+
+.page .with-link a {
     width: 25%;
     border-radius: 40px;
     border: 1px solid black;
     box-shadow: 2px 2px #00000050;
-    background-color:  #007396;
     font-size: 20px;
     text-emphasis: bold;
-    color: white;
     align-self: center;
     display: flex;
     justify-content: center;
@@ -34,127 +204,76 @@
     margin-bottom: 30px;
   }
 
-  .with-link {
+  .page .with-link {
     border-bottom: 3px solid #B6A269;
   }
 
-  .page header h2 {
-    font-family: 'FranklinGothic', sans-serif;
-    width: 70%;
-    text-align: left;
-    text-decoration: underline;
-    text-decoration-color: #B6A269;
-    font-size: 58px;
-    margin: auto 0;
-    padding: 140px 60px 60px 60px;
-    color: white;
-    
-  }
+  
 
   .page .paragraph-emphasis {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     margin: auto 0;
-    padding: 30px 0;
+    padding: 30px 30px;
     font-family: "FranklinGothic", sans-serif;
     font-weight: 700;
   }
 
-  .page-icon {
+  .page .page-icon {
       font-size: 48px;
       text-align: center;
       margin: auto;
-        padding: 30px;
+      padding: 30px;
   }
 
-  .withIcons {
+  .page .withIcons {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       justify-items: center;
   }
   
-  .page .section {
-    padding: 30px 60px;
-    font-size: 22px;
-  }
   
-  .page ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-  }
+  
+
   
   /*#region HIGHLIGHT (Bulletpoints) section*/
-  .page .highlight-section {
-    padding: 60px 30px;
-    background-color: #B6A269;
-    display: flex;
-    flex-direction: column;
-  }
+ 
   
-  .page .highlight-section ul {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 20px;
-  }
+
   
-  .page .highlight {
+.page .highlight {
     width: 200px;
-    height: 200px;
+    height: 100px;
     padding: 10px;
     margin: 10px;
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: white;
-    border-top: 6px #007396 solid;
+    
     font-family: "BaskervilleITC", sans-serif;
     box-shadow: 4px 4px #00000050;
-    background-color: #007396;
-    color: white;
-  }
+}
 
   .page .highlight:hover {
-      transform: scale(1.08);
+      transform: scale(1.30);
       transition: 0.5s;
-      background-color: white;
-      color: black;
+	  border-top: 6px #007396 solid;
   }
 
-  .page .highlight-section a {
-      width: 50%;
-      border-radius: 40px;
-      border: 1px solid black;
-      box-shadow: 2px 2px #00000050;
-      background-color:  #007396;
-      font-size: 20px;
-      text-emphasis: bold;
-      color: white;
-      align-self: center;
-      display: flex;
-      justify-content: center;
-      padding: 30px;;
-      text-align: center;
-      margin-top: 20px;
-  }
+  
 /*#endregion*/
   
 /*#region SUB PAGE HIGHLIGHT (sub page overviews) section*/
-.page .sub-page-highlight-section {
-    padding: 60px 30px;
-    background-color: #B6A269;
-    display: flex;
-    flex-direction: column;
-  }
+
   
-  .page .sub-page-highlight-section ul {
+.page .sub-page-highlight-section ul {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 20px;
-  }
+}
   
-  .page .sub-page-highlight {
+.page .sub-page-highlight {
     width: 200px;
     height: 200px;
     padding: 10px;
@@ -162,38 +281,63 @@
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: white;
-    border-top: 6px #007396 solid;
     font-family: "BaskervilleITC", sans-serif;
     box-shadow: 4px 4px #00000050;
-    background-color: #007396;
-    color: white;
-  }
+}
 
-  .page .sub-page-highlight:hover {
+.page .sub-page-highlight:hover {
       transform: scale(1.08);
       transition: 0.5s;
       background-color: white;
       color: black;
-  }
+}
 
-  .page .sub-page-highlight-section a {
+.page .sub-page-highlight-section a {
       width: 50%;
       border-radius: 40px;
       border: 1px solid black;
       box-shadow: 2px 2px #00000050;
-      background-color:  #007396;
       font-size: 20px;
       text-emphasis: bold;
-      color: white;
       align-self: center;
       display: flex;
       justify-content: center;
       padding: 30px;;
       text-align: center;
       margin-top: 20px;
-  }
+}
 /*#endregion*/
-  .page button:hover {
-    cursor: pointer;
-  }
+
+
+
+
+
+
+
+
+.page .info-block a, .coming-soon, .link {
+  width: 50%;
+  border-radius: 40px;
+  border: 1px solid black;
+  box-shadow: 2px 2px #00000050;  
+  font-size: 20px;
+  text-emphasis: bold;
+  color: white;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;;
+  text-align: center;
+  text-decoration: none;
+}
+
+.page .icon {
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.page button:hover {
+	cursor: pointer;
+}

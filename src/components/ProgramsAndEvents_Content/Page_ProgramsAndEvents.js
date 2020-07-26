@@ -7,35 +7,34 @@ export default class Page_ProgramsAndEvents extends React.Component {
     render() {
         return (
             <div className="page">
-                <header>
+                <header className="b-grey">
                     <h2>
                         Programs & Events
                     </h2>
                 </header>
                 <div className="page-content">
-                    <section className="section withIcons">
+                    <section className="list-section">
                         <p className="paragraph-emphasis"> We are committed to fostering a rich and compelling community of learning excellence focused on the holistic needs of all those who teach. </p>
 
                         <FontAwesomeIcon icon={faUserCircle} className="page-icon" />
-                        
                         <p> The Center advances best practices of impactful teaching at the college to inspire, guide, and support faculty and staff in the key areas of pedagogy, course content and instructional delivery.</p>
 
                         <FontAwesomeIcon icon={faBookmark} className="page-icon" />
-
                         <p>Events, programs, and workshops are aligned with the Center's mission and goals, and grounded in the literature on teaching, learning, and educational development. Specifically, these professional learning opportunities.</p>
                     </section>
-                    <section className="section highlight-section">
+                    
+                    <section className="highlight-section b-grey">
                         <ul>
-                            <li className="highlight">
+                            <li className="highlight b-white b-shadow">
                                 Support the span of new, mid-career, and senior-level faculty and staff
                             </li>
-                            <li className="highlight">
+                            <li className="highlight b-white b-shadow">
                                 Address all teaching modalities
                             </li>
-                            <li className="highlight">
+                            <li className="highlight b-white b-shadow">
                                 Consider diversity and inclusion
                             </li>
-                            <li className="highlight">
+                            <li className="highlight b-white b-shadow">
                                 Provide faculty and staff opportunities to lead, learn, and reflect
                             </li>
                         </ul>
@@ -44,6 +43,7 @@ export default class Page_ProgramsAndEvents extends React.Component {
                             href="https://docs.google.com/document/d/1KMS6rAMMMy1iI9V_M43kIJfPoNf2sDzyzTziKylGLx8/edit?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="b-blue b-shadow"
                         >
                             CTLE Learning Programs, Descriptions, and Guidelines
                         </a>
