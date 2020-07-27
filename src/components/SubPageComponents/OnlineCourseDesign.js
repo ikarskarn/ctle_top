@@ -3,6 +3,7 @@ import React from "react";
 import Context from "../../Context";
 import TestBar from "../NavBars/TestBar";
 import HamburgerToggle from "../HamburgerToggle";
+import Page_OnlineCourseDesign from "../ProgramsAndEvents_Content/Page_OnlineCourseDesign";
 
 //declaring a class
 export default class OnlineCourseDesign extends React.Component {
@@ -17,8 +18,7 @@ export default class OnlineCourseDesign extends React.Component {
         <TestBar />
         </div>
         <div id="page-content">
-        {/*PAGE CONTENT GOES HERE*/}
-        <h2>Online Course Design Page Content Goes Here</h2>
+        <Page_OnlineCourseDesign />
         </div>
     </div>
     );
