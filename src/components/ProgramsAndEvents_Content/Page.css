@@ -3,6 +3,10 @@
 	font-family: "BaskervilleITC", sans-serif;
 }
 
+.page .center {
+	text-align: center;
+}
+
 .page header {
 	display: flex;
 	justify-content: left;
@@ -70,6 +74,10 @@
 .b-shadow {
 	box-shadow: 4px 4px #00000050;
 }
+
+.line {
+	border-bottom: 2px solid black;
+}
 /*#endregion*/
 
 .page .section {
@@ -79,7 +87,9 @@
 .page .info-section,
 .page .highlight-section,
 .page .sub-page-highlight-section,
-.page .list-section {
+.page .list-section,
+.page .important-note-section,
+.page .checklist-section {
 	display: flex;
 	flex-direction: column;
 	justify-items: center;
@@ -89,8 +99,35 @@
 	padding-bottom: 20px;
 }
 
-.page .list-section {
+.page .list-section,
+.page .checklist-section {
 	padding: 60px 100px;
+}
+
+.page .important-note-section {
+	width: 60%;
+	align-self: center;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.page .important-note-section .icon {
+	margin-top: 20px;
+}
+
+.page .important-note-section h3 {
+	margin: 20px 0px;
+}
+
+.page .important-note-section p {
+	margin: 20px 0px;
+	padding: 10px 0px;
 }
 
 .page .info-section ul,
@@ -106,11 +143,13 @@
 	width: 100%;
 }
 
-.page .list-section h4 {
+.page .list-section h4,
+.page .checklist section h4 {
 	font-size: 24px;		
 }
 
-.page .list-section p {
+.page .list-section p,
+.page .checklist-section {
 	font-size: 18px;
 }
 
@@ -150,6 +189,36 @@
 .page .highlight-section a:hover {
 	background-color: #D45D00;
 	color: white;
+}
+
+.page .checklist-item {
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.page .checklist-item p {
+	margin: 10px 10px;
+}
+
+.page .check-icon {
+	color: green;
+	margin: 10px 10px;
+	height: 20px;
+}
+
+.page .checklist-item li {
+	padding: 5px 50px;
+	font-size: 18px;
+}
+
+.page .checklist-item ul {
+	border: 1px solid black;
+	margin: 10px 50px;
+}
+
+.page .checklist-item .break {
+	flex-basis: 100%;
 }
 
 .page .large-info-block {
