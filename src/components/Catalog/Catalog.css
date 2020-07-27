@@ -1,0 +1,42 @@
+.category-header {
+    display: flex;
+	flex-direction: column;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.category-header .icon, .category-header h3 {
+    padding: 0px;
+    width: 90%;
+}
+
+.course-header {
+    padding: 15px;
+    margin-top: 0px;
+    text-align: left;
+    border-top: 2px solid #B6A269;
+    font-size: 22px;
+}
+
+.course-association {
+    width: 50%;
+    margin: 5px;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.course-section {
+    padding: 10px;
+}
+
+.category-section {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.course-description {
+    font-size: 18px;
+    padding: 10px;
+}
