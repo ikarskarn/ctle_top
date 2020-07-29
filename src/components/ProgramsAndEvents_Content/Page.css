@@ -84,25 +84,13 @@
 	padding: 30px 60px;
 }
 
-.page .info-section,
-.page .highlight-section,
-.page .sub-page-highlight-section,
-.page .list-section,
-.page .important-note-section,
-.page .checklist-section {
-	display: flex;
-	flex-direction: column;
-	justify-items: center;
-}
+
 
 .page .highlight-section {
 	padding-bottom: 20px;
 }
 
-.page .list-section,
-.page .checklist-section {
-	padding: 60px 100px;
-}
+
 
 .page .important-note-section {
 	width: 60%;
@@ -143,10 +131,7 @@
 	width: 100%;
 }
 
-.page .list-section h4,
-.page .checklist section h4 {
-	font-size: 24px;		
-}
+
 
 .page .list-section p,
 .page .checklist-section {
@@ -245,23 +230,7 @@
 	margin: 10px;
 }
 
-.page .bullet-highlight {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	padding: 10px;
-	margin: 10px;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: 4px 4px #00000050;
-}
 
-.page .bullet-highlight:hover {
-	background-color: #007396;
-	color: white;
-}
 
 .page .dynamic-note {
 	text-align: center;
@@ -423,6 +392,24 @@
 	cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#region HOME INTRO TILE*/
 .page .intro {
 	display: flex;
 	flex-direction: column;
@@ -434,10 +421,32 @@
 	color: white;
 }
 
+.page .ad-content {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: space-around;
+}
+
+.page .intro h2 {
+	text-decoration: none;
+	padding: 30px 0px 0px 60px;
+	font-size: 48px;
+}
+
+.page .intro h3 {
+	text-decoration: none;
+	text-align: left;
+	margin: auto 0;
+	padding: 10px 10px 40px 30px;
+}
+/*#endregion*/
+
+/*#region SYMPOSIUM AD*/
 .page .symposium {
 	display: flex;
 	flex-direction: column;
-	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
 	url('../../images/symposium.jpg');
 	background-repeat: no-repeat;
 	background-origin: content-box;
@@ -447,45 +456,122 @@
 	justify-items: center;
 }
 
-.page .symposium .ad-content > h4 {
-	font-size: 18px;
+.page .symposium > .ad-content > h3 {
+	font-size: 22px;
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
 	width: 90%;
 	text-align: center;
-	margin: 20px auto 10px auto;
+	margin: 10px auto 5px;
+	padding: 10px;
 }
 
-.page .ad-content {
+.page .symposium > .ad-content > div {
+	font-size: 18px;
+	width: 50%;
+	margin: 2px auto;
+	padding: 2px 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.page .symposium > .ad-content > p {
+	font-size: 18px;
+	width: 75%;
+	display: flex;
+	margin: 2px auto;
+}
+/*#endregion*/
+
+
+
+
+.page .info-section,
+.page .highlight-section,
+.page .sub-page-highlight-section,
+.page .list-section,
+.page .important-note-section,
+.page .checklist-section {
 	display: flex;
 	flex-direction: column;
-	height: 280px;
+	justify-items: center;
 }
 
-.page .intro h2 {
-	text-decoration: none;
-	padding: 30px 0px 0px 30px;
-	font-size: 30px;
+.page .list-section,
+.page .checklist-section {
+	padding: 30px 60px;
 }
 
-.page .intro h3 {
-	text-decoration: none;
-	text-align: left;
-	margin: auto 0;
-	padding: 10px 10px 40px 30px;
+.page .list-section h4,
+.page .checklist section h4 {
+	font-size: 24px;
+	margin-top: 10px;		
 }
 
-.page .ad-block {
-	border: 1px solid red;
+/*Special*/
+.page .vid {
+	display: flex;
+	justify-content: center;
+	padding: 45px 15px;
+	width: 100%;
 }
 
-.page .ad-div {
+.page .vision-and-mission > h4 {
+	width: 150px;
+	height: 150px;
+	margin: 15px auto;
+}
+
+.page .vision-and-mission > p {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.page .goals > .ad-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	width: 350px;
+	height: 350px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+.page .back-button,
+.page .next-button {
+	margin: auto 15px;
+	border: none;
+	background: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.page .main-slider {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
-.calendar-block {
-	width: 25%;
-	height: 400px;
-	border: 1px solid black;
+
+/*Bullet Highlight*/
+.page .bullet-highlight {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 4px 4px #00000050;
 }
+
+.page .bullet-highlight:hover {
+	background-color: #007396;
+	color: white;
+}
+

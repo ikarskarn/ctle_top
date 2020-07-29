@@ -13,11 +13,7 @@ export default class Home extends React.Component {
     //tells the render function what to return to the DOM (HTML Page)
     return (
         <div id="content" className={this.context.topContent}>
-          <HamburgerToggle />
-          <div id="menu" className={this.context.topBar}>
-            <TestBar />
-          </div>
-          <div id="page-content">
+          <div className="page-content">
             <Page_Home />
           </div>
         </div>
