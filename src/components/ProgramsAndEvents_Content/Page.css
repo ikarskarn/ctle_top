@@ -422,3 +422,70 @@
 .page button:hover {
 	cursor: pointer;
 }
+
+.page .intro {
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to right, #000000, transparent 70%),
+    url('../../images/tower.jpg');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover;
+	color: white;
+}
+
+.page .symposium {
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
+	url('../../images/symposium.jpg');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	justify-items: center;
+}
+
+.page .symposium .ad-content > h4 {
+	font-size: 18px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 90%;
+	text-align: center;
+	margin: 20px auto 10px auto;
+}
+
+.page .ad-content {
+	display: flex;
+	flex-direction: column;
+	height: 280px;
+}
+
+.page .intro h2 {
+	text-decoration: none;
+	padding: 30px 0px 0px 30px;
+	font-size: 30px;
+}
+
+.page .intro h3 {
+	text-decoration: none;
+	text-align: left;
+	margin: auto 0;
+	padding: 10px 10px 40px 30px;
+}
+
+.page .ad-block {
+	border: 1px solid red;
+}
+
+.page .ad-div {
+	display: flex;
+	flex-direction: column;
+}
+
+.calendar-block {
+	width: 25%;
+	height: 400px;
+	border: 1px solid black;
+}

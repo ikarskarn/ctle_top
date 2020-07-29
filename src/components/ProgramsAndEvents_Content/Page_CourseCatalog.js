@@ -12,7 +12,7 @@ export default class Page_CourseCatalog extends React.Component {
                     </h2>
                 </header>
                 <div className="page-content">
-                    <section className="section info-section b-white">
+                    <section className="section info-section">
                         <Catalog />                
                     </section>
                 </div>

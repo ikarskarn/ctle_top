@@ -19,6 +19,17 @@ import Context from "../../Context";
 
 export default class TestBar extends React.Component {
   static contextType = Context;
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHovering: false,
+    }
+  }
+  handleMouseHover = () => {
+    this.setState({
+      isHovering: !this.state.isHovering,
+    })
+  }
   render() {
     //top menu object.  Details inside
     const topMenus = {
@@ -35,38 +46,37 @@ export default class TestBar extends React.Component {
         </a>
       ),
       programsAndEvents: (
-        <a href="https://inside.cpcc.edu/departments/ctle/programs-and-events" target="_PARENT" className="item">
+        <a 
+          href="https://inside.cpcc.edu/departments/ctle/programs-and-events" 
+          target="_PARENT" 
+          className="item"
+        >
           <FontAwesomeIcon icon={faCalendar} className="icon" />
           Programs and Events
-          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       courseCatalog: (
         <a href="https://inside.cpcc.edu/departments/ctle/course-catalog" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faBook} className="icon" />
           Course Catalog
-          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       getInvolved: (
         <a href="https://inside.cpcc.edu/departments/ctle/get-involved" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faHandshake} className="icon" />
           Get Involved
-          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       teachingEffectiveness: (
         <a href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faSortAlphaDown} className="icon" />
           Teaching Effectiveness
-          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       helpfulResources: (
         <a href="https://inside.cpcc.edu/departments/ctle/helpful-resources" target="_PARENT"  className="item">
           <FontAwesomeIcon icon={faUnlock} className="icon" />
           Helpful Resources
-          <FontAwesomeIcon icon={faPlusCircle} className="plus" />
         </a>
       ),
       //NOTICE THIS ONE:  It has last added in the class name.  that is so the white bar can be added to it with CSS
@@ -192,6 +202,7 @@ export default class TestBar extends React.Component {
     //tells the render function what to return to the DOM (HTML Page)
     return (
       <>
+        
         {/*Collapsible is also a react plugin.  Allows you to collapse sections*/}
         <Collapsible trigger={topMenus.home} />
         {/*This one DOES have sub menus.  So the top menu is just called inside of a Collapsible Tag like so*/}
