@@ -51,7 +51,7 @@ export default class Page_HelpfulResources extends React.Component {
                             href="https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-titles"
                             target="_PARENT"
                         >
-                            Coming Soon
+                            Learn More
                         </a>
                     </section>
                     <section className="list-section b-grey">
