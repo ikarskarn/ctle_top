@@ -36,7 +36,7 @@ export default class Page_HelpfulResources extends React.Component {
                         <p> More Info Coming Soon</p>
                         <a
                             className="b-blue b-shadow coming-soon" 
-                            href="https://inside.cpcc.edu/departments/ctle/helpful-resources/travel-requests"
+                            /*href="https://inside.cpcc.edu/departments/ctle/helpful-resources/travel-requests"}*/
                             target="_PARENT"
                         >
                             Coming Soon
@@ -47,7 +47,7 @@ export default class Page_HelpfulResources extends React.Component {
                         <h3>Faculty Titles</h3>
                         <p>The purpose of the Faculty Title Committee is to provide information and service to all faculty considering applying for their title at Central Piedmont Community College.</p>
                         <a
-                            className="b-blue b-shadow coming-soon" 
+                            className="b-blue b-shadow link" 
                             href="https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-titles"
                             target="_PARENT"
                         >

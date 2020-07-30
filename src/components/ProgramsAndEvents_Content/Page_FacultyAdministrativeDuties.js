@@ -21,7 +21,7 @@ export default class Page_FacultyAdministrativeDuties extends React.Component {
                             <base target='_parent'/>
                             <a href='https://docs.google.com/document/d/1ycyTnDvlGZ_IsgF20zZGYXQQ4Vjvw2mE1fr1WaoGjds/edit' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Fall 2020 Instructions for Recording Curriculum Attendance</a>
                             <base target='_parent'/>
-                            <a className='link b-blue b-shadow'>Enrollment Verification Activity (EVA)</a>
+                            <a className='coming-soon b-blue b-shadow'>Enrollment Verification Activity (EVA)</a>
                             
                             <h3 className="center">Additional Info</h3>
                             <base target='_parent'/>
@@ -47,17 +47,17 @@ export default class Page_FacultyAdministrativeDuties extends React.Component {
                             <base target='_parent'/>
                             <a href='http://catalog.cpcc.edu/learningresources/academicregulations/gradingpolicy/' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Grading Policy</a>
                             <base target='_parent'/>
-                            <a href='http://catalog.cpcc.edu/' className='coming-soon b-blue b-shadow line'>CPCC Catalog</a>
+                            <a href='http://catalog.cpcc.edu/' className='link b-blue b-shadow line'>CPCC Catalog</a>
                         </section>
                         <section className="list-section b-white line"> 
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Student Grade Appeals</h4>
-                            <p className='center'>Student Grade Appeals is covered in Policy 7.09: Grievance Process for Students, Section V: Course Grade Appeals Procedure.</p>
+                            <p className='center'>Student Grade Appeals is covered in Policy 4.07: Grievance Process for Students, Section V: Course Grade Appeals Procedure.</p>
                             <base target='_parent'/>
-                            <a href='https://www.cpcc.edu/709-grievance-process-students' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Policy 7.09</a>
+                            <a href='https://www.cpcc.edu/709-grievance-process-students' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Policy 4.07</a>
                             <p className='center'>Download the Student Grade Appeal Form (PDF).</p>
                             <base target='_parent'/>
-                            <a  href='https://www.cpcc.edu/sites/default/files/2019-05/student-grade-appeal-form.pdf' className='coming-soon b-blue b-shadow line'>Grade Appeal Form</a>
+                            <a  href='https://www.cpcc.edu/sites/default/files/2019-05/student-grade-appeal-form.pdf' className='link b-blue b-shadow line'>Grade Appeal Form</a>
                         </section>
                         <section className="list-section b-white line"> 
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>

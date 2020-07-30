@@ -23,7 +23,7 @@ export default class Page_FacultySOS extends React.Component {
                         <h4>Faculty SOS = Sharing Our Skills</h4>
                         <p>The Faculty SOS (Sharing Our Skills) program in the Center for Teaching and Learning Excellence is a faculty to faculty support and development program aimed at providing opportunities for faculty to reflect and share current knowledge about effective teaching and learning through dialogue, assessment, and research.  </p>
                         <p>The Faculty SOS program aligns with the Center’s Goal #2 - Advance faculty growth through innovation, continuous learning, scholarship, and holistic well-being, and Goal #5 - Promote faculty engagement, community, and fellowship through meaningful activities, events, and resources.</p>
-                        x<p>Any full-time faculty member (curriculum, CCR, CCE) is eligible to apply for and participate in the Faculty SOS program.</p>
+                        <p>Any full-time faculty member (curriculum, CCR, CCE) is eligible to apply for and participate in the Faculty SOS program.</p>
                     </section>
                     <section className="list-section b-grey">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
