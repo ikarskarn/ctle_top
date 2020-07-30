@@ -2,6 +2,7 @@ import React from 'react';
 import './Page.css';
 import { faUserCircle, faInfo, faExclamationCircle, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ReactPlayer from "react-player";
 
 export default class Page_OnlineTeachingBestPractices extends React.Component {
     render() {
@@ -77,21 +78,24 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Need More?</h4>
                             <p className='center'>Visit the Faculty Checklist for Teaching in Blackboard</p>
-                            <a className='coming-soon b-blue b-shadow'>Teaching in Blackboard Checklist</a>
+                            <base target='_parent'/>
+                            <a href='https://docs.google.com/document/d/1S8h2MLdkWXjhaE3Y5WVlcSl9P6sHqapURJo6gRlavVc/edit?usp=sharing' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Teaching in Blackboard Checklist</a>
                             <p className='center'>For more information on online accessibility, check out the Online Accessibility course in AbilityLMS</p>
+                            <base target='_parent'/>
                             <a className='coming-soon b-blue b-shadow'>Online Accessibility: Ability LMS</a>
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Interested in Course Design?</h4>
                             <p className='center'>Visit the Center's Online Course Design Process Page</p>
-                            <a className='coming-soon b-blue b-shadow'>Online Course Design</a>
+                            <a href='http://inside.cpcc.edu/departments/ctle/teaching-effectiveness/ocd' target='_parent' className='link b-blue b-shadow'>Online Course Design</a>
                         </section>
                         <section className="list-section b-grey">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Top Ten Tips for Online Teaching</h4>
                             <p className='center'>Check out this video created by: Marsi Franceschini</p>
-                            <a className='coming-soon b-blue b-shadow'>Top Ten Tips</a>
+                            <base target='_parent'/>
+                            <a href='https://centralpiedmont.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5cb71187-5d1a-4f19-8fe8-ab8a013614c8' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Top Ten Tips for Online Teaching</a>
                         </section>            
                     </section>
                 </div>

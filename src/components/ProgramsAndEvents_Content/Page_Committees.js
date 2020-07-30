@@ -201,7 +201,10 @@ export default class Page_Committees extends React.Component {
                     <section className="list-section b-white"> 
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Inclusive Teaching Practices</h4>
-                        <p>The concept of equity is included in the college’s Vision, Mission and Values, and is also a component of faculty competencies included in the Teaching and Learning Excellence Framework. It is important to provide faculty with the tools and knowledge to help them grow an equity mindset and provide an inclusive environment in their traditional or online classrooms.  Goals of the Inclusive Teaching Practices Committee include:</p>
+                        <p>The concept of equity is included in the college’s Vision, Mission and Values, and is also a component of faculty competencies included in the Teaching and Learning Excellence Framework.</p>
+                        <base target="_parent"/>
+                        <a href='https://docs.google.com/presentation/d/1mcAcbdCfJjErE3mFeMq-WKtYSVh07EJvri-ZALWDMek/edit#slide=id.g63fccd70f7_0_5' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Teaching and Learning Framework</a>
+                        <p> It is important to provide faculty with the tools and knowledge to help them grow an equity mindset and provide an inclusive environment in their traditional or online classrooms.  Goals of the Inclusive Teaching Practices Committee include:</p>
                         <ul className='bullet-highlight-list dynamic-list'>
                             <li className="bullet-highlight b-orange">
                                 <button

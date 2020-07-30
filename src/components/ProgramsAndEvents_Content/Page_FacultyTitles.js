@@ -17,7 +17,8 @@ export default class Page_FacultyTitles extends React.Component {
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h3>Overview</h3>
                         <p>The purpose of the Faculty Title Committee is to provide information and service to all faculty considering applying for their title at Central Piedmont Community College. The committee members promote and answer questions pertaining to the application process for any of the following titles: Assistant Professor, Associate Professor, Professor, or Professor Emeritus. In addition to overseeing the faculty credentialing process, the committee also reviews applications.</p>
-                        <a className='coming-soon b-blue b-shadow'>Faculty Title Application</a>
+                        <base target='_parent'/>
+                        <a href='https://inside.cpcc.edu/org/senate/senate-committees/faculty-titles/2020-faculty-title-application.pdf' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Faculty Title Application</a>
                         <h4 className='center'>Chair</h4>
                         <ul className='big-bullet-section'>
                             <li className="bullet-highlight b-orange">

@@ -37,7 +37,8 @@ export default class Page_AdvisoryBoard extends React.Component {
                     <section className="list-section b-grey">
                         <p>The advisory board is chaired by the Center’s Executive Director and membership consists of Vice President (Academic Affairs)-appointed representatives from across the college.  Board members serve rotating two- or three-year appointments.</p>
                         <p>Visit the Advisory Board Terms and Members Document below for teh Center's Current Advisory Board Information.</p>
-                        <a className='coming-soon b-blue b-shadow'>Advisory Board Terms and Members</a>
+                        <base target='_parent'/>
+                        <a href='https://docs.google.com/document/d/1CondUnZ-bcvL1rC0Lil72O7fzQkFwufq7P5FK4z1IG8/edit?ts=5f1b5bd7' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Advisory Board Terms and Members</a>
                         <p> If you have further questions about the board or board expectations, contact Shantell Strickland-Davis.</p>
                         <a href="mailto:shantell.stricklanddavis@cpcc.edu" target='_blank' rel='noopener noreferrer' className='mail'>Shantell.StricklandDavis@cpcc.edu.</a>
                     </section>            

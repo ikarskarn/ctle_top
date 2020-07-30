@@ -29,7 +29,8 @@ export default class Page_FacultySOS extends React.Component {
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Interested?</h4>
                         <p>If you are interested in serving in the Faculty SOS program, please complete the application below.  You will be contacted to arrange a consultation with a Center for Teaching and Learning Excellence staff member.</p>
-                        <a className='coming-soon b-blue b-shadow'>Faculty SOS Application</a>
+                        <base target="_parent"/>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdjxRfb6vUuDwhomY_vTZwLU4cX-97RABjFch_PMFiS0TM6Uw/viewform?usp=sf_link' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Faculty SOS Application</a>
                     </section>            
                 </div>
             </div>

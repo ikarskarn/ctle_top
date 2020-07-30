@@ -24,7 +24,7 @@ export default class Page_ProgramsAndServices extends React.Component {
                             <li className="small-info-block b-gold b-shadow">
                                 <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                                 <p>Speaker Series</p>
-                                <p className='coming-soon b-blue b-shadow'>Coming Soon</p>
+                                <p className='coming-soon b-blue b-shadow'>Coming Late Fall 2020</p>
                             </li>
                             <li className="small-info-block b-gold">
                                 <FontAwesomeIcon icon={faUserCircle} className='icon'/>
@@ -39,13 +39,14 @@ export default class Page_ProgramsAndServices extends React.Component {
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Center Studio Pack</h4>
                             <p>A portable resource for faculty to check-out from the Center providing access to video recording equipment and accessories like a green screen and lighting.</p>
-                            <a className='coming-soon b-blue b-shadow'>Coming Soon</a>
+                            <base target="_parent"/>
+                            <a href='https://docs.google.com/document/d/1r68tP_kBPy5Lm6cvtviF98OLU44GdRjy7aOjsGM4rDg/edit?usp=sharing' target="_blank" rel="noopener noreferrer" className='link b-blue b-shadow'>Learn More!</a>
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Online Course Design</h4>
                             <p>A 5-step milestone-based course development process where faculty will work alongside the Center team to bring the vision of their course together while meeting Quality Matters standards to improve learners’ success in the course</p>
-                            <a className='coming-soon b-blue b-shadow'>Coming Soon</a>
+                            <a href='https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/ocd' target='_parent' className='link b-blue b-shadow'>Learn More!</a>
                         </section>
                         <section className="list-section b-grey">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
@@ -68,7 +69,7 @@ export default class Page_ProgramsAndServices extends React.Component {
                                     <p>Digital Engagement</p>
                                 </li>
                             </ul>
-                            <a className='coming-soon b-blue b-shadow'>Coming Soon</a>
+                            {/*<a className='coming-soon b-blue b-shadow'>Coming Soon</a>*/}
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>

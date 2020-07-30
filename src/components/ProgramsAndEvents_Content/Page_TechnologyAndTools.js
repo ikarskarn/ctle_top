@@ -33,13 +33,15 @@ export default class Page_TechnologyAndTools extends React.Component {
                             <li className='bullet-highlight b-orange'>Webex Training</li>
                             <li className='bullet-highlight b-orange'>Webex Events</li>
                         </ul>
-                        <a className='coming-soon b-blue b-shadow'>Webex</a>
+                        <base target='_parent'/>
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/web-conferencing-instant-messaging' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Webex</a>
                     </section>
                     <section className="list-section b-white line">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Panopto</h4>
                         <p>Panopto enables you to record and deliver lectures and presentations.</p>
-                        <a className='coming-soon b-blue b-shadow'>Panopto</a>
+                        <base target='_parent'/>
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/faculty-staff/panopto' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Panopto</a>
                     </section>
                     <section className="list-section b-white line">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
@@ -51,19 +53,22 @@ export default class Page_TechnologyAndTools extends React.Component {
                             <li className='bullet-highlight b-orange'>Google Slides</li>
                             <li className='bullet-highlight b-orange'>Google Sites</li>
                         </ul>
-                        <a className='coming-soon b-blue b-shadow'>Google Sites</a>
+                        <base target='_parent'/>
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/google-apps'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Google Sites</a>
                     </section>
                     <section className="list-section b-white line">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Central Piedmont Cloud</h4>
                         <p>Central Piedmont Cloud allows faculty, staff, and students to securely access the campus internet network, classroom software, employee tools, and other Central Piedmont-licensed applications from your personal device anywhere you have an internet connection.</p>
-                        <a className='coming-soon b-blue b-shadow'>Central Piedmont Cloud</a>
+                        <base target='_parent'/>                        
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/cloud'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Central Piedmont Cloud</a>
                     </section>
                     <section className="list-section b-white line">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Blackboard</h4>
                         <p>Blackboard is the college’s current Learning Management System used to deliver courses at Central Piedmont.</p>
-                        <a className='coming-soon b-blue b-shadow'>Blackboard</a>
+                        <base target='_parent'/>
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/faculty-staff/blackboard'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Blackboard</a>
                     </section>
                     <section className="important-note-section b-orange line">
                         <FontAwesomeIcon icon={faExclamationCircle} className='icon'/>
@@ -72,7 +77,8 @@ export default class Page_TechnologyAndTools extends React.Component {
                         This helpful Comparative Resource includes information about what technology resource may best meet your needs.  Compare Webex Meetings and Webex Teams, Webex Trainings, Panopto, and Jabber.
                         </p>
                         <div className='list-section'>
-                            <a className='coming-soon b-blue b-shadow'>Comparisons</a>
+                            <base target='_parent'/>
+                            <a href='https://www.cpcc.edu/sites/default/files/2020-04/its-compare-webex-panopto-jabber.pdf'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Comparisons</a>
                         </div>    
                     </section>
                     
@@ -89,13 +95,15 @@ export default class Page_TechnologyAndTools extends React.Component {
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Webcam</h4>
                         <p>This will help you to visually connect with students remotely.</p>
-                        <a className='coming-soon b-blue b-shadow'>Web Conferencing</a>
+                        <base target='_parent'/>
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/web-conferencing#'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Web Conferencing</a>
                     </section>
                     <section className="list-section b-white line">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Headset with Microphone</h4>
                         <p>It is recommended that this be added as a requirement for the course if you plan to deliver synchronous sessions online.  For your students to plan ahead, add to your course syllabus as a technology requirement.</p>
-                        <a className='coming-soon b-blue b-shadow'>Web Conferencing</a>
+                        <base target='_parent'/>                        
+                        <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/information-technology-services/web-conferencing#'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Web Conferencing</a>
                     </section>
                     <section className="list-section b-white line">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
@@ -106,8 +114,10 @@ export default class Page_TechnologyAndTools extends React.Component {
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                         <h4>Chromebook</h4>
                         <p>It is important to note that faculty and students using chromebooks should have access to the internet for proper use. If you need to work offline and use your Google files, you will have to prepare before you go offline. Visit Use Google Drive Files Offline for more information.</p>
-                        <a className='coming-soon b-blue b-shadow'>Getting a Chromebook</a>
-                        <a className='coming-soon b-orange b-shadow'>Use Google Drive Files Offline</a>
+                        <base target='_parent'/>
+                        <a href='https://www.cpcc.edu/student-experience/information-technology-services/students/chromebook'  target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Getting a Chromebook</a>
+                        <base target='_parent'/>
+                        <a href='https://support.google.com/drive/answer/2375012?co=GENIE.Platform%3DDesktop&hl=en#:%7E:text=Open%20Google%20Docs%2C%20Sheets%2C%20and,that%20you%20can%20edit%20offline.%22'  target='_blank' rel='noopener noreferrer' className='link b-orange b-shadow'>Use Google Drive Files Offline</a>
                     </section>
                 </div>
             </div>

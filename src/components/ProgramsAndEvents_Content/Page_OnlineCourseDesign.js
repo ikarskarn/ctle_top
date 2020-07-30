@@ -18,7 +18,10 @@ export default class Page_OnlineCourseDesign extends React.Component {
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <p>The Online Course Design (OCD) process focuses on creating quality learning environments and experiences for students. Throughout the OCD process, our team guides faculty representatives through envisioning the course and aligning goals to that vision. To accomplish this, we follow a 5-step process that acts as a roadmap to navigate instructional approaches, overarching course and module-level narratives, and mapping the course.</p>
                             <p>The Center for Teaching and Learning Excellence course design experts build the courses while adhering to best practices in alignment, Quality Matters standards, accessibility, and student retention, satisfaction, and engagement.</p>
-                            <p>Interested in connecting with us to begin your course story? Please contact ctle@cpcc.edu.</p>
+                        </section>
+                        <section className='list-section b-blue'>
+                            <p>Interested in connecting with us to begin your course story? Please contact us.</p>
+                            <a className='mail' href='mailto:ctle@cpcc.edu'>CTLE@cpcc.edu</a>
                         </section>            
                     </section>
                 </div>
