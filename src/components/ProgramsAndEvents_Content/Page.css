@@ -659,3 +659,61 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+/*Bio Pages*/
+.bio-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bio-image {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: 20% 0px; 
+	border: 2px solid black;
+	border-radius: 50%;
+	margin: auto 20px;
+}
+
+.bio-title, .bio-name {
+	font-family: "FranklinGothic", sans-serif; 
+}
+
+.bio-name {
+	font-size: 24px;
+}
+.bio-title {
+	font-size: 20px;
+}
+
+.bio-info {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	font-size: 18px;
+}
+
+.faculty-fellow {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: auto;
+	width: 75px;
+	height: 75px;
+	padding: 0px;
+	border-radius: 50%;
+}
+
+.faculty-fellow p {
+	text-align: center;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px auto 15px auto;
+}
+
+.faculty-fellow .icon {
+	font-size: 20px;
+	margin: 10px auto 5px auto;
+}
