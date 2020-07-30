@@ -5,9 +5,9 @@
     padding-top: 10px;
 }
 
-.category-header h3 {
-    padding: 0px;
-    width: 90%;
+.category-header > h3 {
+    margin: 20px auto;
+    font-size: 30px;
 }
 
 .course-header {
@@ -15,10 +15,10 @@
     margin-top: 0px;
     text-align: left;
     border-top: 2px solid #B6A269;
+    font-size: 20px;
 }
 
 .course-association {
-    width: 50%;
     margin: 5px;
     padding: 5px 15px;
     font-size: 18px;
@@ -37,5 +37,12 @@
 
 .course-description {
     font-size: 18px;
+    padding: 10px;
+}
+
+.connections-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 10px;
 }

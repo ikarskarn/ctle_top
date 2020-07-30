@@ -12,14 +12,14 @@ export default class Page_Events extends React.Component {
                         Events & Calendar
                     </h2>
                 </header>
-                <div className="page-content">
-                    <section className="section info-section">
+                <div className="events-page-content">
+                    <section className="info-section">
                         <h3>Faculty Learning Symposium</h3>
                         <ul>
-                            <li className="large-info-block b-gold b-shadow">
+                            <li className="b-gold b-shadow small-info-bg-image">
                                 <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                                 <p>This event will be held virtually, and will be adhering to the theme: New Standards of Excellence</p>
-                                <p className='coming-soon b-blue b-shadow'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
+                                <p className='date'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
                             </li>
                         </ul>
                     </section>

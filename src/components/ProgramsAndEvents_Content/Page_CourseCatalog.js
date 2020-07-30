@@ -11,10 +11,8 @@ export default class Page_CourseCatalog extends React.Component {
                         Course Catalog
                     </h2>
                 </header>
-                <div className="page-content">
-                    <section className="section info-section">
-                        <Catalog />                
-                    </section>
+                <div className="courseCatalog-page-content">
+                    <Catalog />                
                 </div>
             </div>
         );

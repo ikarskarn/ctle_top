@@ -12,8 +12,10 @@ export default class Page_HelpfulResources extends React.Component {
                         Helpful Resources
                     </h2>
                 </header>
-                <div className="page-content">
-                    <p className="paragraph-emphasis">The Center provides a variety of helpful resources that support and guide instructors in areas such as, Faculty Administrative Duties, Travel Requests, Faculty Titles, and more.</p>
+                <div className="helpfulResources-page-content">
+                    <section className="list-section b-white">
+                        <p className="paragraph-emphasis">The Center provides a variety of helpful resources that support and guide instructors in areas such as, Faculty Administrative Duties, Travel Requests, Faculty Titles, and more.</p>
+                    </section>
                     
                     <section className="list-section b-white">
                         <FontAwesomeIcon icon={faInfoCircle} className="icon" />
@@ -33,11 +35,11 @@ export default class Page_HelpfulResources extends React.Component {
                         <h3>Travel Requests</h3>
                         <p> More Info Coming Soon</p>
                         <a
-                            className="b-blue b-shadow link" 
+                            className="b-blue b-shadow coming-soon" 
                             href="https://inside.cpcc.edu/departments/ctle/helpful-resources/travel-requests"
                             target="_PARENT"
                         >
-                            Learn More
+                            Coming Soon
                         </a>
                     </section>
                     <section className="list-section b-white">
@@ -45,11 +47,11 @@ export default class Page_HelpfulResources extends React.Component {
                         <h3>Faculty Titles</h3>
                         <p>The purpose of the Faculty Title Committee is to provide information and service to all faculty considering applying for their title at Central Piedmont Community College.</p>
                         <a
-                            className="b-blue b-shadow link" 
+                            className="b-blue b-shadow coming-soon" 
                             href="https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-titles"
                             target="_PARENT"
                         >
-                            Learn More
+                            Coming Soon
                         </a>
                     </section>
                     <section className="list-section b-grey">

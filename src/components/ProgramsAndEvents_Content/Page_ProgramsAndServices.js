@@ -12,10 +12,10 @@ export default class Page_ProgramsAndServices extends React.Component {
                         Programs & Services
                     </h2>
                 </header>
-                <div className="page-content">
-                    <section className="section info-section">
+                <div className="programsAndServices-page-content">
+                    <section className="info-section b-white">
                         <h3>Programs</h3>
-                        <ul>
+                        <ul className='info-section-list'>
                             <li className="small-info-block b-gold b-shadow">
                                 <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                                 <p>Faculty Mentor Program</p>
@@ -33,78 +33,78 @@ export default class Page_ProgramsAndServices extends React.Component {
                             </li>
                         </ul>
                     </section>
-                    <section className="section info-section b-gold">
+                    <section className="info-section b-grey">
                         <h3>Services</h3>
-                        <section className="list-section b-white"> 
+                        <section className="list-section"> 
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Center Studio Pack</h4>
                             <p>A portable resource for faculty to check-out from the Center providing access to video recording equipment and accessories like a green screen and lighting.</p>
-                            <p className='coming-soon b-blue b-shadow'>Coming Soon</p>
+                            <a className='coming-soon b-blue b-shadow'>Coming Soon</a>
                         </section>
-                        <section className="list-section b-grey">
+                        <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Online Course Design</h4>
                             <p>A 5-step milestone-based course development process where faculty will work alongside the Center team to bring the vision of their course together while meeting Quality Matters standards to improve learners’ success in the course</p>
-                            <p className='coming-soon b-blue b-shadow'>Coming Soon</p>
+                            <a className='coming-soon b-blue b-shadow'>Coming Soon</a>
                         </section>
-                        <section className="list-section b-white">
+                        <section className="list-section b-grey">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Faculty, Division, and Program Consultations</h4>
                             <p>Based on requests and needs of faculty and divisions, these consultations can include, but are not limited to:</p>
-                            <ul>
+                            <ul className="bullet-highlight-list">
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Teaching Strategies</p>
+                                    <p>Teaching Strategies</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Course Design</p>
+                                    <p>Course Design</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">LMS Best Practices</p>
+                                    <p>LMS Best Practices</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Technology Integration</p>
+                                    <p>Technology Integration</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Digital Engagement</p>
+                                    <p>Digital Engagement</p>
                                 </li>
-                            </ul>                            
-                            <p className='coming-soon b-blue b-shadow'>Coming Soon</p>
-                        </section>
-                        <section className="list-section b-grey">
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                            <h4>Virtual Center</h4>
-                            <p className='coming-soon b-blue b-shadow'>Coming Summer 2021</p>
+                            </ul>
+                            <a className='coming-soon b-blue b-shadow'>Coming Soon</a>
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                            <h4>Teaching Awards</h4>
-                            <p className='coming-soon b-blue b-shadow'>Coming Fall 2021</p>
+                            <h4>Virtual Center</h4>
+                            <a className='coming-soon b-blue b-shadow'>Coming Summer 2021</a>
                         </section>
                         <section className="list-section b-grey">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                            <h4>Teaching Awards</h4>
+                            <a className='coming-soon b-blue b-shadow'>Coming Fall 2021</a>
+                        </section>
+                        <section className="list-section b-white">
+                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Video Studio</h4>
                             <p>Faculty can reserve the Center’s professional video studio to create and edit instructional videos for their courses.  Center staff are happy to consult on video projects, including;</p>
-                            <ul>
+                            <ul className="bullet-highlight-list">
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Recorded Interviews</p>
+                                    <p>Recorded Interviews</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Custom Lectures</p>
+                                    <p>Custom Lectures</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Intro Videos</p>
+                                    <p>Intro Videos</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Demos</p>
+                                    <p>Demos</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">Lightboard Lectures</p>
+                                    <p>Lightboard Lectures</p>
                                 </li>
                                 <li className="bullet-highlight b-orange">
-                                    <p className="icon">and More!</p>
+                                    <p>and More!</p>
                                 </li>
                             </ul>
-                            <p className='coming-soon b-blue b-shadow'>Coming Fall 2021</p>
+                            <a className='coming-soon b-blue b-shadow'>Coming Fall 2021</a>
                         </section>            
                     </section>
                 </div>

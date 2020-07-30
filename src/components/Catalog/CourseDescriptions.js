@@ -6,8 +6,19 @@ function CourseDescriptions(props) {
     return(
         <section className='course-section b-white line'>
             <h4 className='course-header b-blue'>{props.name}</h4>
-            <p className='course-association b-grey'>Learning Tracks: {props.learningTrack}</p>
-            <p className='course-association b-grey'>Certification: {props.certification}</p>
+            <div className='connections-block'>
+                <div className='abilityLMS'>
+                    <p>{props.courseLink}</p>
+                </div>
+                <div className="connections">
+                    <a className={(props.learningTrack === 'Learning Track: none') ? 'course-association b-blue hidden' : 'course-association b-blue coming-soon'}>
+                        {props.learningTrack}
+                    </a>
+                    <a className={(props.certification === 'Certification: none') ? 'course-association b-blue hidden' : 'course-association b-blue coming-soon'}>
+                        {props.certification}
+                    </a>
+                </div>
+            </div>
             <p className='course-description'>{props.description}</p>
         </section>
     );

@@ -1,6 +1,16 @@
 import React from 'react';
 import './Page.css';
-import { faUserCircle, faInfo, faChevronLeft, faChevronRight  } from "@fortawesome/free-solid-svg-icons";
+import { 
+    faChevronLeft, 
+    faChevronRight, 
+    faUsers, 
+    faKey, 
+    faChartLine, 
+    faHandshake, 
+    faThumbsUp, 
+    faLaptop,
+    faComment
+  } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     CarouselProvider,
@@ -39,7 +49,7 @@ export default class Page_Home extends React.Component {
                         </CarouselProvider>
                     </header>
                     <section className="list-section b-white">
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faUsers} className='icon'/>
                         <h4>Who We Are</h4>
                         <p>The Center for Teaching and Learning Excellence (CTLE) at Central Piedmont is a place where faculty learning, collaboration, and innovation contribute to being champions of students, catalysts for opportunity, and exceptional providers of learning experiences that transform lives and strengthen our community.</p>
                     </section>
@@ -67,34 +77,34 @@ export default class Page_Home extends React.Component {
                                 naturalSlideWidth={1}
                                 naturalSlideHeight={1}
                                 totalSlides={6}
-                                interval={5000}
+                                interval={8000}
                                 isPlaying={true}
                                 isIntrinsicHeight={true}
                             >
                                 <ButtonBack className='back-button'><FontAwesomeIcon icon={faChevronLeft}/></ButtonBack>
                                 <Slider className='main-slider'>
                                     <Slide className='slide-root' index={0}>
-                                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                                        <FontAwesomeIcon icon={faKey} className='icon'/>
                                         <p className='slide-text'>Provide and evaluate exceptional and relevant programs to transform student-centered learning experiences that address current educational, career, and industry standards</p>
                                     </Slide>
                                     <Slide index={1}>
-                                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                                        <FontAwesomeIcon icon={faChartLine} className='icon'/>
                                         <p className='slide-text'>Advance faculty growth through innovation, continuous learning, scholarship, and holistic well-being</p>
                                     </Slide>
                                     <Slide index={2}>
-                                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                                        <FontAwesomeIcon icon={faLaptop} className='icon'/>
                                         <p className='slide-text'>Collaborate and partner with faculty in quality instructional design and facilitation of classroom, online, and hybrid learning</p>
                                     </Slide>
                                     <Slide index={3}>
-                                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                                        <FontAwesomeIcon icon={faHandshake} className='icon'/>
                                         <p className='slide-text'>Develop and nurture strong college and community partnerships to ensure student success.</p>
                                     </Slide>
                                     <Slide index={4}>
-                                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                                        <FontAwesomeIcon icon={faComment} className='icon'/>
                                         <p className='slide-text'>Promote faculty engagement, community, and fellowship through meaningful activities, events, and resources</p>
                                     </Slide>
                                     <Slide index={5}>
-                                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                                        <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
                                         <p className='slide-text'>Celebrate faculty successes and showcase accomplishments of teaching innovation and excellence</p>
                                     </Slide>
                                 </Slider>

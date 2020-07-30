@@ -78,19 +78,49 @@
 .line {
 	border-bottom: 2px solid black;
 }
+
+.link {
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 2px 2px #00000050;
+	font-size: 18px;
+	text-emphasis: bold;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 10px 30px 10px;
+	text-decoration: none;
+}
+
+.link:hover {
+	background-color: #862633;
+	color: white;
+}
+
+.coming-soon {
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 2px 2px #00000050;  
+	font-size: 18px;
+	text-emphasis: bold;
+	display: flex;
+	justify-content: center;
+	padding: 10px;;
+	text-align: center;
+	opacity: 0.5;
+	cursor: not-allowed;
+	text-decoration: none;
+}
+
+.page .icon {
+	font-size: 48px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
 /*#endregion*/
-
-.page .section {
-	padding: 30px 60px;
-}
-
-
-
-.page .highlight-section {
-	padding-bottom: 20px;
-}
-
-
 
 .page .important-note-section {
 	width: 60%;
@@ -118,93 +148,14 @@
 	padding: 10px 0px;
 }
 
-.page .info-section ul,
-.page .highlight-section ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	padding: 20px 20px;
-}
-
-.page .info-section h3 {
-	font-size: 38px;
-	width: 100%;
-}
 
 
 
-.page .list-section p,
-.page .checklist-section {
-	font-size: 18px;
-}
 
-.page .bullet-highlight button {
-	font-size: 18px;
-	width: 100%;
-	height: 100%;
-	align-self: center;
-	vertical-align: center;
-	padding-top: 50;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background: none;
-	border: none;
-	outline: none;
-	text-align: center;
-	align-items: center;
-}
 
-.page .highlight-section a {
-	width: 50%;
-	border-radius: 40px;
-	border: 1px solid black;
-	box-shadow: 2px 2px #00000050;
-	font-size: 20px;
-	text-emphasis: bold;
-	align-self: center;
-	display: flex;
-	justify-content: center;
-	padding: 30px;;
-	text-align: center;
-	margin-top: 20px;
-	text-decoration: none;
-}
 
-.page .highlight-section a:hover {
-	background-color: #D45D00;
-	color: white;
-}
 
-.page .checklist-item {
-	padding: 10px 30px;
-	display: flex;
-	flex-wrap: wrap;
-}
 
-.page .checklist-item p {
-	margin: 10px 10px;
-}
-
-.page .check-icon {
-	color: green;
-	margin: 10px 10px;
-	height: 20px;
-}
-
-.page .checklist-item li {
-	padding: 5px 50px;
-	font-size: 18px;
-}
-
-.page .checklist-item ul {
-	border: 1px solid black;
-	margin: 10px 50px;
-}
-
-.page .checklist-item .break {
-	flex-basis: 100%;
-}
 
 .page .large-info-block {
 	display: flex;
@@ -218,27 +169,11 @@
   	border-top: 6px #007396 solid;
 }
 
-.page .small-info-block {
-	display: flex;
-	flex-direction: column;
-	width: 35%;
-	padding: 15px 20px;
-	text-align: center;
-	align-items: center;
-	font-size: 22px;
-	border-top: 6px #007396 solid;
-	margin: 10px;
-}
-
-
-
 .page .dynamic-note {
 	text-align: center;
 	border-radius: 4px;
 	margin: 20px 60px;
 }
-
-
 
 .page .with-link a {
     width: 25%;
@@ -260,21 +195,8 @@
     border-bottom: 3px solid #B6A269;
   }
 
-  .page .paragraph-emphasis {
-    text-align: center;
-    font-size: 22px;
-    margin: auto 0;
-    padding: 30px 30px;
-    font-family: "FranklinGothic", sans-serif;
-    font-weight: 700;
-  }
+  
 
-  .page .page-icon {
-      font-size: 48px;
-      text-align: center;
-      margin: auto;
-      padding: 30px;
-  }
 
   .page .withIcons {
       display: flex;
@@ -283,40 +205,8 @@
       justify-items: center;
   }
   
-  
-  
-
-  
-  /*#region HIGHLIGHT (Bulletpoints) section*/
- 
-  
-
-  
-.page .highlight {
-    width: 200px;
-    height: 100px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    
-    font-family: "BaskervilleITC", sans-serif;
-    box-shadow: 4px 4px #00000050;
-}
-
-  .page .highlight:hover {
-      transform: scale(1.30);
-      transition: 0.5s;
-	  border-top: 6px #007396 solid;
-  }
-
-  
-/*#endregion*/
-  
 /*#region SUB PAGE HIGHLIGHT (sub page overviews) section*/
 
-  
 .page .sub-page-highlight-section ul {
     display: flex;
     justify-content: space-evenly;
@@ -358,14 +248,7 @@
 }
 /*#endregion*/
 
-
-
-
-
-
-
-
-.page .info-block a, .coming-soon, .link {
+.page .info-block a {
   width: 50%;
   border-radius: 40px;
   border: 1px solid black;
@@ -376,21 +259,17 @@
   align-self: center;
   display: flex;
   justify-content: center;
-  padding: 10px;;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
 }
 
-.page .icon {
-  font-size: 48px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-}
+
 
 .page button:hover {
 	cursor: pointer;
 }
+
 
 
 
@@ -483,9 +362,6 @@
 }
 /*#endregion*/
 
-
-
-
 .page .info-section,
 .page .highlight-section,
 .page .sub-page-highlight-section,
@@ -495,6 +371,41 @@
 	display: flex;
 	flex-direction: column;
 	justify-items: center;
+}
+
+.page .important-note-section {
+	margin: 20px auto;
+}
+
+.page .info-section ul,
+.page .highlight-section ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 20px 20px;
+}
+
+.page .info-section ul {
+	padding: 0px 20px 10px 20px;
+}
+
+.page .info-section h3 {
+	font-size: 30px;
+	width: 100%;
+}
+
+.page .list-section p,
+.page .checklist-section {
+	font-size: 18px;
+}
+
+.page .list-section a {
+	margin: 5px auto;
+	padding: 5px 30px;
+}
+
+.page .highlight-section {
+	padding-bottom: 20px;
 }
 
 .page .list-section,
@@ -508,7 +419,76 @@
 	margin-top: 10px;		
 }
 
+.page .highlight {
+    width: 250px;
+    height: 200px;
+    margin: 30px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: "BaskervilleITC", sans-serif;
+	box-shadow: 4px 4px #00000050;
+	color: transparent;
+}
+
+.faculty-pic,
+.computer-pic,
+.board-pic,
+.group-pic
+{
+	display: flex;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.faculty-pic > p,
+.computer-pic > p,
+.board-pic > p,
+.group-pic > p
+{
+	margin: auto 5px;
+}
+
+.faculty-pic {
+	background-image: url('../../images/faculty.jpg');
+}
+
+.board-pic {
+	background-image: url('../../images/board.jpg');
+}
+
+.computer-pic {
+	background-image: url('../../images/computers.jpg');
+}
+
+.group-pic {
+	background-image: url('../../images/group.png');
+}
+
+.page .highlight:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+	border-top: 6px #007396 solid;
+	background: white;
+	color: black;
+}
+
 /*Special*/
+.page .paragraph-emphasis {
+    text-align: center;
+    font-size: 24px;
+    margin: auto 0;
+    padding: 30px 45px;
+    font-family: "FranklinGothic", sans-serif;
+	font-weight: 700;
+	border-bottom: 3px solid #B6A269;
+}
+
 .page .vid {
 	display: flex;
 	justify-content: center;
@@ -561,8 +541,7 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	padding: 10px;
-	margin: 10px;
+	margin: 15px;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -570,8 +549,113 @@
 	box-shadow: 4px 4px #00000050;
 }
 
-.page .bullet-highlight:hover {
-	background-color: #007396;
+.bullet-highlight-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: wrap;
+}
+
+.dynamic-list {
+	display: flex;
+	justify-content: center;
+}
+
+.page .bullet-button {
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+	align-self: center;
+	vertical-align: center;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	text-align: center;
+	align-items: center;
+	color: white;
+
+}
+
+.page .small-info-block {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	padding: 15px 20px;
+	text-align: center;
+	align-items: center;
+	font-size: 22px;
+	border-top: 6px #007396 solid;
+	margin: 10px auto;
+}
+
+.page .info-section-list {
+	padding-top: 0px;
+}
+
+.date {
+	font-size: 32px;
+}
+
+.small-info-bg-image {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+	font-size: 22px;
+	border-top: 6px #007396 solid;
+	margin: 10px auto;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+	url('../../images/symposium.jpg');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	justify-items: center;
+	padding: 0px;
+}
+
+.mail {
+	font-size: 20px;
 	color: white;
 }
 
+.page .checklist-item {
+	padding: 10px 30px;
+	display: flex;
+	flex-direction: center;
+}
+
+.page .checklist-item p {
+	margin: 10px 10px;
+}
+
+.page .check-icon {
+	color: green;
+	margin: 10px 10px;
+	height: 20px;
+}
+
+.page .checklist-item li {
+	padding: 5px 50px;
+	font-size: 18px;
+}
+
+.page .checklist-item ul {
+	border: 1px solid black;
+	margin: 10px 50px;
+}
+
+.page .checklist-item .break {
+	flex-basis: 100%;
+}
+
+.big-bullet-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

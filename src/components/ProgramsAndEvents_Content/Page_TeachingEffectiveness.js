@@ -12,7 +12,7 @@ export default class Page_TeachingEffectiveness extends React.Component {
                         Teaching Effectiveness
                     </h2>
                 </header>
-                <div className="page-content">
+                <div className="teachingEffectiveness-page-content">
                 <section className="list-section">
                         <p className="paragraph-emphasis"> As we navigate the disruptions to our current methods of teaching and learning, it is important to discover and explore new approaches to delivering education to our students. </p>
 

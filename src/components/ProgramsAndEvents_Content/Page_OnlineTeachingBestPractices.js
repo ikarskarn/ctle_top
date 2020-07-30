@@ -12,15 +12,15 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                         Online Teaching Best Practices
                     </h2>
                 </header>
-                <div className="page-content">
-                    <section className="section info-section b-white">
+                <div className="onlineTeaching-page-content">
+                    <section className="list-section b-white">
                         <section className="important-note-section b-orange">
                             <FontAwesomeIcon icon={faExclamationCircle} className='icon'/>
                             <h3>Teaching Fully Online?</h3>
                             <p className='paragraph-emphasis'>
                                 Complete the Online Teaching Certifications (OTC)
                             </p>
-                            <p className='coming-soon b-blue b-shadow'>How To Enroll</p>    
+                            <a className='coming-soon b-blue b-shadow'>How To Enroll</a>    
                         </section>
                         
                         <section className="list-section b-white"> 
@@ -77,21 +77,21 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Need More?</h4>
                             <p className='center'>Visit the Faculty Checklist for Teaching in Blackboard</p>
-                            <p className='coming-soon b-blue b-shadow'>Teaching in Blackboard Checklist</p>
+                            <a className='coming-soon b-blue b-shadow'>Teaching in Blackboard Checklist</a>
                             <p className='center'>For more information on online accessibility, check out the Online Accessibility course in AbilityLMS</p>
-                            <p className='coming-soon b-blue b-shadow'>Online Accessibility: Ability LMS</p>
+                            <a className='coming-soon b-blue b-shadow'>Online Accessibility: Ability LMS</a>
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Interested in Course Design?</h4>
                             <p className='center'>Visit the Center's Online Course Design Process Page</p>
-                            <p className='coming-soon b-blue b-shadow'>Online Course Design</p>
+                            <a className='coming-soon b-blue b-shadow'>Online Course Design</a>
                         </section>
                         <section className="list-section b-grey">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
                             <h4>Top Ten Tips for Online Teaching</h4>
                             <p className='center'>Check out this video created by: Marsi Franceschini</p>
-                            <p className='coming-soon b-blue b-shadow'>Top Ten Tips</p>
+                            <a className='coming-soon b-blue b-shadow'>Top Ten Tips</a>
                         </section>            
                     </section>
                 </div>

@@ -12,10 +12,6 @@ export default class MeetTheTeam extends React.Component {
     //tells the render function what to return to the DOM (HTML Page)
     return (
         <div id="content" className={this.context.topContent}>
-          <HamburgerToggle />
-          <div id="menu" className={this.context.topBar}>
-            <TestBar />
-          </div>
           <div id="page-content">
             {/*PAGE CONTENT GOES HERE*/}
             <h2>Meet The Team Page Content Goes Here</h2>

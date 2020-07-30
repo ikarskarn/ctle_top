@@ -12,7 +12,7 @@ export default class Page_OnlineCourseDesign extends React.Component {
                         Online Course Design
                     </h2>
                 </header>
-                <div className="page-content">
+                <div className="ocd-page-content">
                     <section className="section info-section b-white">
                         <section className="list-section b-white"> 
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>

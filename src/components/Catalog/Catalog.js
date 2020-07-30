@@ -18,7 +18,6 @@ class Catalog extends React.Component {
                         courses={category.courseIds.map(id => store.courses[id])}
                     >
                     </CatalogSection>
-
                 ))}
             </div>
         )

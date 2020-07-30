@@ -17,8 +17,9 @@ function CatalogSection(props) {
                         key={course.id}
                         id={course.id}
                         name={course.name}
-                        learningTrack={course.learningTrack}
-                        certification={course.certification}
+                        courseLink={`AbilityLMS ID: ${course.courseLink}`}
+                        learningTrack={`Learning Track: ${course.learningTrack}`}
+                        certification={`Certification: ${course.certification}`}
                         description={course.description}
                     />
                 )}

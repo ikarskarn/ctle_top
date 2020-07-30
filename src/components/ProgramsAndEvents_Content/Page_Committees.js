@@ -105,199 +105,184 @@ export default class Page_Committees extends React.Component {
                         Committees
                     </h2>
                 </header>
-                <div className="page-content">
-                    <section className="section info-section b-white">
+                <div className="committees-page-content">
+                    <section className="list-section b-white">
                         <h3>Overview</h3>
                         <p className='paragraph-emphasis'>
                             The Center’s standing committees will work in collaboration with Faculty Fellows, Learning Commons leaders, and Center staff in providing feedback, content expertise, and recommendations for faculty development programming in a specific area or topic of focus. Membership of committees will include a range of volunteers to include faculty and staff. 
                         </p>
-                        <section className="list-section b-grey"> 
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                            <h4>New Faculty Experience</h4>
-                            <p>The New Faculty Experience program is a 30-hour, one year commitment for all first-time, full-time faculty at the college in their first year of teaching.  The NFE program engages faculty with teaching and learning excellence to include pedagogy, classroom management, learning assessment, academic technology, teaching strategies, and faculty administration. Goals of the NFE committee include:</p>
-                            <ul>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='evaluate'
-                                        onMouseOver={(e) => this.handleNFEClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleNFEClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Evaluate</p>
-                                        
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='recommend'
-                                        onMouseEnter={(e) => this.handleNFEClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleNFEClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Recommend</p>
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='facilitate'
-                                        onMouseEnter={(e) => this.handleNFEClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleNFEClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Facilitate</p>
-                                    </button>
-                                </li>
-                            </ul>
-                            <p className="dynamic-note">{this.state.nfe_info}</p>
-                        </section>
-                        <section className="list-section b-white"> 
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                            <h4>Adjunct Faculty Development</h4>
-                            <p>Each semester, Central Piedmont employs approximately 1,800 adjunct faculty to educate our students. Often, these faculty members have constraints to participating in learning activities, such as other employment, family obligations, etc. However, the Center must strive to meet the faculty development needs of these crucial members of our college community.  Goals of the adjunct faculty development committee include:</p>
-                            <ul>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='evaluate'
-                                        onMouseEnter={(e) => this.handleAFDClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleAFDClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Evaluate</p>                                        
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='recommend'
-                                        onMouseEnter={(e) => this.handleAFDClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleAFDClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Recommend</p>
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='facilitate'
-                                        onMouseEnter={(e) => this.handleAFDClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleAFDClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Facilitate</p>
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='engage'
-                                        onMouseEnter={(e) => this.handleAFDClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleAFDClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Engage</p>
-                                    </button>
-                                </li>
-                            </ul>
-                            <p className="dynamic-note">{this.state.afd_info}</p>
-                        </section>
-                        <section className="list-section b-grey"> 
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                            <h4>Inclusive Teaching Practices</h4>
-                            <p>The concept of equity is included in the college’s Vision, Mission and Values, and is also a component of faculty competencies included in the Teaching and Learning Excellence Framework. It is important to provide faculty with the tools and knowledge to help them grow an equity mindset and provide an inclusive environment in their traditional or online classrooms.  Goals of the Inclusive Teaching Practices Committee include:</p>
-                            <ul>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='evaluate'
-                                        onMouseEnter={(e) => this.handleITPClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleITPClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Evaluate</p>                                        
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='recommend'
-                                        onMouseEnter={(e) => this.handleITPClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleITPClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Recommend</p>
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='facilitate'
-                                        onMouseEnter={(e) => this.handleITPClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleITPClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Facilitate</p>
-                                    </button>
-                                </li>
-                            </ul>
-                            <p className="dynamic-note">{this.state.itp_info}</p>
-                        </section>
-                        <section className="list-section b-white"> 
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                            <h4>Online Teaching and Development</h4>
-                            <p>Although many of the foundations of pedagogy and andragogy remain constant regardless of the delivery method, teaching and learning online have specific challenges which must be met. In any given semester, the number of students enrolled in online courses at Central Piedmont often rivals that of students enrolled at a physical campus. Faculty who teach this group of students need to understand the varying methods for promoting student engagement, collaboration, and communication in an online environment.  Goals of the Online Teaching and Development committee include:</p>
-                            <ul>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='evaluate'
-                                        onMouseEnter={(e) => this.handleOLTClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleOLTClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Evaluate</p>                                        
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='recommend'
-                                        onMouseEnter={(e) => this.handleOLTClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleOLTClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Recommend</p>
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='facilitate_one'
-                                        onMouseEnter={(e) => this.handleOLTClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleOLTClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Facilitate</p>
-                                    </button>
-                                </li>
-                                <li className="bullet-highlight b-orange">
-                                    <button
-                                        className="icon"
-                                        value='facilitate_two'
-                                        onMouseEnter={(e) => this.handleOLTClick(e.target.value)}
-                                        onMouseLeave={(e)=>this.handleOLTClick('')}
-                                    >
-                                        <FontAwesomeIcon icon={faInfo}/>
-                                        <p>Facilitate</p>
-                                    </button>
-                                </li>
-                            </ul>
-                            <p className="dynamic-note">{this.state.olt_info}</p>
-                        </section>
+                    </section>
+                    <section className="list-section b-white">
+                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <h4>New Faculty Experience</h4>
+                        <p>The New Faculty Experience program is a 30-hour, one year commitment for all first-time, full-time faculty at the college in their first year of teaching.  The NFE program engages faculty with teaching and learning excellence to include pedagogy, classroom management, learning assessment, academic technology, teaching strategies, and faculty administration. Goals of the NFE committee include:</p>
+                        <ul className='bullet-highlight-list dynamic-list'>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='evaluate'
+                                    onClick={(e) => this.handleNFEClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Evaluate</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='recommend'
+                                    onClick={(e) => this.handleNFEClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Recommend</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='facilitate'
+                                    onClick={(e) => this.handleNFEClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Facilitate</p>
+                                </button>
+                            </li>
+                        </ul>
+                        <p className="dynamic-note">{this.state.nfe_info}</p>
+                    </section>
+                    <section className="list-section b-grey"> 
+                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <h4>Adjunct Faculty Development</h4>
+                        <p>Each semester, Central Piedmont employs approximately 1,800 adjunct faculty to educate our students. Often, these faculty members have constraints to participating in learning activities, such as other employment, family obligations, etc. However, the Center must strive to meet the faculty development needs of these crucial members of our college community.  Goals of the adjunct faculty development committee include:</p>
+                        <ul className='bullet-highlight-list dynamic-list'>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='evaluate'
+                                    onClick={(e) => this.handleAFDClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Evaluate</p>                                        
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='recommend'
+                                    onClick={(e) => this.handleAFDClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Recommend</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='facilitate'
+                                    onClick={(e) => this.handleAFDClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Facilitate</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='engage'
+                                    onClick={(e) => this.handleAFDClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Engage</p>
+                                </button>
+                            </li>
+                        </ul>
+                        <p className="dynamic-note">{this.state.afd_info}</p>
+                    </section>
+                    <section className="list-section b-white"> 
+                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <h4>Inclusive Teaching Practices</h4>
+                        <p>The concept of equity is included in the college’s Vision, Mission and Values, and is also a component of faculty competencies included in the Teaching and Learning Excellence Framework. It is important to provide faculty with the tools and knowledge to help them grow an equity mindset and provide an inclusive environment in their traditional or online classrooms.  Goals of the Inclusive Teaching Practices Committee include:</p>
+                        <ul className='bullet-highlight-list dynamic-list'>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='evaluate'
+                                    onClick={(e) => this.handleITPClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Evaluate</p>                                        
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='recommend'
+                                    onClick={(e) => this.handleITPClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Recommend</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='facilitate'
+                                    onClick={(e) => this.handleITPClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Facilitate</p>
+                                </button>
+                            </li>
+                        </ul>
+                        <p className="dynamic-note">{this.state.itp_info}</p>
+                    </section>
+                    <section className="list-section b-grey"> 
+                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <h4>Online Teaching and Development</h4>
+                        <p>Although many of the foundations of pedagogy and andragogy remain constant regardless of the delivery method, teaching and learning online have specific challenges which must be met. In any given semester, the number of students enrolled in online courses at Central Piedmont often rivals that of students enrolled at a physical campus. Faculty who teach this group of students need to understand the varying methods for promoting student engagement, collaboration, and communication in an online environment.  Goals of the Online Teaching and Development committee include:</p>
+                        <ul className='bullet-highlight-list dynamic-list'>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='evaluate'
+                                    onClick={(e) => this.handleOLTClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Evaluate</p>                                        
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='recommend'
+                                    onClick={(e) => this.handleOLTClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Recommend</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='facilitate_one'
+                                    onClick={(e) => this.handleOLTClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Facilitate</p>
+                                </button>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <button
+                                    className='bullet-button'
+                                    value='facilitate_two'
+                                    onClick={(e) => this.handleOLTClick(e.target.value)}
+                                >
+                                    <FontAwesomeIcon icon={faInfo}/>
+                                    <p>Facilitate</p>
+                                </button>
+                            </li>
+                        </ul>
+                        <p className="dynamic-note">{this.state.olt_info}</p>
                     </section>
                 </div>
             </div>
