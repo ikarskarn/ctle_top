@@ -37,13 +37,14 @@ export default class Page_Home extends React.Component {
                             interval={6000}
                             isPlaying={true}
                             isIntrinsicHeight={true}
+
                         >
                             <Slider>
                                 <Slide className="ad-slide" index={0}>
-                                    <Symposium />
+                                    <Intro/>
                                 </Slide>
                                 <Slide className="ad-slide" index={1}>
-                                    <Intro/>
+                                    <Symposium />
                                 </Slide>
                             </Slider>
                         </CarouselProvider>
@@ -80,6 +81,7 @@ export default class Page_Home extends React.Component {
                                 interval={8000}
                                 isPlaying={true}
                                 isIntrinsicHeight={true}
+                                visibleSlides={1}
                             >
                                 <ButtonBack className='back-button'><FontAwesomeIcon icon={faChevronLeft}/></ButtonBack>
                                 <Slider className='main-slider'>

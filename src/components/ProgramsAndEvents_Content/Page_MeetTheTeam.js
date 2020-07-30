@@ -1,6 +1,6 @@
 import React from 'react';
 import './Page.css';
-import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Catherine from '../../images/Catherine.png';
 import Chris from '../../images/Chris.png';
@@ -71,7 +71,7 @@ export default class Page_MeetTheTeam extends React.Component {
                         <div className='bio-info'>
                             <h3 className='bio-name'>Penny Pells</h3>
                             <h4 className='bio-title'>Instructional Designer: Center for Teaching and Learning Excellence</h4>
-                            <p className='bio-text'>This bio is pending</p>
+                            <p className='bio-text'>Penny Pells is an instructional designer in the Center for Teaching and Learning Excellence.  She has been an English language instructor for more than 15 years and has taught at the college since 2011. Her students range from 5 to 95 years old and speak more than 70 languages. Her professional interests include instructional design, classroom best practices, and hybrid/blended instruction. As a lifelong learner, Penny is passionate about teaching, learning new skills, language and culture study, and leveraging technology to improve the learning experience. When she’s not developing workshops or supporting faculty with their course design, she enjoys spending time with her family, exercising, and hiking the great outdoors. </p>
                         </div>
                     </section>
                     <section className="bio-section b-white line">
@@ -86,7 +86,7 @@ export default class Page_MeetTheTeam extends React.Component {
                         <img className='bio-image' src={Shannon}></img>
                         <div className='bio-info'>
                             <div className='faculty-fellow b-white'>
-                                <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
+                                <FontAwesomeIcon icon={faUniversity} className='icon'/>
                                 <p>Faculty Fellow</p>
                             </div>
                             <h3 className='bio-name'>Shannon Blair</h3>
@@ -98,7 +98,7 @@ export default class Page_MeetTheTeam extends React.Component {
                         <img className='bio-image' src={Chris}></img>
                         <div className='bio-info'>
                             <div className='faculty-fellow b-blue'>
-                                <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
+                                <FontAwesomeIcon icon={faUniversity} className='icon'/>
                                 <p>Faculty Fellow</p>
                             </div>
                             <h3 className='bio-name'>Christopher Goenner</h3>
@@ -110,7 +110,7 @@ export default class Page_MeetTheTeam extends React.Component {
                         <img className='bio-image' src={Lindy}></img>
                         <div className='bio-info'>
                             <div className='faculty-fellow b-white'>
-                                <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
+                                <FontAwesomeIcon icon={faUniversity} className='icon'/>
                                 <p>Faculty Fellow</p>
                             </div>
                             <h3 className='bio-name'>Lindy Hues</h3>
@@ -122,7 +122,7 @@ export default class Page_MeetTheTeam extends React.Component {
                         <img className='bio-image' src={Jennifer}></img>
                         <div className='bio-info'>
                             <div className='faculty-fellow b-blue'>
-                                <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
+                                <FontAwesomeIcon icon={faUniversity} className='icon'/>
                                 <p>Faculty Fellow</p>
                             </div>
                             <h3 className='bio-name'>Jennifer Perkins</h3>

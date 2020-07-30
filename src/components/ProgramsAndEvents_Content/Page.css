@@ -520,6 +520,22 @@
 	padding: 10px;
 }
 
+.page .committee-goals {
+	display: flex;
+	justify-content: center;
+}
+.page .committee-goals > .ad-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	width: 700px;
+	height: 350px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
 .page .back-button,
 .page .next-button {
 	margin: auto 15px;
