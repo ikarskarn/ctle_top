@@ -733,3 +733,35 @@
 	font-size: 20px;
 	margin: 10px auto 5px auto;
 }
+
+/*temporary*/
+.afss {
+	padding: 10px;
+}
+
+.afss p {
+	font-size: 18px;
+	margin: 15px 20px;
+	line-height: 24px;
+}
+
+.small-bullet {
+	font-size: 18px;
+	margin: 3px auto;
+	border-radius: 10px;
+}
+
+.small-bullet p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.afss > .no-email {
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 3px;
+}
+
+.afss > .afss-cards {
+	margin-top: 10px;
+}
