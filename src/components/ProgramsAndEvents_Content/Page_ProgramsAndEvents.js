@@ -1,6 +1,6 @@
 import React from 'react';
 import './Page.css';
-import { faUserCircle, faBookmark, faPlusCircle } from "@fortawesome/free-solid-svg-icons";
+import { faBookmark, faChalkboardTeacher, faBookReader } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Page_ProgramsAndEvents extends React.Component {
@@ -17,10 +17,10 @@ export default class Page_ProgramsAndEvents extends React.Component {
                         <p className="paragraph-emphasis"> We are committed to fostering a rich and compelling community of learning excellence focused on the holistic needs of all those who teach. </p>
                     </section>
                     <section className="list-section">
-                        <FontAwesomeIcon icon={faUserCircle} className="icon" />
+                        <FontAwesomeIcon icon={faChalkboardTeacher} className="icon" />
                         <p> The Center advances best practices of impactful teaching at the college to inspire, guide, and support faculty and staff in the key areas of pedagogy, course content and instructional delivery.</p>
                         <br />
-                        <FontAwesomeIcon icon={faBookmark} className="icon" />
+                        <FontAwesomeIcon icon={faBookReader} className="icon" />
                         <p>Events, programs, and workshops are aligned with the Center's mission and goals, and grounded in the literature on teaching, learning, and educational development. Specifically, these professional learning opportunities.</p>
                     </section>
                     <br/>

@@ -36,8 +36,8 @@ export default class Page_FacultyAdministrativeDuties extends React.Component {
                             <h3>Syllabus</h3>
                             <p>Your syllabus is the most important document in your class. It is the contract between you and your students about the requirements and objectives of the course. Your program or discipline chair is your initial contact for syllabus content and/or approval. Ask your department for details on syllabi standards and samples.</p>
                             <base target='_parent'/>
-                            <a className='coming-soon b-blue b-shadow'>General Education Foundation Syllabus, Fall 2020</a>
-                            <a className='coming-soon b-blue b-shadow'>Programs of Study Syllabus, Fall 2020</a>
+                            <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/academic-affairs/forms#S' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>General Education Foundation Syllabus, Fall 2020</a>
+                            <a href='https://www.cpcc.edu/about-central-piedmont/administrative-offices/academic-affairs/forms#S' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Programs of Study Syllabus, Fall 2020</a>
                         </section>
                         <section className="list-section b-white line"> 
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>

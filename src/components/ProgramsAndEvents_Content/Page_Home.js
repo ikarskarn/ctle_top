@@ -56,9 +56,14 @@ export default class Page_Home extends React.Component {
                     </section>
                     <section className='b-blue'>
                         <div className="vid">
-                            <ReactPlayer
-                                url="https://www.youtube.com/watch?v=7UJKfFlSxiE"
-                            />
+                            <div className="aspect-ratio-box">
+                                <ReactPlayer 
+                                    className='vid-player'
+                                    url="https://www.youtube.com/watch?v=7UJKfFlSxiE"
+                                    width='100%'
+                                    height='100%'
+                                />
+                            </div>
                         </div>
                     </section>
                     <section className='list-section'>
@@ -72,46 +77,48 @@ export default class Page_Home extends React.Component {
                     </section>
                     <section className='list-section b-white'>
                         <h4>Goals</h4>
-                        <div className='goals'>
-                            <CarouselProvider
-                                className="ad-block"
-                                naturalSlideWidth={1}
-                                naturalSlideHeight={1}
-                                totalSlides={6}
-                                interval={8000}
-                                isPlaying={true}
-                                isIntrinsicHeight={true}
-                                visibleSlides={1}
-                            >
-                                <ButtonBack className='back-button'><FontAwesomeIcon icon={faChevronLeft}/></ButtonBack>
-                                <Slider className='main-slider'>
-                                    <Slide className='slide-root' index={0}>
-                                        <FontAwesomeIcon icon={faKey} className='icon'/>
-                                        <p className='slide-text'>Provide and evaluate exceptional and relevant programs to transform student-centered learning experiences that address current educational, career, and industry standards</p>
-                                    </Slide>
-                                    <Slide index={1}>
-                                        <FontAwesomeIcon icon={faChartLine} className='icon'/>
-                                        <p className='slide-text'>Advance faculty growth through innovation, continuous learning, scholarship, and holistic well-being</p>
-                                    </Slide>
-                                    <Slide index={2}>
-                                        <FontAwesomeIcon icon={faLaptop} className='icon'/>
-                                        <p className='slide-text'>Collaborate and partner with faculty in quality instructional design and facilitation of classroom, online, and hybrid learning</p>
-                                    </Slide>
-                                    <Slide index={3}>
-                                        <FontAwesomeIcon icon={faHandshake} className='icon'/>
-                                        <p className='slide-text'>Develop and nurture strong college and community partnerships to ensure student success.</p>
-                                    </Slide>
-                                    <Slide index={4}>
-                                        <FontAwesomeIcon icon={faComment} className='icon'/>
-                                        <p className='slide-text'>Promote faculty engagement, community, and fellowship through meaningful activities, events, and resources</p>
-                                    </Slide>
-                                    <Slide index={5}>
-                                        <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
-                                        <p className='slide-text'>Celebrate faculty successes and showcase accomplishments of teaching innovation and excellence</p>
-                                    </Slide>
-                                </Slider>
-                                <ButtonNext className='next-button'><FontAwesomeIcon icon={faChevronRight}/></ButtonNext>
-                            </CarouselProvider>
+                        <div className='goal-box'>
+                            <div className='goals'>
+                                <CarouselProvider
+                                    className="ad-block"
+                                    naturalSlideWidth={1}
+                                    naturalSlideHeight={1}
+                                    totalSlides={6}
+                                    interval={8000}
+                                    isPlaying={true}
+                                    isIntrinsicHeight={true}
+                                    visibleSlides={1}
+                                >
+                                    <ButtonBack className='back-button'><FontAwesomeIcon icon={faChevronLeft}/></ButtonBack>
+                                    <Slider className='main-slider'>
+                                        <Slide className='slide-root' index={0}>
+                                            <FontAwesomeIcon icon={faKey} className='icon'/>
+                                            <p className='slide-text'>Provide and evaluate exceptional and relevant programs to transform student-centered learning experiences that address current educational, career, and industry standards</p>
+                                        </Slide>
+                                        <Slide index={1}>
+                                            <FontAwesomeIcon icon={faChartLine} className='icon'/>
+                                            <p className='slide-text'>Advance faculty growth through innovation, continuous learning, scholarship, and holistic well-being</p>
+                                        </Slide>
+                                        <Slide index={2}>
+                                            <FontAwesomeIcon icon={faLaptop} className='icon'/>
+                                            <p className='slide-text'>Collaborate and partner with faculty in quality instructional design and facilitation of classroom, online, and hybrid learning</p>
+                                        </Slide>
+                                        <Slide index={3}>
+                                            <FontAwesomeIcon icon={faHandshake} className='icon'/>
+                                            <p className='slide-text'>Develop and nurture strong college and community partnerships to ensure student success.</p>
+                                        </Slide>
+                                        <Slide index={4}>
+                                            <FontAwesomeIcon icon={faComment} className='icon'/>
+                                            <p className='slide-text'>Promote faculty engagement, community, and fellowship through meaningful activities, events, and resources</p>
+                                        </Slide>
+                                        <Slide index={5}>
+                                            <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
+                                            <p className='slide-text'>Celebrate faculty successes and showcase accomplishments of teaching innovation and excellence</p>
+                                        </Slide>
+                                    </Slider>
+                                    <ButtonNext className='next-button'><FontAwesomeIcon icon={faChevronRight}/></ButtonNext>
+                                </CarouselProvider>
+                            </div>
                         </div>
                     </section>
                 </div>

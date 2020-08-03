@@ -1,6 +1,6 @@
 import React from 'react';
 import './Page.css';
-import { faUserCircle, faBookmark, faMapSigns  } from "@fortawesome/free-solid-svg-icons";
+import { faUniversity, faMapSigns  } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Page_Events extends React.Component {
@@ -13,17 +13,7 @@ export default class Page_Events extends React.Component {
                     </h2>
                 </header>
                 <div className="events-page-content">
-                    <section className="info-section line">
-                        <h3>Faculty Learning Symposium</h3>
-                        <ul>
-                            <li className="b-gold b-shadow small-info-bg-image">
-                                <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                                <p>This event will be held virtually, and will be adhering to the theme: New Standards of Excellence</p>
-                                <p className='date'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section className="afss info-section">
+                <section className="afss info-section">
                         <h3>Adjunct Faculty Semester Start</h3>
                         <FontAwesomeIcon icon={faMapSigns} className='icon'/>
                         <p>All Central Piedmont adjunct faculty are invited to attend one of the Adjunct Faculty Semester Start virtual sessions starting on August 6, 2020. </p>
@@ -56,6 +46,16 @@ export default class Page_Events extends React.Component {
                                 <p className='date'>August 12th, 2020<br/>6:00pm - 7:30pm</p>
                                 <base target="_parent"/>
                                 <a href='https://urldefense.proofpoint.com/v2/url?u=https-3A__cpcc.webex.com_cpcc_k2_j.php-3FMTID-3Dt796ab2eb3290ff4054e0a8c6f96fd360&d=DwMGaQ&c=eyK8KBY19DualCOSet0JGw&r=Hg1L-UM0IXY5fSlgOtn8EDrexRETMkqXVgF9OmF0wyU&m=sBm5lIOLPUVM_1wDXprAZJHYi2jSPe2OUeiuTrAJAec&s=PAuHWTe4fsYCEqf3uz0BlQYx65cBBttZyenuEPVinEk&e=' className='b-blue b-shadow link' target='_blank' rel='noopener noreferrer'>WebEx Meetings Link</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section className="info-section line">
+                        <h3>Faculty Learning Symposium</h3>
+                        <ul>
+                            <li className="b-gold b-shadow small-info-bg-image">
+                                <FontAwesomeIcon icon={faUniversity} className='icon'/>
+                                <p>This event will be held virtually, and will be adhering to the theme: New Standards of Excellence</p>
+                                <p className='date'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
                             </li>
                         </ul>
                     </section>

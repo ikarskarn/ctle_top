@@ -1,3 +1,5 @@
+/*#region MEDIA 636-800+*/
+
 /*#region FONTS AND COLORS*/
 .page p {
 	font-family: "BaskervilleITC", sans-serif;
@@ -490,10 +492,19 @@
 }
 
 .page .vid {
-	display: flex;
-	justify-content: center;
-	padding: 45px 15px;
+
+	overflow: hidden;
+	height: 0px;
+	padding-top: 56.25%;
+	position: relative;
+}
+
+.page .aspect-ratio-box {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
+	height: 100%;
 }
 
 .page .vision-and-mission > h4 {
@@ -513,11 +524,27 @@
 	flex-direction: row;
 	justify-content: center;
 	margin: auto;
-	width: 350px;
-	height: 350px;
+	width: 100%;
+	height: 100%;
 	border: 2px solid black;
 	text-align: center;
 	padding: 10px;
+}
+
+.page .goal-box {
+
+	overflow: hidden;
+	height: 0px;
+	padding-top: 100%;
+	position: relative;
+}
+
+.page .goals {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .page .committee-goals {
@@ -764,4 +791,44 @@
 
 .afss > .afss-cards {
 	margin-top: 10px;
+}
+
+/*#endregion*/
+
+@media screen and (max-width: 635px) {
+	
+	.page .intro h2 {
+		font-size: 34px;
+	}
+
+	.page .list-section {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 447px) {
+	.page .goals .icon {
+		display: none;
+	}
+
+	.page .list-section {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.page .symposium > .ad-content > .date-and-time {
+		width: 80%;
+		margin: auto;
+	}
+	
+	.page .symposium > .ad-content > h3 {
+		font-size: 22px;
+		border-top: 2px solid white;
+		border-bottom: 2px solid white;
+		width: 90%;
+		text-align: center;
+		margin: 10px auto 5px;
+		padding: 10px;
+	}
 }
