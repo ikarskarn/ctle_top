@@ -27,9 +27,36 @@
 	text-align: left;
 	text-decoration: underline;
 	text-decoration-color: #B6A269;
-	font-size: 58px;
+	font-size: 56px;
 	margin: auto 0;
 	padding: 140px 60px 60px 60px;
+}
+
+.page footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.page footer > div {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px 5px;
+	padding: 3px;
+}
+
+.page footer p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.page footer a {
+	color: white;
+}
+
+.page footer a:hover {
+	color: #B6A269;
 }
 
 .page ul {

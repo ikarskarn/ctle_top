@@ -121,6 +121,13 @@ export default class Page_Home extends React.Component {
                             </div>
                         </div>
                     </section>
+                    <footer className='b-blue'>
+                        <p className='contact-us'>Contact Us</p>
+                        <div>
+                            <p>Email: <a href='mailto:ctle@cpcc.edu'> CTLE@cpcc.edu</a></p>
+                            <p>Phone: <a href='tel:704-330-6059'> 704-330-6059</a></p>
+                        </div>
+                    </footer>
                 </div>
             </div>
         );
