@@ -59,7 +59,7 @@ export default class Page_TeachingEffectiveness extends React.Component {
                         <p> It is important when determining your alternative teaching approaches to be aware of the technology and tools available to you and your students.</p>
                         <a
                             className="b-blue b-shadow link" 
-                            href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/TechnologyAndTools"
+                            href="https://inside.cpcc.edu/departments/ctle/teaching-effectiveness/technology-and-tools"
                             target="_PARENT"
                         >
                             Learn More
