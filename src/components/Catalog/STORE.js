@@ -71,7 +71,7 @@ const STORE = {
         3: {
             id: 3,
             category: 7,
-            name: 'LMS Basics',
+            name: 'Brightspace Basics and Beyond',
             courseLink: 'currently unavailable',
             learningTrack: 'none',
             certification: 'none',

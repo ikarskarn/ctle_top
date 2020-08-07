@@ -13,7 +13,7 @@ export default class Page_Events extends React.Component {
                     </h2>
                 </header>
                 <div className="events-page-content">
-                <section className="afss info-section">
+                    <section className="afss info-section line">
                         <h3>Adjunct Faculty Semester Start</h3>
                         <FontAwesomeIcon icon={faMapSigns} className='icon'/>
                         <p>All Central Piedmont adjunct faculty are invited to attend one of the Adjunct Faculty Semester Start virtual sessions starting on August 6, 2020. </p>
@@ -49,13 +49,14 @@ export default class Page_Events extends React.Component {
                             </li>
                         </ul>
                     </section>
-                    <section className="info-section line">
+                    <section className="info-section" >
                         <h3>Faculty Learning Symposium</h3>
                         <ul>
                             <li className="b-gold b-shadow small-info-bg-image">
                                 <FontAwesomeIcon icon={faUniversity} className='icon'/>
                                 <p>This event will be held virtually, and will be adhering to the theme: New Standards of Excellence</p>
                                 <p className='date'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
+                                <p className="b-blue b-shadow coming-soon">Registration Coming Soon</p>
                             </li>
                         </ul>
                     </section>
