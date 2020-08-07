@@ -22,6 +22,7 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Symposium from '../../AdComponents/Symposium';
 import Intro from '../../AdComponents/Intro';
+import ReturnToCampus from '../../AdComponents/ReturnToCampus';
 import ReactPlayer from "react-player";
 
 export default class Page_Home extends React.Component {
@@ -33,7 +34,7 @@ export default class Page_Home extends React.Component {
                         <CarouselProvider
                             naturalSlideWidth={3}
                             naturalSlideHeight={1}
-                            totalSlides={2}
+                            totalSlides={3}
                             interval={6000}
                             isPlaying={true}
                             isIntrinsicHeight={true}
@@ -44,6 +45,9 @@ export default class Page_Home extends React.Component {
                                     <Intro/>
                                 </Slide>
                                 <Slide className="ad-slide" index={1}>
+                                    <ReturnToCampus />
+                                </Slide>
+                                <Slide className="ad-slide" index={2}>
                                     <Symposium />
                                 </Slide>
                             </Slider>
