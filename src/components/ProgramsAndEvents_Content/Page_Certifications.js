@@ -51,8 +51,8 @@ export default class Page_Certifications extends React.Component {
                                     value='evaluate'
                                     onClick={(e) => this.handleClick(e.target.value)}
                                 >
-                                    <FontAwesomeIcon icon={faInfo}/>
-                                    <p className='bullet-text'>Evaluate</p>
+                                    <FontAwesomeIcon className='no-click' icon={faInfo}/>
+                                    <span className='bullet-button-text no-click'>Evaluate</span>
                                 </button>
                             </li>
                             <li className="bullet-highlight b-orange">
@@ -61,8 +61,8 @@ export default class Page_Certifications extends React.Component {
                                     value='recommend'
                                     onClick={(e) => this.handleClick(e.target.value)}
                                 >
-                                    <FontAwesomeIcon icon={faInfo}/>
-                                    <p className='bullet-text'>Recommend</p>
+                                    <FontAwesomeIcon className='no-click' icon={faInfo}/>
+                                    <span className='bullet-button-text no-click'>Recommend</span>
                                 </button>
                             </li>
                             <li className="bullet-highlight b-orange">
@@ -71,8 +71,8 @@ export default class Page_Certifications extends React.Component {
                                     value='facilitate'
                                     onClick={(e) => this.handleClick(e.target.value)}
                                 >
-                                    <FontAwesomeIcon icon={faInfo}/>
-                                    <p className='bullet-text'>Facilitate</p>
+                                    <FontAwesomeIcon className='no-click' icon={faInfo}/>
+                                    <span className='bullet-button-text no-click'>Facilitate</span>
                                 </button>
                             </li>
                         </ul>

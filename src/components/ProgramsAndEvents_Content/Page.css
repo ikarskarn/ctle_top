@@ -694,7 +694,18 @@
 	text-align: center;
 	align-items: center;
 	color: white;
+}
 
+.page .dynamic-list > .bullet-highlight:hover {
+	background-color: #862633;
+}
+
+.bullet-button-text {
+	margin: 10px auto;
+}
+
+.no-click {
+	pointer-events: none;
 }
 
 .page .small-info-block {

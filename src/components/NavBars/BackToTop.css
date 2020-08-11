@@ -1,0 +1,33 @@
+.backToTop {
+    text-align: center;
+  }
+  
+  .scrollTop {
+    position: fixed; 
+    width: 20%;
+    top: 5px;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 1;
+    border-radius: 20px;
+  }
+  
+  .scrollTop:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }

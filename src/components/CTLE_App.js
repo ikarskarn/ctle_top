@@ -27,6 +27,7 @@ import RequiredTraining from './SubPageComponents/RequiredTraining';
 import TeachingEffectiveness from './TopPageComponents/TeachingEffectiveness';
 import TechnologyAndTools from './SubPageComponents/TechnologyAndTools';
 import TravelRequests from './SubPageComponents/TravelRequests';
+import BackToTop from './NavBars/BackToTop';
 //#endregion
 
 class CTLE_App extends React.Component {
@@ -56,7 +57,9 @@ class CTLE_App extends React.Component {
     };
     render() {
         return(
+            
             <HashRouter basename={process.env.PUBLIC_URL}>
+                <BackToTop className='backToTop'/>
                 <Context.Provider value={this.state}>
                     <div className='ctle-app'>
                         <Route exact path="/home" component={Home} />
