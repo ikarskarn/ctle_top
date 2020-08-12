@@ -2,12 +2,28 @@ import React from 'react';
 import CategoryButtons from './CategoryButtons.js';
 import CatalogSection from './CatalogSection.js';
 import STORE from './STORE.js';
+import SearchBar from './SearchBar';
 
 class Catalog extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            query: ''
+        }
+    }
+    handleSearch = (e, query) => {
+        e.preventDefault();
+        this.setState({
+            query
+        })
+    }
     render() {
         const store = STORE;
         return (
             <div className="App-list">
+                <SearchBar
+                    handleSearch={(e, query)=>this.handleSearch(e, query)}
+                />
                 {store.categories
                 .filter(category => category.id !== 'random')
                 .map(category => (
@@ -15,7 +31,9 @@ class Catalog extends React.Component {
                         key={category.id}
                         id={category.id}
                         name={category.name}
-                        courses={category.courseIds.map(id => store.courses[id])}
+                        courses={category.courseIds
+                            .filter(id => store.courses[id].name.toLowerCase().includes(this.state.query.toLowerCase()))
+                            .map(id => store.courses[id])}
                     >
                     </CatalogSection>
                 ))}

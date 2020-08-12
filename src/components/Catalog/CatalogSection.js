@@ -6,12 +6,16 @@ import './Catalog.css';
 import Collapsible from "react-collapsible";
 
 function CatalogSection(props) {
+    console.log("Empty: ", props.courses.length);
     return (
-        <section className='category-section b-white'>
+        <section className={`category-section b-white ${props.courses.length > 0 ? '' : 'hidden'}`}>
             
             {/*<Collapsible trigger={*/}
                 <div className='collapsePlus'>
-                    <header id={props.id} className='category-header b-gold'>
+                    <header 
+                        id={props.id} 
+                        className={`category-header b-gold`}
+                    >
                         <h3>{props.name}</h3>
                         {/*<FontAwesomeIcon icon={faPlusCircle} className='icon'/>*/}
                     </header>
