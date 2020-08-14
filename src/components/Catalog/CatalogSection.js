@@ -1,6 +1,6 @@
 import React from 'react';
 import CourseDescriptions from './CourseDescriptions.js';
-import { faUserCircle, faPlusCircle } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Catalog.css';
 import Collapsible from "react-collapsible";
@@ -10,17 +10,18 @@ function CatalogSection(props) {
     return (
         <section className={`category-section b-white ${props.courses.length > 0 ? '' : 'hidden'}`}>
             
-            {/*<Collapsible trigger={*/}
+            <Collapsible trigger={
                 <div className='collapsePlus'>
                     <header 
                         id={props.id} 
                         className={`category-header b-gold`}
                     >
-                        <h3>{props.name}</h3>
-                        {/*<FontAwesomeIcon icon={faPlusCircle} className='icon'/>*/}
+                        <h3>{props.name}</h3>   
+                        <FontAwesomeIcon icon={faChevronDown} className='icon'/>
                     </header>
+                    
                 </div>
-            {/*}>*/}
+            }>
                 <div className='list-courses'>
                     {props.courses.map((course) => 
                         <CourseDescriptions
@@ -34,7 +35,7 @@ function CatalogSection(props) {
                         />
                     )}
                 </div>
-            {/*</Collapsible>*/}
+            </Collapsible>
         </section>
     );    
 }

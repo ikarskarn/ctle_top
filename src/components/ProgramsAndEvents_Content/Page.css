@@ -27,7 +27,7 @@
 	text-align: left;
 	text-decoration: underline;
 	text-decoration-color: #B6A269;
-	font-size: 56px;
+	font-size: 48px;
 	margin: auto 0;
 	padding: 90px 60px 40px 60px;
 }
@@ -209,7 +209,7 @@
     border-radius: 40px;
     border: 1px solid black;
     box-shadow: 2px 2px #00000050;
-    font-size: 20px;
+    font-size: 18px;
     text-emphasis: bold;
     align-self: center;
     display: flex;
@@ -266,7 +266,7 @@
       border-radius: 40px;
       border: 1px solid black;
       box-shadow: 2px 2px #00000050;
-      font-size: 20px;
+      font-size: 18px;
       text-emphasis: bold;
       align-self: center;
       display: flex;
@@ -282,7 +282,7 @@
   border-radius: 40px;
   border: 1px solid black;
   box-shadow: 2px 2px #00000050;  
-  font-size: 20px;
+  font-size: 18px;
   text-emphasis: bold;
   color: white;
   align-self: center;
@@ -553,7 +553,7 @@
 /*Special*/
 .page .paragraph-emphasis {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin: auto 0;
     padding: 30px 45px;
     font-family: "FranklinGothic", sans-serif;
