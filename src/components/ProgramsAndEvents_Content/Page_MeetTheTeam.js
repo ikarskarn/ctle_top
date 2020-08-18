@@ -18,11 +18,6 @@ export default class Page_MeetTheTeam extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Meet The Team
-                    </h2>
-                </header>
                 <div className="meetTheTeam-page-content">
                     <section className="bio-section b-white line">
                         <img className='bio-image' src={Shantell}></img>

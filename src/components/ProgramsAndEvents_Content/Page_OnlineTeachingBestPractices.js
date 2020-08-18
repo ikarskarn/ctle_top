@@ -8,11 +8,6 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Online Teaching Best Practices
-                    </h2>
-                </header>
                 <div className="onlineTeaching-page-content">
                     <section className="list-section b-white">
                         <section className="important-note-section b-orange">
@@ -21,7 +16,8 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                             <p className='paragraph-emphasis'>
                                 Complete the Online Teaching Certifications (OTC)
                             </p>
-                            <a className='coming-soon b-blue b-shadow'>How To Enroll</a>    
+                            <base target="_parent"/>
+                            <a className='link b-blue b-shadow' href="https://drive.google.com/file/d/1sCZj1B8XxYZNEcMfasd8LXAwUGJxpL1C/view?usp=sharing" target="_blank" rel="noopener noreferrer">Enroll Here</a>    
                         </section>
                         
                         <section className="list-section b-white"> 

@@ -7,13 +7,8 @@ export default class Page_TeachingEffectiveness extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Teaching Effectiveness
-                    </h2>
-                </header>
                 <div className="teachingEffectiveness-page-content">
-                <section className="list-section">
+                    <section className="list-section">
                         <p className="paragraph-emphasis"> As we navigate the disruptions to our current methods of teaching and learning, it is important to discover and explore new approaches to delivering education to our students. </p>
 
                         <p> Most students - including many who are brand new to Central Piedmont - will experience their semester fully online, from wherever they are. The lines between formal study, personal/work, and home responsibilities and commitments will be blurred for our students and for us. We need to consider these pressures and circumstances when adapting to our new standards of excellence.</p>

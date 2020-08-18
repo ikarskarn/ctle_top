@@ -7,11 +7,6 @@ export default class Page_GetInvolved extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Get Involved
-                    </h2>
-                </header>
                 <div className="getInvolved-page-content">
                     <section className="list-section">
                         <p className="paragraph-emphasis">There are many opportunities for faculty and staff to get involved with the Center for Teaching and Learning Excellence.</p>
@@ -45,13 +40,12 @@ export default class Page_GetInvolved extends React.Component {
                     <section className="list-section b-white">
                         <FontAwesomeIcon icon={faThumbsUp} className="icon" />
                         <h3>Peer Observation Program</h3>
-                        <p> More Info Coming Soon</p>
+                        <p className="center"> More Info Coming Soon</p>
                         <a
-                            className="b-blue b-shadow link" 
-                            href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations"
+                            className="b-blue b-shadow coming-soon" 
                             target="_PARENT"
                         >
-                            Learn More
+                            Coming Soon
                         </a>
                     </section>
 

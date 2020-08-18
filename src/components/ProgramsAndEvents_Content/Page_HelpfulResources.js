@@ -7,11 +7,6 @@ export default class Page_HelpfulResources extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Helpful Resources
-                    </h2>
-                </header>
                 <div className="helpfulResources-page-content">
                     <section className="list-section b-white">
                         <p className="paragraph-emphasis">The Center provides a variety of helpful resources that support and guide instructors in areas such as, Faculty Administrative Duties, Travel Requests, Faculty Titles, and more.</p>
@@ -33,7 +28,7 @@ export default class Page_HelpfulResources extends React.Component {
                     <section className="list-section b-grey">                    
                         <FontAwesomeIcon icon={faHandshake} className="icon" />
                         <h3>Travel Requests</h3>
-                        <p> More Info Coming Soon</p>
+                        <p className="center">More Info Coming Soon</p>
                         <a
                             className="b-blue b-shadow coming-soon" 
                             /*href="https://inside.cpcc.edu/departments/ctle/helpful-resources/travel-requests"}*/

@@ -7,11 +7,6 @@ export default class Page_ProgramsAndServices extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Programs & Services
-                    </h2>
-                </header>
                 <div className="programsAndServices-page-content">
                     <section className="info-section b-white">
                         <h3>Programs</h3>

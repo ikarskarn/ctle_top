@@ -7,11 +7,6 @@ export default class Page_FacultySOS extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Faculty SOS
-                    </h2>
-                </header>
                 <div className="facultySOS-page-content">
                     <section className="list-section b-white">
                         <p className='paragraph-emphasis'>

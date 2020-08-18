@@ -7,11 +7,6 @@ export default class Page_TechnologyAndTools extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Technology And Tools
-                    </h2>
-                </header>
                 <div className="techAndTools-page-content">
                     <section className="list-section b-white">
                         <h3>Overview</h3>

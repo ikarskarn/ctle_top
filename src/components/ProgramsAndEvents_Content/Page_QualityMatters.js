@@ -7,11 +7,6 @@ export default class Page_QualityMatters extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Quality Matters
-                    </h2>
-                </header>
                 <div className="qualityMatters-page-content">
                     <section className="section info-section b-white">
                         <p className='paragraph-emphasis'>
@@ -31,7 +26,8 @@ export default class Page_QualityMatters extends React.Component {
                         </section>
                         <p>The rubric consists of 8 General Standards and 43 Specific Review Standards. The standards inspect the design of the course, not the content or facilitation. The rubric is designed to help institutions review their own courses across the eight comprehensive standards.</p>
                         <p>There are multiple factors that play a part in a quality course and student learning experience. The focus of QM is course design, (the planning that goes into a course) not course delivery (what happens within the course once it starts).</p>
-                        <a className='coming-soon b-blue b-shadow'>QM Rubric (PDF)</a>
+                        <base target="_parent"/>
+                        <a href="https://www.qualitymatters.org/sites/default/files/PDFs/StandardsfromtheQMHigherEducationRubric.pdf" target="_blank" rel="noopener noreferrer" className='link b-blue b-shadow'>QM Rubric (PDF)</a>
                     </section>            
                 </div>
             </div>

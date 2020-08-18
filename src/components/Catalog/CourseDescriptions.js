@@ -3,6 +3,14 @@ import React from 'react';
 import './Catalog.css';
 
 function CourseDescriptions(props) {
+    function getCertLink(str) {
+        console.log("Type: ", str);
+        if(str === 'none') {
+            return;
+        } else if (str === "Certification: Online Teaching Certification") {
+            return 'https://drive.google.com/file/d/1sCZj1B8XxYZNEcMfasd8LXAwUGJxpL1C/view?usp=sharing';
+        }
+    }
     return(
         <section className='course-section b-white line'>
             <h4 className='course-header b-blue'>{props.name}</h4>
@@ -14,7 +22,8 @@ function CourseDescriptions(props) {
                     <a className={(props.learningTrack === 'Learning Track: none') ? 'course-association b-blue hidden' : 'course-association b-blue coming-soon'}>
                         {props.learningTrack}
                     </a>
-                    <a className={(props.certification === 'Certification: none') ? 'course-association b-blue hidden' : 'course-association b-blue coming-soon'}>
+                    <base target="_parent"/>
+                    <a href={getCertLink(props.certification)} target="_blank" rel="noopener noreferrer" className={(props.certification === 'Certification: none') ? 'course-association b-blue hidden' : 'course-association b-blue link'}>
                         {props.certification}
                     </a>
                 </div>

@@ -1,17 +1,12 @@
 import React from 'react';
 import './Page.css';
-import { faUserCircle, faInfo  } from "@fortawesome/free-solid-svg-icons";
+import { faProjectDiagram, faBullhorn, faTasks, faLightbulb, faUserFriends, faFileAlt  } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Page_AdvisoryBoard extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Advisory Board
-                    </h2>
-                </header>
                 <div className="advisoryBoard-page-content">
                     <section className="list-section b-white">
                         <p className='paragraph-emphasis'>
@@ -21,17 +16,17 @@ export default class Page_AdvisoryBoard extends React.Component {
                     <section className="list-section b-white"> 
                         <h4>Key Responsibilities</h4>
                         <p>The board will share the Center’s governance through inter- and intra-unit partnerships from across the college. Key responsibilities of the board include:</p>
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faBullhorn} className='icon'/>
                         <p>Serving as an advocate and champion for faculty, the Center, and continuous improvement of teaching and learning.</p>
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faTasks} className='icon'/>
                         <p>Supporting and contributing to the Center’s mission, vision, and goal statements.</p>
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faProjectDiagram} className='icon'/>
                         <p>Making recommendations and providing feedback regarding faculty learning and development initiatives.</p>
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faLightbulb} className='icon'/>
                         <p>Identifying gaps or overlap in faculty programming and resources.</p>
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faUserFriends} className='icon'/>
                         <p>Serving as a key contact and liaison for faculty needs in their respective area(s) of the college.</p>
-                        <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <FontAwesomeIcon icon={faFileAlt} className='icon'/>
                         <p>Contributing to and approving the Center’s annual report highlighting accomplishments, growth opportunities, and change metrics.</p>
                     </section>
                     <section className="list-section b-grey">

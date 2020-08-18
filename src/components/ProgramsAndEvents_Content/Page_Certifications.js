@@ -28,11 +28,6 @@ export default class Page_Certifications extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Certifications
-                    </h2>
-                </header>
                 <div className="certifications-page-content">
                     <section className="list-section b-white">
                         <h3>Overview</h3>
@@ -83,8 +78,8 @@ export default class Page_Certifications extends React.Component {
                         <h4>Online Teaching Certification (OTC)</h4>
                         <p>All faculty are required to complete the Foundations for Teaching Online. The Foundations for Teaching Online learning track is the prerequisite for all 2020 - 2021 Online Teaching Certification Certification and select additional learning tracks available through the Center for Teaching and Learning Excellence.</p>
                         <p>The learning track is housed in a Blackboard organization. Visit the How to Enroll into the Foundations for Teaching Online Blackboard Organization shell. Please note: you must be logged in to your college Google Account with your Central piedmont email and credentials in order to access this document.</p>
-                        <p className='coming-soon b-blue b-shadow'>How To Enroll</p>
-                        <p className='coming-soon b-blue b-shadow'>Learn More</p>
+                        <base target="_parent"/>
+                        <a className='link b-blue b-shadow' href="https://drive.google.com/file/d/1sCZj1B8XxYZNEcMfasd8LXAwUGJxpL1C/view?usp=sharing" target="_blank" rel="noopener noreferrer">Learn More</a>
                     </section>            
                 </div>
             </div>

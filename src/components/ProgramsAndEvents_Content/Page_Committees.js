@@ -27,11 +27,6 @@ export default class Page_Committees extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Committees
-                    </h2>
-                </header>
                 <div className="committees-page-content">
                     <section className="list-section b-white">
                         <h3>Overview</h3>

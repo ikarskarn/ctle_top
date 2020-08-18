@@ -7,11 +7,6 @@ export default class Page_FacultyTitles extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Faculty Titles
-                    </h2>
-                </header>
                 <div className="facultyTitles-page-content">
                     <section className="list-section b-white">
                         <FontAwesomeIcon icon={faUserCircle} className='icon'/>

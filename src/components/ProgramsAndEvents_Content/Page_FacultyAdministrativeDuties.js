@@ -7,11 +7,6 @@ export default class Page_FacultyAdministrativeDuties extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Faculty Administrative Duties
-                    </h2>
-                </header>
                 <div className="facultyAdmin-page-content">
                     <section className="list-section b-white">
                         <section className="list-section b-white">
@@ -21,7 +16,7 @@ export default class Page_FacultyAdministrativeDuties extends React.Component {
                             <base target='_parent'/>
                             <a href='https://docs.google.com/document/d/1ycyTnDvlGZ_IsgF20zZGYXQQ4Vjvw2mE1fr1WaoGjds/edit' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Fall 2020 Instructions for Recording Curriculum Attendance</a>
                             <base target='_parent'/>
-                            <a className='coming-soon b-blue b-shadow'>Enrollment Verification Activity (EVA)</a>
+                            <a href='https://inside.cpcc.edu/departments/ctle/helpful-resources/faculty-admin-duties-1/eva' className='link b-blue b-shadow'>Enrollment Verification Activity (EVA)</a>
                             
                             <h3 className="center">Additional Info</h3>
                             <base target='_parent'/>

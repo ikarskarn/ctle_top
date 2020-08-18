@@ -7,11 +7,6 @@ export default class Page_LearningCommons extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Learning Commons
-                    </h2>
-                </header>
                 <div className="learningCommons-page-content">
                     <section className="list-section b-white">
                         <h3>Overview</h3>

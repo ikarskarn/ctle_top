@@ -7,11 +7,6 @@ export default class Page_ProgramsAndEvents extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Programs & Events
-                    </h2>
-                </header>
                 <div className="programsAndEvents-page-content">
                     <section className="list-section">
                         <p className="paragraph-emphasis"> We are committed to fostering a rich and compelling community of learning excellence focused on the holistic needs of all those who teach. </p>

@@ -7,11 +7,6 @@ export default class Page_OnlineCourseDesign extends React.Component {
     render() {
         return (
             <div className="page">
-                <header className="b-grey">
-                    <h2>
-                        Online Course Design
-                    </h2>
-                </header>
                 <div className="ocd-page-content">
                     <section className="section info-section b-white">
                         <section className="list-section b-white"> 
