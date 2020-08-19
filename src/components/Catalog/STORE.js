@@ -99,7 +99,7 @@ const STORE = {
             id: 9,
             category: 4,
             name: 'Online Accessibility at Central Piedmont: Aligning Student Success and the Law',
-            courseLink: 'FD-FACDEV-001',
+            courseLink: 'CTLE-TEA-001',
             learningTrack: 'Online Accessibility',
             certification: 'none',
             description: 'This online, self-paced course introduces faculty and teaching staff to online accessibility, an overview of the law, and resources to learn more. Upon completion of this course, learners will be able to: Affirm the importance of designing and delivering accessible online content for student success. Summarize Title II of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act. Apply foundation online accessibility best practices through the use of resources provided in this course. This course is part of the Online Accessibility Learning Track.'
