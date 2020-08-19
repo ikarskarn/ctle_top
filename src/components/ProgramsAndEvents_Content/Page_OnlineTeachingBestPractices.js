@@ -78,7 +78,7 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                             <a href='https://docs.google.com/document/d/1S8h2MLdkWXjhaE3Y5WVlcSl9P6sHqapURJo6gRlavVc/edit?usp=sharing' target='_blank' rel='noopener noreferrer' className='link b-blue b-shadow'>Teaching in Blackboard Checklist</a>
                             <p className='center'>For more information on online accessibility, check out the Online Accessibility course in AbilityLMS</p>
                             <base target='_parent'/>
-                            <a className='coming-soon b-blue b-shadow'>Online Accessibility: Ability LMS</a>
+                            <a href = 'https://pd.cpcc.edu/CPCC/LearnerWeb_PTM.php?ActionID=LaunchPage&CourseID=CTLE-TEA-001' target="_blank" rel="noopener noreferrer" className='link b-blue b-shadow'>Online Accessibility: Ability LMS</a>
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
