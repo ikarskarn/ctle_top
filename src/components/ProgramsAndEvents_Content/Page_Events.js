@@ -15,7 +15,8 @@ export default class Page_Events extends React.Component {
                                 <FontAwesomeIcon icon={faUniversity} className='icon'/>
                                 <p>This event will be held virtually, and will be adhering to the theme: New Standards of Excellence</p>
                                 <p className='date'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
-                                <p className="b-blue b-shadow coming-soon">Registration Coming Soon</p>
+                                <base target="_parent"/>
+                                <a className="b-blue b-shadow link" href="https://sites.google.com/cpcc.edu/facultylearningsymposium/lobby?authuser=2&pli=1" target="_blank" rel="noopener noreferrer">Visit the Page</a>
                             </li>
                         </ul>
                     </section>
