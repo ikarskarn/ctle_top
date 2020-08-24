@@ -1,6 +1,6 @@
 import React from 'react';
 import './Page.css';
-import { faUserCircle, faInfo, faExclamationCircle, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faExclamationCircle, faCheckCircle, faThumbsUp, faListOl, faCoffee, faQuestionCircle, faCompass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ReactPlayer from "react-player";
 
@@ -21,7 +21,7 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                         </section>
                         
                         <section className="list-section b-white"> 
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                            <FontAwesomeIcon icon={faThumbsUp} className='icon'/>
                             <h4>Start Off Right</h4>
                             <p>Take a moment to look through the list below and check each of these items off before your roll out your course shell.</p>
                             <div className="checklist-item">
@@ -71,7 +71,7 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                         </section>
 
                         <section className="list-section b-grey">
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                            <FontAwesomeIcon icon={faQuestionCircle} className='icon'/>
                             <h4>Need More?</h4>
                             <p className='center'>Visit the Faculty Checklist for Teaching in Blackboard</p>
                             <base target='_parent'/>
@@ -81,13 +81,20 @@ export default class Page_OnlineTeachingBestPractices extends React.Component {
                             <a href = 'https://pd.cpcc.edu/CPCC/LearnerWeb_PTM.php?ActionID=LaunchPage&CourseID=CTLE-TEA-001' target="_blank" rel="noopener noreferrer" className='link b-blue b-shadow'>Online Accessibility: Ability LMS</a>
                         </section>
                         <section className="list-section b-white">
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                            <FontAwesomeIcon icon={faCoffee} className='icon'/>
+                            <h4>Toolin' Around</h4>
+                            <p className='center'>Shannon Blair, one of the Center's esteemed Faculty Fellows, has create a wonderful blog with brief, easy-to-implement tips involving the tools you use everyday with students to make your teaching lives easier.</p>
+                            <base target="_parent"/>
+                            <a href='http://blogs.cpcc.edu/ctle/2020/08/20/toolin-around-webex-auto-record/' target='_blank' rel="noopener noreferrer" className='link b-blue b-shadow'>Visit Page</a>
+                        </section>
+                        <section className="list-section b-grey">
+                            <FontAwesomeIcon icon={faCompass} className='icon'/>
                             <h4>Interested in Course Design?</h4>
                             <p className='center'>Visit the Center's Online Course Design Process Page</p>
                             <a href='http://inside.cpcc.edu/departments/ctle/teaching-effectiveness/ocd' target='_parent' className='link b-blue b-shadow'>Online Course Design</a>
                         </section>
-                        <section className="list-section b-grey">
-                            <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                        <section className="list-section b-white">
+                            <FontAwesomeIcon icon={faListOl} className='icon'/>
                             <h4>Top Ten Tips for Online Teaching</h4>
                             <p className='center'>Check out this video created by: Marsi Franceschini</p>
                             <base target='_parent'/>
