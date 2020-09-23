@@ -21,11 +21,6 @@ export default class Page_ProgramsAndServices extends React.Component {
                                 <p>Speaker Series</p>
                                 <p className='coming-soon b-blue b-shadow'>Coming Late Fall 2020</p>
                             </li>
-                            <li className="small-info-block b-gold">
-                                <FontAwesomeIcon icon={faUserCircle} className='icon'/>
-                                <p>Peer Observations</p>
-                                <p className='coming-soon b-blue b-shadow'>Coming Soon</p>
-                            </li>
                         </ul>
                     </section>
                     <section className="info-section b-grey">

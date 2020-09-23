@@ -42,10 +42,11 @@ export default class Page_GetInvolved extends React.Component {
                         <h3>Peer Observation Program</h3>
                         <p className="center"> More Info Coming Soon</p>
                         <a
-                            className="b-blue b-shadow coming-soon" 
+                            className="b-blue b-shadow link" 
+                            href="https://inside.cpcc.edu/departments/ctle/get-involved/peer-observations"
                             target="_PARENT"
                         >
-                            Coming Soon
+                            Learn More
                         </a>
                     </section>
 
