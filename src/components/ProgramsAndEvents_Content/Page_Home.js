@@ -34,7 +34,7 @@ export default class Page_Home extends React.Component {
                         <CarouselProvider
                             naturalSlideWidth={3}
                             naturalSlideHeight={1}
-                            totalSlides={3}
+                            totalSlides={2}
                             interval={6000}
                             isPlaying={true}
                             isIntrinsicHeight={true}
@@ -46,9 +46,6 @@ export default class Page_Home extends React.Component {
                                 </Slide>
                                 <Slide className="ad-slide" index={1}>
                                     <ReturnToCampus />
-                                </Slide>
-                                <Slide className="ad-slide" index={2}>
-                                    <Symposium />
                                 </Slide>
                             </Slider>
                         </CarouselProvider>

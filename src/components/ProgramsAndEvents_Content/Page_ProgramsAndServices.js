@@ -30,7 +30,7 @@ export default class Page_ProgramsAndServices extends React.Component {
                             <h4>Center Studio Pack</h4>
                             <p>A portable resource for faculty to check-out from the Center providing access to video recording equipment and accessories like a green screen and lighting.</p>
                             <base target="_parent"/>
-                            <a className='coming-soon b-blue b-shadow'>Coming Soon!</a>
+                            <a href='https://sites.google.com/cpcc.edu/center-pack-school/home?pli=1&authuser=2' target='_parent' className='link b-blue b-shadow'>Learn More!</a>
                         </section>
                         <section className="list-section b-white">
                             <FontAwesomeIcon icon={faUserCircle} className='icon'/>
