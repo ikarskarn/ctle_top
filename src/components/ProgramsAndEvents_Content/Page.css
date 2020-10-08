@@ -391,6 +391,47 @@
 }
 /*#endregion*/
 
+/*#region SYMPOSIUM AD*/
+.page .speaker {
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+	url('../../images/symposium.jpg');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	justify-items: center;
+}
+
+.page .speaker > .ad-content > h3 {
+	font-size: 22px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 90%;
+	text-align: center;
+	margin: 10px auto 5px;
+	padding: 10px;
+}
+
+.page .speaker > .ad-content > div {
+	font-size: 18px;
+	width: 50%;
+	margin: 2px auto;
+	padding: 2px 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.page .speaker > .ad-content > p {
+	font-size: 18px;
+	width: 75%;
+	display: flex;
+	margin: 2px auto;
+}
+/*#endregion*/
+
 /*#region RETURN TO CAMPUS AD*/
 .page .returnToCampus {
 	display: flex;

@@ -8,33 +8,22 @@ export default class Page_Events extends React.Component {
         return (
             <div className="page">
                 <div className="events-page-content">
-                    <section className="info-section line">
-                        <h3>Faculty Learning Symposium</h3>
+                    <section className="info-section">
+                        <h3>Speaker Series: J. Luke Wood</h3>
                         <ul>
                             <li className="b-gold b-shadow small-info-bg-image">
                                 <FontAwesomeIcon icon={faUniversity} className='icon'/>
-                                <p>This event will be held virtually, and will be adhering to the theme: New Standards of Excellence</p>
-                                <p className='date'>September 2nd, 2020<br/>9:00am - 4:30pm</p>
+                                <p>This event will be held virtually.  Registration is available in Ability LMS</p>
+                                <p className='date'>October 28th, 2020<br/>10:00am</p>
                                 <base target="_parent"/>
-                                <a className="b-blue b-shadow link" href="https://sites.google.com/cpcc.edu/facultylearningsymposium/lobby?authuser=2&pli=1" target="_blank" rel="noopener noreferrer">Visit the Page</a>
+                                <a className="b-blue b-shadow link" href="https://pd.cpcc.edu/CPCC/LearnerWeb_PTM.php?ActionID=Enroll&EventID=32234" target="_blank" rel="noopener noreferrer">Register Now</a>
                             </li>
                         </ul>
                     </section>
                     <section className="afss info-section">
-                        <h3>Adjunct Faculty Semester Start</h3>
-                        <FontAwesomeIcon icon={faMapSigns} className='icon'/>
-                        <p>All Central Piedmont adjunct faculty are invited to attend one of the Adjunct Faculty Semester Start virtual sessions starting on August 6, 2020. </p>
-                        <p>Faculty who engage in this voluntary development opportunity will discover college resources that support faculty and student success.  Additionally, faculty can expect:</p>
-                        <ul>
-                            <li className='b-orange b-shadow small-bullet'><p>An overview of the culture of teaching and learning at Central Piedmont</p></li>
-                            <li className='b-orange b-shadow small-bullet'><p>An opportunity to connect with other adjunct faculty</p></li>
-                        </ul>
-                        <p>Registration is now available in Ability LMS for each session.  Please note, Ability LMS requires an employee’s CPCC username and password. If you do not have a CPCC account yet, you can email your session choice to The Center for Teaching and Learning Excellence (Penny.Pells@cpcc.edu) to confirm your attendance and/or ask additional questions about the program.</p>
-                        <base target='_parent'/>
-                        <p className='no-email'>Register to attend the sessions listed below</p>
-                        <a className='b-blue b-shadow coming-soon'>No Current Sessions</a>
-                        <p className='no-email'>No CPCC email yet?</p>
-                        <p className='no-email'>Contact: <a href='mailto:penny.pells@cpcc.edu' target='_blank' rel='noopener noreferrer'>Penny.Pells@cpcc.edu</a> to register</p>
+                        <h3>About Dr. J. Luke Wood</h3>
+                        <p><span><base target="_parent"/><a href="https://pd.cpcc.edu/CPCC/LearnerWeb_PTM.php?ActionID=Enroll&EventID=32234" target="_blank" rel="noopener noreferrer">J. Luke Wood, Ph.D.</a></span> is Vice President of Student Affairs & Campus Diversity and Dean’s Distinguished Professor of Education at San Diego State University. Wood also serves as the Co-Director of the Community College Equity Assessment Lab (CCEAL), a national research and practice center that partners with community colleges to support their capacity in advancing outcomes for underserved students of color.  In this virtual event, Dr. Wood is joining Central Piedmont faculty and staff to discuss how we can readdress our unconscious bias, micro aggressions, and inequities in higher education.</p>
+                        <p>Wood’s presentation will not only focus on the connection between macroaggressions and implicit bias and how this relationship influences equity, excellence, and being student-centered; but also discuss overall student success, retention, and completion rates.</p>
                     {/*    
                         <ul className='afss-cards'>
                             <li className="b-gold b-shadow small-info-bg-image">
