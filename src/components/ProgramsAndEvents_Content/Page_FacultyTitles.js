@@ -26,22 +26,28 @@ export default class Page_FacultyTitles extends React.Component {
                                 <p>Kenn Compton</p>
                             </li>
                             <li className="bullet-highlight b-orange">
-                                <p>Jeffrey Sonier</p>
+                                <p>Catherine Benante</p>
                             </li>
                             <li className="bullet-highlight b-orange">
-                                <p>Carrie Madsen</p>
+                                <p>Patricia Bostian</p>
                             </li>
                             <li className="bullet-highlight b-orange">
-                                <p>Marcia Moore</p>
+                                <p>Cynthia Brunson</p>
                             </li>
                             <li className="bullet-highlight b-orange">
-                                <p>Michael Ripoll</p>
+                                <p>Susan Butler-Staub</p>
                             </li>
                             <li className="bullet-highlight b-orange">
-                                <p>Jeff Scaggs</p>
+                                <p>Kent Cashion</p>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <p>Beth Kara Dawkins</p>
+                            </li>
+                            <li className="bullet-highlight b-orange">
+                                <p>Anne McIntosh</p>
                             </li>
                         </ul>
-                        <h4 className='center'>Facult Titles Mentors</h4>
+                        <h4 className='center'>Faculty Titles Mentors</h4>
                         <ul className='big-bullet-section'>
                             <li className="bullet-highlight b-orange">
                                 <p>Elizabeth West</p>
