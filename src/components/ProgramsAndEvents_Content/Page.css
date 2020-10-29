@@ -2,61 +2,64 @@
 
 /*#region FONTS AND COLORS*/
 .page p {
-	font-family: "BaskervilleITC", sans-serif;
+    font-family: "BaskervilleITC", sans-serif;
 }
 
 .page .center {
-	text-align: center;
+    text-align: center;
 }
 
 .page header {
-	display: flex;
-	justify-content: left;
-	justify-items: flex-end;
+    display: flex;
+    justify-content: left;
+    justify-items: flex-end;
     margin-top: 20px;
-	border-top: 5px solid #007396;
+    border-top: 5px solid #007396;
 }
 
-.page h1, h2, h3, h4 {
-	text-align: center;
-	font-family: "FranklinGothic", sans-serif;
+.page h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-family: "FranklinGothic", sans-serif;
 }
 
 .page header h2 {
-	width: 70%;
-	text-align: left;
-	text-decoration: underline;
-	text-decoration-color: #B6A269;
-	font-size: 48px;
-	margin: auto 0;
-	padding: 90px 60px 40px 60px;
+    width: 70%;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #b6a269;
+    font-size: 48px;
+    margin: auto 0;
+    padding: 90px 60px 40px 60px;
 }
 
 .page footer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .page footer > div {
-	display: flex;
-	justify-content: space-evenly;
-	margin: 10px 5px;
-	padding: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+    padding: 3px;
 }
 
 .page footer p {
-	margin-top: 10px;
-	margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .page footer a {
-	color: white;
+    color: white;
 }
 
 .page footer a:hover {
-	color: #B6A269;
+    color: #b6a269;
 }
 
 .page ul {
@@ -66,142 +69,151 @@
 }
 
 .b-grey {
-	background-color: #636466;
-	color: white;
+    background-color: #636466;
+    color: white;
 }
 
 .b-gold {
-	background-color: #B6A269;
-	color: black;
+    background-color: #b6a269;
+    color: black;
 }
 
 .b-blue {
-	background-color:  #007396;
-	color: white;
+    background-color: #007396;
+    color: white;
 }
 
 .b-white {
-	background-color: white;
-	color: black;
+    background-color: white;
+    color: black;
 }
 
 .b-orange {
-	background-color: #D45D00;
-	color: white;
+    background-color: #d45d00;
+    color: white;
 }
 
 .b-red {
-	background-color: #862633;
-	color: white;
+    background-color: #862633;
+    color: white;
 }
 
 .b-black {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .b-shadow {
-	box-shadow: 4px 4px #00000050;
+    box-shadow: 4px 4px #00000050;
 }
 
 .line {
-	border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .link {
-	border-radius: 20px;
-	border: 1px solid black;
-	box-shadow: 2px 2px #00000050;
-	font-size: 18px;
-	text-emphasis: bold;
-	display: flex;
-	align-self: center;
-	justify-content: center;
-	padding: 10px;
-	text-align: center;
-	margin: 10px 10px 30px 10px;
-	text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px #00000050;
+    font-size: 18px;
+    text-emphasis: bold;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 15% 30px 15%;
+    text-decoration: none;
 }
 
 .link:hover {
-	background-color: #862633;
-	color: white;
+    background-color: #862633;
+    color: white;
 }
 
 .coming-soon {
-	border-radius: 20px;
-	border: 1px solid black;
-	box-shadow: 2px 2px #00000050;  
-	font-size: 18px;
-	text-emphasis: bold;
-	display: flex;
-	justify-content: center;
-	padding: 10px;;
-	text-align: center;
-	opacity: 0.5;
-	cursor: not-allowed;
-	text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px #00000050;
+    font-size: 18px;
+    text-emphasis: bold;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+    text-decoration: none;
+    margin: 15px 10% 30px 15%;
 }
 
 .page .icon {
-	font-size: 48px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 100%;
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.page .outcomes {
+    font-size: 18px;
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+}
+
+.page .outcomes > li {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.workshop {
+    font-size: 16px;
 }
 /*#endregion*/
 
 .page .important-note-section {
-	width: 60%;
-	align-self: center;
-	border: 2px solid black;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	border-radius: 10px;
-	padding: 10px;
+    width: 60%;
+    align-self: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .page .important-note-section .icon {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .page .important-note-section h3 {
-	margin: 20px 0px;
+    margin: 20px 0px;
 }
 
 .page .important-note-section p {
-	margin: 20px 0px;
-	padding: 10px 0px;
+    margin: 20px 0px;
+    padding: 10px 0px;
 }
 
-
-
-
-
-
-
-
-
-
 .page .large-info-block {
-	display: flex;
-	flex-direction: column;
-	width: 95%;
-	height: 250px;
-	padding: 60px 100px;
-	text-align: center;
-	align-items: center;
-	font-size: 22px;
-  	border-top: 6px #007396 solid;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 250px;
+    padding: 60px 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    border-top: 6px #007396 solid;
 }
 
 .page .dynamic-note {
-	text-align: center;
-	border-radius: 4px;
-	margin: 20px 60px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 20px 60px;
 }
 
 .page .with-link a {
@@ -218,22 +230,19 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-  }
+}
 
-  .page .with-link {
-    border-bottom: 3px solid #B6A269;
-  }
+.page .with-link {
+    border-bottom: 3px solid #b6a269;
+}
 
-  
+.page .withIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
 
-
-  .page .withIcons {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      justify-items: center;
-  }
-  
 /*#region SUB PAGE HIGHLIGHT (sub page overviews) section*/
 
 .page .sub-page-highlight-section ul {
@@ -241,7 +250,7 @@
     justify-content: space-evenly;
     padding: 20px 20px;
 }
-  
+
 .page .sub-page-highlight {
     width: 200px;
     height: 200px;
@@ -255,223 +264,203 @@
 }
 
 .page .sub-page-highlight:hover {
-      transform: scale(1.08);
-      transition: 0.5s;
-      background-color: white;
-      color: black;
+    transform: scale(1.08);
+    transition: 0.5s;
+    background-color: white;
+    color: black;
 }
 
 .page .sub-page-highlight-section a {
-      width: 50%;
-      border-radius: 40px;
-      border: 1px solid black;
-      box-shadow: 2px 2px #00000050;
-      font-size: 18px;
-      text-emphasis: bold;
-      align-self: center;
-      display: flex;
-      justify-content: center;
-      padding: 30px;;
-      text-align: center;
-      margin-top: 20px;
+    width: 50%;
+    border-radius: 40px;
+    border: 1px solid black;
+    box-shadow: 2px 2px #00000050;
+    font-size: 18px;
+    text-emphasis: bold;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
 /*#endregion*/
 
 .page .info-block a {
-  width: 50%;
-  border-radius: 40px;
-  border: 1px solid black;
-  box-shadow: 2px 2px #00000050;  
-  font-size: 18px;
-  text-emphasis: bold;
-  color: white;
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
+    width: 50%;
+    border-radius: 40px;
+    border: 1px solid black;
+    box-shadow: 2px 2px #00000050;
+    font-size: 18px;
+    text-emphasis: bold;
+    color: white;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
-
-
 
 .page button:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*#region HOME INTRO TILE*/
 .page .intro {
-	display: flex;
-	flex-direction: column;
-	background-image: linear-gradient(to right, #000000, transparent 70%),
-    url('../../images/tower.jpg');
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	background-size: cover;
-	color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #000000, transparent 70%),
+        url("../../images/tower.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    color: white;
 }
 
 .page .ad-content {
-	display: flex;
-	flex-direction: column;
-	height: 300px;
-	justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
 }
 
 .page .intro h2 {
-	text-decoration: none;
-	padding: 30px 0px 0px 60px;
-	font-size: 48px;
+    text-decoration: none;
+    padding: 30px 0px 0px 60px;
+    font-size: 48px;
 }
 
 .page .intro h3 {
-	text-decoration: none;
-	text-align: left;
-	margin: auto 0;
-	padding: 10px 10px 40px 30px;
+    text-decoration: none;
+    text-align: left;
+    margin: auto 0;
+    padding: 10px 10px 40px 30px;
 }
 /*#endregion*/
 
 /*#region SYMPOSIUM AD*/
 .page .symposium {
-	display: flex;
-	flex-direction: column;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-	url('../../images/symposium.jpg');
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	justify-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../../images/symposium.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-items: center;
 }
 
 .page .symposium > .ad-content > h3 {
-	font-size: 22px;
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	width: 90%;
-	text-align: center;
-	margin: 10px auto 5px;
-	padding: 10px;
+    font-size: 22px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 5px;
+    padding: 10px;
 }
 
 .page .symposium > .ad-content > div {
-	font-size: 18px;
-	width: 50%;
-	margin: 2px auto;
-	padding: 2px 5px;
-	border: 1px solid white;
-	border-radius: 10px;
+    font-size: 18px;
+    width: 50%;
+    margin: 2px auto;
+    padding: 2px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .page .symposium > .ad-content > p {
-	font-size: 18px;
-	width: 75%;
-	display: flex;
-	margin: 2px auto;
+    font-size: 18px;
+    width: 75%;
+    display: flex;
+    margin: 2px auto;
 }
 /*#endregion*/
 
 /*#region SYMPOSIUM AD*/
 .page .speaker {
-	display: flex;
-	flex-direction: column;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-	url('../../images/symposium.jpg');
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	justify-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../../images/symposium.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-items: center;
 }
 
 .page .speaker > .ad-content > h3 {
-	font-size: 22px;
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	width: 90%;
-	text-align: center;
-	margin: 10px auto 5px;
-	padding: 10px;
+    font-size: 22px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 5px;
+    padding: 10px;
 }
 
 .page .speaker > .ad-content > div {
-	font-size: 18px;
-	width: 50%;
-	margin: 2px auto;
-	padding: 2px 5px;
-	border: 1px solid white;
-	border-radius: 10px;
+    font-size: 18px;
+    width: 50%;
+    margin: 2px auto;
+    padding: 2px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .page .speaker > .ad-content > p {
-	font-size: 18px;
-	width: 75%;
-	display: flex;
-	margin: 2px auto;
+    font-size: 18px;
+    width: 75%;
+    display: flex;
+    margin: 2px auto;
 }
 /*#endregion*/
 
 /*#region RETURN TO CAMPUS AD*/
 .page .returnToCampus {
-	display: flex;
-	flex-direction: column;
-	/*background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    display: flex;
+    flex-direction: column;
+    /*background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
 	url('../../images/Photo35.png');*/
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	justify-items: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-items: center;
 }
 
 .page .returnToCampus > .ad-content > h3 {
-	font-size: 22px;
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	width: 90%;
-	text-align: center;
-	margin: 10px auto 5px;
-	padding: 10px;
+    font-size: 22px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 5px;
+    padding: 10px;
 }
 
 .page .returnToCampus > .ad-content > a {
-	font-size: 18px;
-	width: 50%;
-	margin: 2px auto;
-	padding: 2px 5px;
-	border: 1px solid white;
-	border-radius: 10px;
+    font-size: 18px;
+    width: 50%;
+    margin: 2px auto;
+    padding: 2px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .page .returnToCampus > .ad-content > p {
-	font-size: 18px;
-	width: 75%;
-	display: flex;
-	justify-self: center;
-	justify-content: space-around;
-	margin: 2px auto;
+    font-size: 18px;
+    width: 75%;
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    margin: 2px auto;
 }
 /*#endregion*/
 
@@ -481,55 +470,55 @@
 .page .list-section,
 .page .important-note-section,
 .page .checklist-section {
-	display: flex;
-	flex-direction: column;
-	justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .page .important-note-section {
-	margin: 20px auto;
+    margin: 20px auto;
 }
 
 .page .info-section ul,
 .page .highlight-section ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px;
 }
 
 .page .info-section ul {
-	padding: 0px 20px 10px 20px;
+    padding: 0px 20px 10px 20px;
 }
 
 .page .info-section h3 {
-	font-size: 30px;
-	width: 100%;
+    font-size: 30px;
+    width: 100%;
 }
 
 .page .list-section p,
 .page .checklist-section {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .page .list-section a {
-	margin: 5px auto;
-	padding: 5px 30px;
+    margin: 5px auto;
+    padding: 5px 30px;
 }
 
 .page .highlight-section {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .page .list-section,
 .page .checklist-section {
-	padding: 30px 60px;
+    padding: 30px 60px;
 }
 
 .page .list-section h4,
 .page .checklist section h4 {
-	font-size: 24px;
-	margin-top: 10px;		
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 .page .highlight {
@@ -540,55 +529,53 @@
     display: flex;
     align-items: center;
     font-family: "BaskervilleITC", sans-serif;
-	box-shadow: 4px 4px #00000050;
-	color: transparent;
+    box-shadow: 4px 4px #00000050;
+    color: transparent;
 }
 
 .faculty-pic,
 .computer-pic,
 .board-pic,
-.group-pic
-{
-	display: flex;
-	flex-direction: column;
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	background-size: cover;
-	color: white;
-	padding: 0px;
-	margin: 0px;
+.group-pic {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 .faculty-pic > p,
 .computer-pic > p,
 .board-pic > p,
-.group-pic > p
-{
-	margin: auto 5px;
+.group-pic > p {
+    margin: auto 5px;
 }
 
 .faculty-pic {
-	background-image: url('../../images/faculty.jpg');
+    background-image: url("../../images/faculty.jpg");
 }
 
 .board-pic {
-	background-image: url('../../images/board.jpg');
+    background-image: url("../../images/board.jpg");
 }
 
 .computer-pic {
-	background-image: url('../../images/computers.jpg');
+    background-image: url("../../images/computers.jpg");
 }
 
 .group-pic {
-	background-image: url('../../images/group.png');
+    background-image: url("../../images/group.png");
 }
 
 .page .highlight:hover {
     transform: scale(1.2);
     transition: 0.5s;
-	border-top: 6px #007396 solid;
-	background: white;
-	color: black;
+    border-top: 6px #007396 solid;
+    background: white;
+    color: black;
 }
 
 /*Special*/
@@ -598,363 +585,360 @@
     margin: auto 0;
     padding: 30px 45px;
     font-family: "FranklinGothic", sans-serif;
-	font-weight: 700;
-	border-bottom: 3px solid #B6A269;
+    font-weight: 700;
+    border-bottom: 3px solid #b6a269;
 }
 
 .page .vid {
-
-	overflow: hidden;
-	height: 0px;
-	padding-top: 56.25%;
-	position: relative;
+    overflow: hidden;
+    height: 0px;
+    padding-top: 56.25%;
+    position: relative;
 }
 
 .page .aspect-ratio-box {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .page .vision-and-mission > h4 {
-	width: 150px;
-	height: 150px;
-	margin: 15px auto;
+    width: 150px;
+    height: 150px;
+    margin: 15px auto;
 }
 
 .page .vision-and-mission > p {
-	text-align: center;
-	font-size: 20px;
-	padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .page .goals > .ad-block {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: auto;
-	width: 80%;
-	height: 80%;
-	border: 2px solid black;
-	text-align: center;
-	padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
 }
 
 .page .goal-box {
-
-	overflow: hidden;
-	height: 0px;
-	padding-top: 100%;
-	position: relative;
+    overflow: hidden;
+    height: 0px;
+    padding-top: 100%;
+    position: relative;
 }
 
 .page .goals {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .page .committee-goals {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .page .committee-goals > .ad-block {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: auto;
-	width: 700px;
-	height: 350px;
-	border: 2px solid black;
-	text-align: center;
-	padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 700px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
 }
 
 .page .back-button,
 .page .next-button {
-	margin: auto 15px;
-	border: none;
-	background: none;
-	outline: none;
-	box-shadow: none;
+    margin: auto 15px;
+    border: none;
+    background: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .page .main-slider {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
 
 /*Bullet Highlight*/
 .page .bullet-highlight {
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	margin: 15px;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: 4px 4px #00000050;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px #00000050;
 }
 
 .bullet-highlight > p {
-	margin: 3px;
+    margin: 3px;
 }
 
 .bullet-highlight-list {
-	display: flex;
-	flex-direction: row;
-	justify-content: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: wrap;
 }
 
 .dynamic-list {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .page .bullet-button {
-	font-size: 18px;
-	width: 100%;
-	height: 100%;
-	align-self: center;
-	vertical-align: center;
-	margin: 0px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background: transparent;
-	box-shadow: none;
-	border: none;
-	outline: none;
-	text-align: center;
-	align-items: center;
-	color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    vertical-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    color: white;
 }
 
 .page .dynamic-list > .bullet-highlight:hover {
-	background-color: #862633;
+    background-color: #862633;
 }
 
 .bullet-button-text {
-	margin: 10px auto;
+    margin: 10px auto;
 }
 
 .no-click {
-	pointer-events: none;
+    pointer-events: none;
 }
 
 .page .small-info-block {
-	display: flex;
-	width: 80%;
-	flex-direction: column;
-	padding: 15px 20px;
-	text-align: center;
-	align-items: center;
-	font-size: 22px;
-	border-top: 6px #007396 solid;
-	margin: 10px auto;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    padding: 15px 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    border-top: 6px #007396 solid;
+    margin: 10px auto;
 }
 
 .page .info-section-list {
-	padding-top: 0px;
+    padding-top: 0px;
 }
 
 .date {
-	font-size: 32px;
+    font-size: 32px;
 }
 
 .small-info-bg-image {
-	display: flex;
-	width: 80%;
-	flex-direction: column;
-	align-items: center;
-	font-size: 22px;
-	border-top: 6px #007396 solid;
-	margin: 10px auto;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-	url('../../images/symposium.jpg');
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	justify-items: center;
-	padding: 0px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    border-top: 6px #007396 solid;
+    margin: 10px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../../images/symposium.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    padding: 0px;
 }
 
 .mail {
-	font-size: 20px;
-	color: white;
+    font-size: 20px;
+    color: white;
 }
 
 .page .checklist-item {
-	padding: 10px 30px;
-	display: flex;
-	flex-direction: center;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: center;
 }
 
 .page .checklist-item p {
-	margin: 10px 10px;
+    margin: 10px 10px;
 }
 
 .page .check-icon {
-	color: green;
-	margin: 10px 10px;
-	height: 20px;
+    color: green;
+    margin: 10px 10px;
+    height: 20px;
 }
 
 .page .checklist-item li {
-	padding: 5px 50px;
-	font-size: 18px;
+    padding: 5px 50px;
+    font-size: 18px;
 }
 
 .page .checklist-item ul {
-	border: 1px solid black;
-	margin: 10px 50px;
+    border: 1px solid black;
+    margin: 10px 50px;
 }
 
 .page .checklist-item .break {
-	flex-basis: 100%;
+    flex-basis: 100%;
 }
 
 .big-bullet-section {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*Bio Pages*/
 .bio-section {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .bio-image {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
-	object-position: 20% 0px; 
-	border: 2px solid black;
-	border-radius: 50%;
-	margin: auto 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 20% 0px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto 20px;
 }
 
-.bio-title, .bio-name {
-	font-family: "FranklinGothic", sans-serif; 
+.bio-title,
+.bio-name {
+    font-family: "FranklinGothic", sans-serif;
 }
 
 .bio-name {
-	font-size: 24px;
+    font-size: 24px;
 }
 .bio-title {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .bio-info {
-	display: flex;
-	flex-direction: column;
-	padding: 2%;
-	font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-size: 18px;
 }
 
 .faculty-fellow {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin: auto;
-	width: 75px;
-	height: 75px;
-	padding: 0px;
-	border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+    border-radius: 50%;
 }
 
 .faculty-fellow p {
-	text-align: center;
-	font-size: 14px;
-	padding: 0px;
-	margin: 0px auto 15px auto;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px auto 15px auto;
 }
 
 .faculty-fellow .icon {
-	font-size: 20px;
-	margin: 10px auto 5px auto;
+    font-size: 20px;
+    margin: 10px auto 5px auto;
 }
 
 /*temporary*/
 .afss {
-	padding: 10px;
+    padding: 10px;
 }
 
 .afss p {
-	font-size: 18px;
-	margin: 15px 20px;
-	line-height: 24px;
+    font-size: 16px;
+    margin: 15px 20px;
+    line-height: 24px;
 }
 
 .small-bullet {
-	font-size: 18px;
-	margin: 3px auto;
-	border-radius: 10px;
+    font-size: 16px;
+    margin: 3px auto;
+    border-radius: 10px;
 }
 
 .small-bullet p {
-	margin-top: 5px;
-	margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .afss > .no-email {
-	text-align: center;
-	margin-bottom: 1px;
-	margin-top: 3px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 3px;
 }
 
 .afss > .afss-cards {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 /*#endregion*/
 
 @media screen and (max-width: 635px) {
-	
-	.page .intro h2 {
-		font-size: 34px;
-	}
+    .page .intro h2 {
+        font-size: 34px;
+    }
 
-	.page .list-section {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
+    .page .list-section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media screen and (max-width: 447px) {
-	.page .goals .icon {
-		display: none;
-	}
+    .page .goals .icon {
+        display: none;
+    }
 
-	.page .list-section {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
+    .page .list-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-	.page .symposium > .ad-content > .date-and-time {
-		width: 80%;
-		margin: auto;
-	}
-	
-	.page .symposium > .ad-content > h3 {
-		font-size: 22px;
-		border-top: 2px solid white;
-		border-bottom: 2px solid white;
-		width: 90%;
-		text-align: center;
-		margin: 10px auto 5px;
-		padding: 10px;
-	}
+    .page .symposium > .ad-content > .date-and-time {
+        width: 80%;
+        margin: auto;
+    }
+
+    .page .symposium > .ad-content > h3 {
+        font-size: 22px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        width: 90%;
+        text-align: center;
+        margin: 10px auto 5px;
+        padding: 10px;
+    }
 }
